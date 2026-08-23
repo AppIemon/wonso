@@ -27,6 +27,18 @@
 
 월드젠: 오버월드 periodite (−64~16) / deep periodite (−64~−32), 네더 소금, 엔드 결정 광석.
 
+## 바로 해보기 (JAR)
+
+바닐라에는 안 들어갑니다. **Minecraft 26.2 + Fabric** 이 필요합니다.
+
+1. [Fabric Loader](https://fabricmc.net/use/installer/) 0.19.3+ 로 26.2 프로필 설치
+2. [Fabric API](https://modrinth.com/mod/fabric-api) `0.158.0+26.2` 를 `mods/` 에 넣기
+3. `wonso-0.1.0-alpha.jar` 를 같은 `mods/` 에 넣기
+   - 로컬: `wonso-mod/build/libs/wonso-0.1.0-alpha.jar` (`./gradlew build`)
+   - PR: Actions → `mod-build` → Artifacts → `wonso-0.1.0-alpha`
+4. 런처 Java를 **25** 로 맞추기
+5. 새 월드 입장 → 화학 도감이 지급됨. `P` 주기율표, 신전·정제기 우클릭
+
 ## 모드 빌드 (Java 25, Gradle 9.5.1, Loom 1.17)
 
 ```bash
