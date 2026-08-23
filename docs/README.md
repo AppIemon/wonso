@@ -5,7 +5,8 @@
 | [PRODUCT_SPEC.md](./PRODUCT_SPEC.md) | 제품 기획서 — 3모드 정의, UX, KPI, 로드맵 |
 | [MINECRAFT_MOD_SPEC.md](./MINECRAFT_MOD_SPEC.md) | **Minecraft 26.2 Fabric 모드** — 야생 서바이벌, 블록·아이템, GUI |
 | [ELEMENTWAR_REFERENCE.md](./ELEMENTWAR_REFERENCE.md) | **elementwar.xyz** 레퍼런스 분석 & 모드 이식 맵 |
-| [VANILLA_REFINING_SPEC.md](./VANILLA_REFINING_SPEC.md) | **바닐라 거친 정제** — 모래·철·석영 지지리 루트 |
+| [REAL_WORLD_EXTRACTION.md](./REAL_WORLD_EXTRACTION.md) | **현실 반영** — 화합물·산업 공정·118 루트 (최우선) |
+| [VANILLA_REFINING_SPEC.md](./VANILLA_REFINING_SPEC.md) | 바닐라 거친 정제 — 현실 루트의 인게임 구현 |
 | [ELEMENT_BATTLE_SPEC.md](./ELEMENT_BATTLE_SPEC.md) | **원소 대전** — 포켓몬식 PvP/PvE (플레이어 직접 전투 ❌) |
 | [ARCHITECTURE_PLAN.md](./ARCHITECTURE_PLAN.md) | 공유 데이터·API·스키마 (모드+웹) |
 | [CONTENT_WRITING_PLAN.md](./CONTENT_WRITING_PLAN.md) | 118원소·분자·퀴즈 콘텐츠 작성 로드맵 |
@@ -29,11 +30,12 @@
 elementwar.xyz (레퍼런스)
         │
         ▼
-ELEMENTWAR_REFERENCE.md ──→ MINECRAFT_MOD_SPEC.md
+REAL_WORLD_EXTRACTION.md ──→ VANILLA_REFINING_SPEC.md
         │                           │
+        │                           ├── MINECRAFT_MOD_SPEC.md
         │                           ├── ELEMENT_BATTLE_SPEC.md (PvP)
         ▼                           ▼
-shared-data/ (JSON)          Fabric 26.2 모드
+shared-data/extraction/        Fabric 26.2 모드
         │
         ▼
 PRODUCT_SPEC.md + CONTENT_WRITING_PLAN.md

@@ -46,8 +46,7 @@ Day 30+   희귀 원소, 별, 엔드, 원소 대전 PvP
 | 항목 | 설계 |
 |------|------|
 | 아이템 | `wonso:element_card_{symbol}` × 118 |
-| 획득 | **바닐라 거친 정제** (모래·석영·철…), 보조: 주기율광석·조우 |
-| 상세 | [VANILLA_REFINING_SPEC.md](./VANILLA_REFINING_SPEC.md) |
+| 획득 | **현실 반영 추출** ([REAL_WORLD_EXTRACTION.md](./REAL_WORLD_EXTRACTION.md)) + 거친 정제 |
 | 속성 | attack, health, rarity, cost, category(족) |
 | 용도 | 합성 재료, **원소령 소환(전투)**, 족 시너지, 도감 |
 
