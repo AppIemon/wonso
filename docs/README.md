@@ -21,5 +21,5 @@
 
 ## 현재 상태
 
-- 코드: `shared-data/` + `wonso-mod/` + `web/` 구현 (문서 스펙 이식)
-- 다음: 월드젠 JSON 확정, PvE 0.4 필드 엔티티, 분자 Tier B
+- 코드: `shared-data/` + `wonso-mod/` + `web/` — 문서 스펙 이식
+- 월드젠 JSON (periodite / nether salt / end ore), 4단 정제 블록, 신전 턴제 PvE, 핵융합·별, 분자 Tier B, 퀴즈 확장

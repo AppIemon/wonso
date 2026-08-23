@@ -90,8 +90,8 @@ def main() -> int:
         if sum(a["shellDistribution"]) != a["z"]:
             err(f"atom Z={a['z']} shell sum {sum(a['shellDistribution'])} != z")
 
-    if len(molecules) < 50:
-        err(f"Tier A molecules {len(molecules)} < 50")
+    if len(molecules) < 120:
+        err(f"molecules {len(molecules)} < 120 (Tier A+B)")
     ids = [m["id"] for m in molecules]
     if len(ids) != len(set(ids)):
         err("duplicate molecule ids")
@@ -111,8 +111,8 @@ def main() -> int:
         if not el.get("relatedMoleculeIds"):
             err(f"education element Z={z} missing relatedMoleculeIds")
 
-    if len(quiz) < 50:
-        err(f"quiz count {len(quiz)} < 50")
+    if len(quiz) < 150:
+        err(f"quiz count {len(quiz)} < 150")
     for q in quiz:
         if not q.get("explanationKo") or len(q["explanationKo"]) < 10:
             err(f"{q['id']} explanation too short")

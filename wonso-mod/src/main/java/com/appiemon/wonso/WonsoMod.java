@@ -1,6 +1,7 @@
 package com.appiemon.wonso;
 
 import com.appiemon.wonso.data.WonsoData;
+import com.appiemon.wonso.gameplay.BattleManager;
 import com.appiemon.wonso.gameplay.DiscoveryManager;
 import com.appiemon.wonso.gameplay.ElementEnergyManager;
 import com.appiemon.wonso.gameplay.GroupSynergyHandler;
@@ -34,6 +35,7 @@ public class WonsoMod implements ModInitializer {
 		DiscoveryManager.initialize();
 		GroupSynergyHandler.initialize();
 		RefiningManager.initialize();
+		BattleManager.initialize();
 		WonsoPackets.initialize();
 		WonsoCommands.initialize();
 		PerioditeOreFeature.initialize();

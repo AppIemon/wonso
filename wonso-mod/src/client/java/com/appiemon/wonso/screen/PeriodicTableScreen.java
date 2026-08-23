@@ -35,6 +35,10 @@ public class PeriodicTableScreen extends Screen {
 		this.addRenderableWidget(Button.builder(Component.literal("도감"), b -> this.minecraft.gui.setScreen(new MoleculeDexScreen())).bounds(170, by, 50, 18).build());
 		this.addRenderableWidget(Button.builder(Component.literal("합성"), b -> this.minecraft.gui.setScreen(new SynthesisLabScreen())).bounds(224, by, 50, 18).build());
 		this.addRenderableWidget(Button.builder(Component.literal("에너지"), b -> this.minecraft.gui.setScreen(new EnergyPanelScreen())).bounds(278, by, 54, 18).build());
+		this.addRenderableWidget(Button.builder(Component.literal("파티"), b -> this.minecraft.gui.setScreen(new PartyScreen())).bounds(336, by, 44, 18).build());
+		this.addRenderableWidget(Button.builder(Component.literal("대전"), b -> this.minecraft.gui.setScreen(new BattleScreen())).bounds(384, by, 44, 18).build());
+		this.addRenderableWidget(Button.builder(Component.literal("정제"), b -> this.minecraft.gui.setScreen(new RefineScreen("element_refinery"))).bounds(432, by, 44, 18).build());
+		this.addRenderableWidget(Button.builder(Component.literal("융합"), b -> this.minecraft.gui.setScreen(new FusionScreen())).bounds(480, by, 44, 18).build());
 	}
 
 	private void setMode(String mode) {

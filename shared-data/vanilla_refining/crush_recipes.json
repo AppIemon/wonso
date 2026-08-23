@@ -75,7 +75,7 @@
   {
     "id": "crush-nether-quartz",
     "input": {
-      "item": "minecraft:nether_quartz",
+      "item": "minecraft:quartz",
       "count": 8
     },
     "outputs": [

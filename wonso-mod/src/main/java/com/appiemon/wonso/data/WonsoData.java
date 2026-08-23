@@ -33,6 +33,9 @@ public final class WonsoData {
 	private static JsonArray PURIFY = new JsonArray();
 	private static JsonArray QUIZ = new JsonArray();
 	private static JsonArray SYNERGY = new JsonArray();
+	private static JsonArray FUSION = new JsonArray();
+	private static JsonArray STARS = new JsonArray();
+	private static JsonArray MOLECULE_TOOLS = new JsonArray();
 
 	private WonsoData() {
 	}
@@ -129,6 +132,9 @@ public final class WonsoData {
 		PURIFY = readArray("vanilla_refining/purify_recipes.json");
 		QUIZ = readArray("quiz/all.json");
 		SYNERGY = readArray("group_synergy.json");
+		FUSION = readArray("fusion.json");
+		STARS = readArray("stars.json");
+		MOLECULE_TOOLS = readArray("molecule_tools.json");
 		WonsoMod.LOGGER.info("Loaded shared-data from {}", resolve("elements.json"));
 	}
 
@@ -246,5 +252,28 @@ public final class WonsoData {
 
 	public static JsonArray synergy() {
 		return SYNERGY;
+	}
+
+	public static JsonArray fusion() {
+		return FUSION;
+	}
+
+	public static JsonArray stars() {
+		return STARS;
+	}
+
+	public static JsonArray moleculeTools() {
+		return MOLECULE_TOOLS;
+	}
+
+	public static int battleInt(ElementRecord el, String key, int fallback) {
+		if (el == null || el.battle() == null) {
+			return fallback;
+		}
+		Object v = el.battle().get(key);
+		if (v instanceof Number n) {
+			return n.intValue();
+		}
+		return fallback;
 	}
 }

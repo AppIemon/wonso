@@ -685,6 +685,218 @@ TIER_A[-1] = (
     "탄산 나트륨(Na₂CO₃)에서 아래첨자 2는 나트륨 원자 2개를 뜻합니다. 앞의 계수가 아닙니다.",
 )
 
+# CONTENT_WRITING_PLAN §3-D Tier B — 중등·일상·광물 분자 (자동 생성, 검수 대상)
+TIER_B = [
+    ("hydrogen-fluoride", "HF", "플루오린화 수소", "Hydrogen fluoride", "inorganic", "linear", 2, 3,
+     "플루오린화 수소(HF)는 수소와 플루오린이 1:1인 분자입니다."),
+    ("hydrogen-bromide", "HBr", "브로민화 수소", "Hydrogen bromide", "inorganic", "linear", 2, 3,
+     "브로민화 수소(HBr)는 수소와 브로민이 1:1인 분자입니다."),
+    ("hydrogen-iodide", "HI", "아이오딘화 수소", "Hydrogen iodide", "inorganic", "linear", 2, 3,
+     "아이오딘화 수소(HI)는 수소와 아이오딘이 1:1인 분자입니다."),
+    ("nitrogen-monoxide", "NO", "일산화 질소", "Nitrogen monoxide", "inorganic", "linear", 2, 2,
+     "일산화 질소(NO)는 질소와 산소가 1:1인 분자입니다. NO₂와 구분하세요."),
+    ("dinitrogen-monoxide", "N2O", "아산화 질소", "Dinitrogen monoxide", "inorganic", "linear", 2, 3,
+     "아산화 질소(N₂O)에서 아래첨자 2는 질소 원자 수입니다."),
+    ("sulfur-trioxide", "SO3", "삼산화 황", "Sulfur trioxide", "inorganic", "trigonal_planar", 2, 4,
+     "삼산화 황(SO₃)은 황산의 무수물입니다. 아래첨자 3은 산소 원자 수입니다."),
+    ("carbon-disulfide", "CS2", "이황화 탄소", "Carbon disulfide", "inorganic", "linear", 2, 3,
+     "이황화 탄소(CS₂)는 탄소 1개와 황 2개의 분자입니다."),
+    ("phosphorus-trichloride", "PCl3", "삼염화 인", "Phosphorus trichloride", "inorganic", "trigonal_pyramidal", 3, 4,
+     "삼염화 인(PCl₃)에서 아래첨자 3은 염소 원자 수입니다."),
+    ("phosphorus-pentachloride", "PCl5", "오염화 인", "Phosphorus pentachloride", "inorganic", "trigonal_bipyramidal", 3, 6,
+     "오염화 인(PCl₅)은 인 1개와 염소 5개의 분자입니다."),
+    ("silicon-tetrachloride", "SiCl4", "사염화 규소", "Silicon tetrachloride", "inorganic", "tetrahedral", 3, 5,
+     "사염화 규소(SiCl₄)는 규소 1개와 염소 4개의 분자입니다."),
+    ("boron-trifluoride", "BF3", "삼플루오린화 붕소", "Boron trifluoride", "inorganic", "trigonal_planar", 3, 4,
+     "삼플루오린화 붕소(BF₃)는 붕소 1개와 플루오린 3개의 분자입니다."),
+    ("boron-trioxide", "B2O3", "산화 붕소", "Boron trioxide", "inorganic", "network", 3, 5,
+     "산화 붕소(B₂O₃)에서 아래첨자 2와 3은 붕소·산소 원자 수입니다."),
+    ("aluminium-chloride", "AlCl3", "염화 알루미늄", "Aluminium chloride", "ionic", "ionic", 2, 4,
+     "염화 알루미늄(AlCl₃)은 알루미늄 1개와 염소 3개의 화합물입니다."),
+    ("aluminium-hydroxide", "Al(OH)3", "수산화 알루미늄", "Aluminium hydroxide", "ionic", "ionic", 2, 6,
+     "수산화 알루미늄(Al(OH)₃)에서 괄호 뒤 3은 OH가 3개라는 뜻입니다."),
+    ("magnesium-hydroxide", "Mg(OH)2", "수산화 마그네슘", "Magnesium hydroxide", "ionic", "ionic", 2, 5,
+     "수산화 마그네슘(Mg(OH)₂)에서 괄호 뒤 2는 OH 두 개를 뜻합니다."),
+    ("magnesium-chloride", "MgCl2", "염화 마그네슘", "Magnesium chloride", "ionic", "ionic", 2, 3,
+     "염화 마그네슘(MgCl₂)은 바닷물·염호에서 얻는 이온 화합물입니다."),
+    ("magnesium-carbonate", "MgCO3", "탄산 마그네슘", "Magnesium carbonate", "ionic", "ionic", 2, 5,
+     "탄산 마그네슘(MgCO₃)은 마그네슘·탄소·산소가 모인 이온 화합물입니다."),
+    ("calcium-oxide", "CaO", "산화 칼슘", "Calcium oxide", "ionic", "ionic", 2, 3,
+     "산화 칼슘(CaO)은 생석회로, 칼슘과 산소가 1:1입니다."),
+    ("calcium-chloride", "CaCl2", "염화 칼슘", "Calcium chloride", "ionic", "ionic", 2, 3,
+     "염화 칼슘(CaCl₂)에서 아래첨자 2는 염소 원자 수입니다."),
+    ("calcium-sulfate", "CaSO4", "황산 칼슘", "Calcium sulfate", "ionic", "ionic", 2, 6,
+     "황산 칼슘(CaSO₄)은 석고의 주성분입니다."),
+    ("potassium-chloride", "KCl", "염화 칼륨", "Potassium chloride", "ionic", "ionic", 2, 3,
+     "염화 칼륨(KCl)은 칼륨과 염소가 1:1인 이온 화합물입니다."),
+    ("potassium-hydroxide", "KOH", "수산화 칼륨", "Potassium hydroxide", "ionic", "ionic", 2, 4,
+     "수산화 칼륨(KOH)은 이온성 염기입니다."),
+    ("potassium-carbonate", "K2CO3", "탄산 칼륨", "Potassium carbonate", "ionic", "ionic", 2, 6,
+     "탄산 칼륨(K₂CO₃)에서 아래첨자 2는 칼륨 원자 2개입니다."),
+    ("potassium-nitrate", "KNO3", "질산 칼륨", "Potassium nitrate", "ionic", "ionic", 2, 5,
+     "질산 칼륨(KNO₃)은 칼륨·질소·산소로 이루어진 이온 화합물입니다."),
+    ("sodium-sulfate", "Na2SO4", "황산 나트륨", "Sodium sulfate", "ionic", "ionic", 2, 7,
+     "황산 나트륨(Na₂SO₄)에서 아래첨자 2와 4는 나트륨·산소 원자 수입니다."),
+    ("sodium-nitrate", "NaNO3", "질산 나트륨", "Sodium nitrate", "ionic", "ionic", 2, 5,
+     "질산 나트륨(NaNO₃)은 나트륨·질소·산소의 이온 화합물입니다."),
+    ("sodium-hydrogen-carbonate", "NaHCO3", "탄산수소 나트륨", "Sodium hydrogen carbonate", "ionic", "ionic", 2, 6,
+     "탄산수소 나트륨(NaHCO₃)은 베이킹소다입니다. 각 기호가 원자 수를 나타냅니다."),
+    ("sodium-oxide", "Na2O", "산화 나트륨", "Sodium oxide", "ionic", "ionic", 2, 3,
+     "산화 나트륨(Na₂O)에서 아래첨자 2는 나트륨 원자 2개입니다."),
+    ("iron-ii-oxide", "FeO", "산화 철(II)", "Iron(II) oxide", "ionic", "ionic", 2, 3,
+     "산화 철(II)(FeO)은 철과 산소가 1:1인 화합물입니다."),
+    ("iron-iii-oxide", "Fe2O3", "산화 철(III)", "Iron(III) oxide", "ionic", "ionic", 2, 5,
+     "산화 철(III)(Fe₂O₃)은 녹·적철석의 주성분입니다. 아래첨자를 세어 보세요."),
+    ("iron-ii-iii-oxide", "Fe3O4", "사산화 삼철", "Iron(II,III) oxide", "ionic", "ionic", 3, 7,
+     "사산화 삼철(Fe₃O₄)은 자철석입니다. 철 3개와 산소 4개입니다."),
+    ("copper-i-oxide", "Cu2O", "산화 구리(I)", "Copper(I) oxide", "ionic", "ionic", 2, 3,
+     "산화 구리(I)(Cu₂O)에서 아래첨자 2는 구리 원자 수입니다."),
+    ("copper-ii-oxide", "CuO", "산화 구리(II)", "Copper(II) oxide", "ionic", "ionic", 2, 3,
+     "산화 구리(II)(CuO)는 구리와 산소가 1:1입니다."),
+    ("copper-sulfate", "CuSO4", "황산 구리", "Copper sulfate", "ionic", "ionic", 2, 6,
+     "황산 구리(CuSO₄)는 구리·황·산소로 이루어진 이온 화합물입니다."),
+    ("zinc-oxide", "ZnO", "산화 아연", "Zinc oxide", "ionic", "ionic", 2, 3,
+     "산화 아연(ZnO)은 아연과 산소가 1:1인 화합물입니다."),
+    ("zinc-sulfate", "ZnSO4", "황산 아연", "Zinc sulfate", "ionic", "ionic", 2, 6,
+     "황산 아연(ZnSO₄)에서 아래첨자 4는 산소 원자 수입니다."),
+    ("zinc-chloride", "ZnCl2", "염화 아연", "Zinc chloride", "ionic", "ionic", 2, 3,
+     "염화 아연(ZnCl₂)은 아연 1개와 염소 2개의 화합물입니다."),
+    ("zinc-sulfide", "ZnS", "황화 아연", "Zinc sulfide", "ionic", "ionic", 2, 3,
+     "황화 아연(ZnS)은 섬아연석의 주성분입니다."),
+    ("silver-nitrate", "AgNO3", "질산 은", "Silver nitrate", "ionic", "ionic", 2, 5,
+     "질산 은(AgNO₃)은 은·질소·산소의 이온 화합물입니다."),
+    ("silver-chloride", "AgCl", "염화 은", "Silver chloride", "ionic", "ionic", 2, 3,
+     "염화 은(AgCl)은 은과 염소가 1:1인 화합물입니다."),
+    ("lead-oxide", "PbO", "산화 납", "Lead oxide", "ionic", "ionic", 2, 3,
+     "산화 납(PbO)은 납과 산소가 1:1인 화합물입니다."),
+    ("lead-sulfide", "PbS", "황화 납", "Lead sulfide", "ionic", "ionic", 2, 3,
+     "황화 납(PbS)은 방연석의 주성분입니다."),
+    ("mercury-oxide", "HgO", "산화 수은", "Mercury oxide", "ionic", "ionic", 2, 3,
+     "산화 수은(HgO)은 수은과 산소가 1:1인 화합물입니다."),
+    ("tin-dioxide", "SnO2", "이산화 주석", "Tin dioxide", "ionic", "ionic", 2, 3,
+     "이산화 주석(SnO₂)은 주석 1개와 산소 2개의 화합물입니다."),
+    ("titanium-dioxide", "TiO2", "이산화 타이타늄", "Titanium dioxide", "ionic", "ionic", 2, 3,
+     "이산화 타이타늄(TiO₂)은 흰색 안료로 쓰입니다. 아래첨자 2는 산소 원자 수입니다."),
+    ("manganese-dioxide", "MnO2", "이산화 망가니즈", "Manganese dioxide", "ionic", "ionic", 2, 3,
+     "이산화 망가니즈(MnO₂)는 망가니즈 1개와 산소 2개의 화합물입니다."),
+    ("chromium-oxide", "Cr2O3", "산화 크로뮴", "Chromium oxide", "ionic", "ionic", 3, 5,
+     "산화 크로뮴(Cr₂O₃)에서 아래첨자 2와 3은 크로뮴·산소 원자 수입니다."),
+    ("nickel-oxide", "NiO", "산화 니켈", "Nickel oxide", "ionic", "ionic", 2, 3,
+     "산화 니켈(NiO)은 니켈과 산소가 1:1인 화합물입니다."),
+    ("hydrogen-cyanide", "HCN", "사이안화 수소", "Hydrogen cyanide", "inorganic", "linear", 3, 3,
+     "사이안화 수소(HCN)는 수소·탄소·질소가 1:1:1인 분자입니다."),
+    ("hydrazine", "N2H4", "하이드라진", "Hydrazine", "inorganic", "bent", 3, 4,
+     "하이드라진(N₂H₄)은 질소 2개와 수소 4개의 분자입니다."),
+    ("chlorine-dioxide", "ClO2", "이산화 염소", "Chlorine dioxide", "inorganic", "bent", 3, 3,
+     "이산화 염소(ClO₂)에서 아래첨자 2는 산소 원자 수입니다."),
+    ("hypochlorous-acid", "HClO", "차아염소산", "Hypochlorous acid", "inorganic", "bent", 3, 3,
+     "차아염소산(HClO)은 수소·염소·산소가 하나씩인 산 분자입니다."),
+    ("nitrous-acid", "HNO2", "아질산", "Nitrous acid", "inorganic", "bent", 3, 4,
+     "아질산(HNO₂)은 질산(HNO₃)과 산소 원자 수가 다릅니다."),
+    ("sulfurous-acid", "H2SO3", "아황산", "Sulfurous acid", "inorganic", "trigonal_pyramidal", 3, 6,
+     "아황산(H₂SO₃)은 황산(H₂SO₄)보다 산소가 하나 적습니다."),
+    ("carbonic-acid", "H2CO3", "탄산", "Carbonic acid", "inorganic", "trigonal_planar", 2, 6,
+     "탄산(H₂CO₃)은 이산화탄소가 물에 녹아 생기는 산입니다."),
+    ("hydrogen-cyanide-note", "HCN", "사이안화 수소(교육)", "Hydrogen cyanide (edu)", "inorganic", "linear", 3, 3,
+     "HCN은 삼중 결합을 가진 선형 분자입니다. 원자 세 개가 한 줄로 이어집니다."),
+    ("urea", "CH4N2O", "요소", "Urea", "organic_simple", "planar", 2, 8,
+     "요소(CH₄N₂O)는 탄소·수소·질소·산소가 모인 분자입니다. 아래첨자를 각각 세세요."),
+    ("butane", "C4H10", "뷰테인", "Butane", "organic_simple", "tetrahedral", 2, 5,
+     "뷰테인(C₄H₁₀)은 탄소 4개 사슬의 탄화수소입니다."),
+    ("pentane", "C5H12", "펜테인", "Pentane", "organic_simple", "tetrahedral", 2, 5,
+     "펜테인(C₅H₁₂)에서 아래첨자 5와 12는 탄소·수소 원자 수입니다."),
+    ("hexane", "C6H14", "헥세인", "Hexane", "organic_simple", "tetrahedral", 2, 6,
+     "헥세인(C₆H₁₄)은 탄소 6개 사슬의 탄화수소입니다."),
+    ("benzene", "C6H6", "벤젠", "Benzene", "organic_simple", "ring", 2, 6,
+     "벤젠(C₆H₆)은 탄소 6개와 수소 6개의 고리 분자입니다."),
+    ("toluene", "C7H8", "톨루엔", "Toluene", "organic_simple", "ring", 3, 7,
+     "톨루엔(C₇H₈)은 벤젠에 메틸기가 붙은 분자입니다."),
+    ("phenol", "C6H6O", "페놀", "Phenol", "organic_simple", "ring", 3, 7,
+     "페놀(C₆H₆O)은 탄소 6, 수소 6, 산소 1의 분자입니다."),
+    ("formaldehyde", "CH2O", "폼알데하이드", "Formaldehyde", "organic_simple", "planar", 2, 4,
+     "폼알데하이드(CH₂O)는 탄소·수소·산소가 모인 가장 간단한 알데하이드입니다."),
+    ("acetaldehyde", "C2H4O", "아세트알데하이드", "Acetaldehyde", "organic_simple", "planar", 2, 5,
+     "아세트알데하이드(C₂H₄O)에서 아래첨자 2와 4는 탄소·수소 원자 수입니다."),
+    ("formic-acid", "CH2O2", "폼산", "Formic acid", "organic_simple", "planar", 2, 5,
+     "폼산(CH₂O₂)은 탄소 1, 수소 2, 산소 2의 카복실산입니다."),
+    ("propanol", "C3H8O", "프로판올", "Propanol", "organic_simple", "tetrahedral", 2, 5,
+     "프로판올(C₃H₈O)은 탄소 3, 수소 8, 산소 1의 알코올입니다."),
+    ("glycerol", "C3H8O3", "글리세롤", "Glycerol", "organic_simple", "tetrahedral", 2, 8,
+     "글리세롤(C₃H₈O₃)에서 아래첨자 3과 8과 3은 각각 탄소·수소·산소 수입니다."),
+    ("ethylene-glycol", "C2H6O2", "에틸렌 글리콜", "Ethylene glycol", "organic_simple", "tetrahedral", 2, 6,
+     "에틸렌 글리콜(C₂H₆O₂)은 탄소 2, 수소 6, 산소 2의 분자입니다."),
+    ("ethyl-acetate", "C4H8O2", "아세트산 에틸", "Ethyl acetate", "organic_simple", "planar", 3, 8,
+     "아세트산 에틸(C₄H₈O₂)은 에스터 분자입니다. 아래첨자를 각각 세세요."),
+    ("lactic-acid", "C3H6O3", "락트산", "Lactic acid", "organic_simple", "tetrahedral", 3, 8,
+     "락트산(C₃H₆O₃)은 탄소 3, 수소 6, 산소 3의 분자입니다."),
+    ("citric-acid", "C6H8O7", "시트르산", "Citric acid", "organic_simple", "tetrahedral", 3, 12,
+     "시트르산(C₆H₈O₇)은 레몬에 있는 유기산입니다. 큰 아래첨자도 원자 개수입니다."),
+    ("oxalic-acid", "C2H2O4", "옥살산", "Oxalic acid", "organic_simple", "planar", 3, 8,
+     "옥살산(C₂H₂O₄)은 탄소 2, 수소 2, 산소 4의 분자입니다."),
+    ("chloroform", "CHCl3", "클로로폼", "Chloroform", "organic_simple", "tetrahedral", 2, 4,
+     "클로로폼(CHCl₃)은 탄소 1, 수소 1, 염소 3의 분자입니다."),
+    ("carbon-tetrachloride", "CCl4", "사염화 탄소", "Carbon tetrachloride", "organic_simple", "tetrahedral", 2, 5,
+     "사염화 탄소(CCl₄)는 탄소 1개와 염소 4개의 분자입니다."),
+    ("dichloromethane", "CH2Cl2", "다이클로로메테인", "Dichloromethane", "organic_simple", "tetrahedral", 2, 5,
+     "다이클로로메테인(CH₂Cl₂)에서 아래첨자 2는 수소와 염소 각각 2개입니다."),
+    ("propene", "C3H6", "프로펜", "Propene", "organic_simple", "planar", 2, 4,
+     "프로펜(C₃H₆)은 이중 결합을 가진 탄소 3개 사슬입니다."),
+    ("cyclohexane", "C6H12", "사이클로헥세인", "Cyclohexane", "organic_simple", "ring", 2, 6,
+     "사이클로헥세인(C₆H₁₂)은 탄소 6개 고리의 탄화수소입니다."),
+    ("naphthalene", "C10H8", "나프탈렌", "Naphthalene", "organic_simple", "ring", 3, 10,
+     "나프탈렌(C₁₀H₈)은 탄소 10개와 수소 8개의 고리 분자입니다."),
+    ("sucrose", "C12H22O11", "수크로스", "Sucrose", "organic_simple", "ring", 3, 16,
+     "수크로스(C₁₂H₂₂O₁₁)는 설탕 분자입니다. 아래첨자 12·22·11을 각각 세세요."),
+    ("fructose", "C6H12O6", "과당", "Fructose", "organic_simple", "ring", 2, 12,
+     "과당(C₆H₁₂O₆)은 포도당과 분자식은 같지만 구조가 다른 이성질체입니다."),
+    ("glycine", "C2H5NO2", "글리신", "Glycine", "organic_simple", "tetrahedral", 3, 8,
+     "글리신(C₂H₅NO₂)은 가장 간단한 아미노산입니다."),
+    ("alanine", "C3H7NO2", "알라닌", "Alanine", "organic_simple", "tetrahedral", 3, 9,
+     "알라닌(C₃H₇NO₂)은 탄소 3, 수소 7, 질소 1, 산소 2의 아미노산입니다."),
+    ("ascorbic-acid", "C6H8O6", "아스코브산", "Ascorbic acid", "organic_simple", "ring", 3, 12,
+     "아스코브산(C₆H₈O₆, 비타민 C)에서 아래첨자는 원자 개수입니다."),
+    ("caffeine", "C8H10N4O2", "카페인", "Caffeine", "organic_simple", "ring", 3, 16,
+     "카페인(C₈H₁₀N₄O₂)은 탄소·수소·질소·산소가 모인 분자입니다."),
+    ("adenine", "C5H5N5", "아데닌", "Adenine", "organic_simple", "ring", 3, 10,
+     "아데닌(C₅H₅N₅)은 DNA 염기의 하나입니다. 탄소 5, 수소 5, 질소 5입니다."),
+    ("pyruvic-acid", "C3H4O3", "피루브산", "Pyruvic acid", "organic_simple", "planar", 3, 8,
+     "피루브산(C₃H₄O₃)은 탄소 3, 수소 4, 산소 3의 대사 분자입니다."),
+    ("potassium-ion", "K+", "칼륨 이온", "Potassium ion", "ionic", "ion", 2, 1,
+     "K⁺는 칼륨 원자가 전자 1개를 잃은 이온입니다."),
+    ("magnesium-ion", "Mg2+", "마그네슘 이온", "Magnesium ion", "ionic", "ion", 2, 1,
+     "Mg²⁺는 마그네슘 원자가 전자 2개를 잃은 이온입니다."),
+    ("iron-ii-ion", "Fe2+", "철(II) 이온", "Iron(II) ion", "ionic", "ion", 3, 1,
+     "Fe²⁺는 철 원자가 전자 2개를 잃은 이온입니다. Fe³⁺와 구분하세요."),
+    ("copper-ii-ion", "Cu2+", "구리(II) 이온", "Copper(II) ion", "ionic", "ion", 3, 1,
+     "Cu²⁺는 구리 원자가 전자 2개를 잃은 이온입니다."),
+    ("zinc-ion", "Zn2+", "아연 이온", "Zinc ion", "ionic", "ion", 2, 1,
+     "Zn²⁺는 아연 원자가 전자 2개를 잃은 이온입니다."),
+    ("silver-ion", "Ag+", "은 이온", "Silver ion", "ionic", "ion", 2, 1,
+     "Ag⁺는 은 원자가 전자 1개를 잃은 이온입니다."),
+    ("bicarbonate", "HCO3-", "탄산수소 이온", "Bicarbonate", "ionic", "ion", 2, 5,
+     "탄산수소 이온(HCO₃⁻)은 수소·탄소·산소가 모인 다원자 이온입니다."),
+    ("cyanide", "CN-", "사이안화물 이온", "Cyanide", "ionic", "ion", 3, 2,
+     "사이안화물 이온(CN⁻)은 탄소와 질소가 결합한 이온입니다."),
+    ("permanganate", "MnO4-", "과망가니즈산 이온", "Permanganate", "ionic", "ion", 3, 5,
+     "과망가니즈산 이온(MnO₄⁻)에서 아래첨자 4는 산소 원자 수입니다."),
+    ("chromate", "CrO42-", "크로뮴산 이온", "Chromate", "ionic", "ion", 3, 5,
+     "크로뮴산 이온(CrO₄²⁻)은 크로뮴 1개와 산소 4개의 이온입니다."),
+    ("hydronium", "H3O+", "하이드로늄 이온", "Hydronium", "ionic", "ion", 2, 2,
+     "하이드로늄(H₃O⁺)은 물 분자가 수소 이온을 받아 생긴 이온입니다."),
+    ("acetate", "C2H3O2-", "아세트산 이온", "Acetate", "ionic", "ion", 2, 5,
+     "아세트산 이온(C₂H₃O₂⁻)은 탄소 2, 수소 3, 산소 2의 이온입니다."),
+    ("calcium-fluoride", "CaF2", "플루오린화 칼슘", "Calcium fluoride", "ionic", "ionic", 2, 3,
+     "플루오린화 칼슘(CaF₂)은 형석의 주성분입니다."),
+    ("pyrite", "FeS2", "황화 철(이황화)", "Iron disulfide", "ionic", "ionic", 3, 3,
+     "황철석(FeS₂)은 철 1개와 황 2개의 화합물입니다."),
+    ("olivine", "Mg2SiO4", "감람석", "Olivine", "ionic", "network", 3, 7,
+     "감람석(Mg₂SiO₄)에서 아래첨자 2와 4는 마그네슘·산소 원자 수입니다."),
+    ("chalcopyrite", "CuFeS2", "황동석", "Chalcopyrite", "ionic", "ionic", 3, 4,
+     "황동석(CuFeS₂)은 구리·철·황이 모인 광물 화합물입니다."),
+    ("fluorite-note", "CaF2", "형석(교육)", "Fluorite (edu)", "ionic", "ionic", 2, 3,
+     "형석은 CaF₂입니다. 칼슘 원소(Ca)와 화합물(CaF₂)을 구분하세요."),
+]
+
 
 def z_of_symbol(symbol: str) -> int:
     return SYM.index(symbol)
@@ -697,27 +909,28 @@ def related_z(elements: list[dict]) -> list[int]:
 def build_molecules() -> list[dict]:
     out = []
     seen = set()
-    for mid, formula, ko, en, cat, struct, diff, energy, desc in TIER_A:
-        if mid in seen:
-            continue
-        seen.add(mid)
-        parts = parse_formula(formula)
-        out.append({
-            "id": mid,
-            "formula": formula,
-            "formulaDisplay": to_display(formula),
-            "nameKo": ko,
-            "nameEn": en,
-            "elements": parts,
-            "relatedElements": related_z(parts),
-            "category": cat,
-            "structureType": struct,
-            "descriptionKo": desc,
-            "tier": "A",
-            "difficulty": diff,
-            "energy": energy,
-            "synthesis": [p["symbol"] for p in parts],
-        })
+    for tier, rows in (("A", TIER_A), ("B", TIER_B)):
+        for mid, formula, ko, en, cat, struct, diff, energy, desc in rows:
+            if mid in seen:
+                continue
+            seen.add(mid)
+            parts = parse_formula(formula)
+            out.append({
+                "id": mid,
+                "formula": formula,
+                "formulaDisplay": to_display(formula),
+                "nameKo": ko,
+                "nameEn": en,
+                "elements": parts,
+                "relatedElements": related_z(parts),
+                "category": cat,
+                "structureType": struct,
+                "descriptionKo": desc,
+                "tier": tier,
+                "difficulty": diff,
+                "energy": energy,
+                "synthesis": [p["symbol"] for p in parts],
+            })
     return out
 
 
@@ -779,7 +992,9 @@ def build_quiz(elements: list[dict], molecules: list[dict]) -> dict:
         n += 1
         qs.append({"id": f"q{n:03d}", **kwargs})
 
-    for z in [1, 6, 8, 11, 17, 26, 29, 79, 10, 20, 7, 16, 15, 12, 13, 14, 9, 2, 18, 80, 35, 47, 92, 118, 19]:
+    element_zs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+                  24, 25, 26, 28, 29, 30, 35, 47, 50, 53, 56, 74, 79, 80, 82, 92, 118]
+    for z in element_zs:
         el = elements[z - 1]
         add(mode="element", type="symbol_to_name", difficulty=1 if z <= 20 else 2,
             promptKo=f"기호 '{el['symbol']}'의 한글 원소명은?",
@@ -790,6 +1005,11 @@ def build_quiz(elements: list[dict], molecules: list[dict]) -> dict:
             promptKo=f"'{el['nameKo']}'의 원소 기호는?",
             choices=None, correctAnswer=el["symbol"],
             explanationKo=f"{el['nameKo']}의 IUPAC 기호는 {el['symbol']}입니다.",
+            relatedZ=z)
+        add(mode="element", type="z_to_symbol", difficulty=1 if z <= 20 else 2,
+            promptKo=f"원자번호 Z={z}인 원소의 기호는?",
+            choices=None, correctAnswer=el["symbol"],
+            explanationKo=f"원자번호 {z}는 {el['nameKo']}({el['symbol']})입니다. 원자번호는 양성자 수입니다.",
             relatedZ=z)
 
     add(mode="element", type="group", difficulty=1, promptKo="할로겐은 몇 족인가?",
@@ -802,14 +1022,14 @@ def build_quiz(elements: list[dict], molecules: list[dict]) -> dict:
         choices=["할로겐", "알칼리금속", "비활성 기체", "전이금속"], correctAnswer="비활성 기체",
         explanationKo="18족은 원자가 전자가 채워져 반응성이 매우 낮습니다.", relatedZ=10)
 
-    for z, ev in [(6, 6), (11, 1), (17, 7), (8, 6), (20, 2)]:
+    for z in [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 26, 29, 36]:
         el = elements[z - 1]
-        add(mode="atom", type="electron_count", difficulty=1,
+        add(mode="atom", type="electron_count", difficulty=1 if z <= 20 else 2,
             promptKo=f"{el['nameKo']} 원자의 전자 수는? (중성 원자)",
             correctAnswer=z,
             explanationKo=f"중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z={z}입니다.",
             relatedZ=z)
-        add(mode="atom", type="proton_count", difficulty=1,
+        add(mode="atom", type="proton_count", difficulty=1 if z <= 20 else 2,
             promptKo=f"{el['nameKo']} 원자의 양성자 수는?",
             correctAnswer=z,
             explanationKo=f"양성자 수는 원자번호와 같습니다. {el['symbol']}의 Z는 {z}입니다.",
@@ -833,7 +1053,9 @@ def build_quiz(elements: list[dict], molecules: list[dict]) -> dict:
         explanationKo="염소는 17족으로 원자가 전자 7개(2-8-7)입니다.",
         relatedZ=17)
 
-    for mid in ["water", "carbon-dioxide", "methane", "glucose", "ammonia", "oxygen", "o2", "sodium-chloride"]:
+    for mid in ["water", "carbon-dioxide", "methane", "glucose", "ammonia", "o2", "sodium-chloride",
+                "ethanol", "sulfuric-acid", "calcium-carbonate", "hydrogen-peroxide", "benzene",
+                "urea", "sucrose", "iron-iii-oxide", "carbonic-acid", "chloroform", "glycine"]:
         mol = next((m for m in molecules if m["id"] == mid or m["id"] == mid.replace("oxygen", "o2")), None)
         if not mol:
             continue
@@ -870,6 +1092,58 @@ def build_quiz(elements: list[dict], molecules: list[dict]) -> dict:
         correctAnswer="¹²C",
         explanationKo="¹²C는 탄소 원자(특정 동위원소)입니다. O₂는 분자, NaCl은 화합물입니다.",
         relatedZ=6)
+    add(mode="integrated", type="three_way", difficulty=1,
+        promptKo="모래의 주성분을 원소·화합물로 바르게 말한 것은?",
+        choices=["규소(Si) 원소", "이산화 규소(SiO₂) 화합물", "산소 원자만", "규소 분자 Si₂"],
+        correctAnswer="이산화 규소(SiO₂) 화합물",
+        explanationKo="모래는 Si가 아니라 SiO₂입니다. 원소와 화합물을 구분하는 핵심 사례입니다.",
+        relatedZ=14)
+    add(mode="integrated", type="three_way", difficulty=1,
+        promptKo="Na와 Na⁺의 차이는?",
+        choices=["다른 원소", "전자 수", "양성자 수", "중성자 수만"],
+        correctAnswer="전자 수",
+        explanationKo="Na⁺는 나트륨 원자가 전자 1개를 잃은 이온입니다. 양성자 수(Z=11)는 같습니다.",
+        relatedZ=11)
+    add(mode="integrated", type="three_way", difficulty=2,
+        promptKo="H₂O와 H₂O₂를 구분하는 핵심은?",
+        choices=["같은 분자", "산소 원자 수", "수소가 다른 원소", "계수만 다름"],
+        correctAnswer="산소 원자 수",
+        explanationKo="물은 산소 1개, 과산화 수소는 산소 2개입니다. 아래첨자가 물질을 바꿉니다.",
+        relatedMoleculeId="water")
+    add(mode="integrated", type="three_way", difficulty=1,
+        promptKo="원소 대전에서 플레이어가 하는 일은?",
+        choices=["직접 검으로 싸움", "원소령에게 명령만", "HP를 나눠 가짐", "실시간 액션"],
+        correctAnswer="원소령에게 명령만",
+        explanationKo="포켓몬처럼 플레이어는 싸우지 않고 원소령(원소)에게 명령만 내립니다.",
+        relatedZ=17)
+    add(mode="element", type="group", difficulty=1, promptKo="알칼리금속은 몇 족인가?",
+        choices=["1족", "2족", "17족", "18족"], correctAnswer="1족",
+        explanationKo="알칼리금속(Li, Na, K, Rb, Cs, Fr)은 주기율표 1족입니다. 수소는 같은 족이지만 비금속입니다.", relatedZ=11)
+    add(mode="element", type="category", difficulty=1, promptKo="철(Fe)의 분류는?",
+        choices=["알칼리금속", "할로겐", "전이금속", "비활성 기체"], correctAnswer="전이금속",
+        explanationKo="철은 d-블록 전이금속입니다. 원자번호 26입니다.", relatedZ=26)
+    add(mode="atom", type="valence", difficulty=1,
+        promptKo="산소(O)의 원자가 전자 수는?",
+        correctAnswer=6,
+        explanationKo="산소는 16족으로 원자가 전자 6개입니다.",
+        relatedZ=8)
+    add(mode="atom", type="shell", difficulty=2,
+        promptKo="칼슘(Ca)의 전자 배치(껍질) 합은?",
+        correctAnswer=20,
+        explanationKo="중성 칼슘의 전자 수는 Z=20이므로 껍질 전자 합도 20입니다.",
+        relatedZ=20)
+    add(mode="molecule", type="classify", difficulty=2,
+        promptKo="Fe₂O₃에서 철 원자는 몇 개인가?",
+        choices=["1", "2", "3", "5"],
+        correctAnswer="2",
+        explanationKo="아래첨자 2는 철 원자 2개를 뜻합니다. 산소는 3개입니다.",
+        relatedMoleculeId="iron-iii-oxide")
+    add(mode="molecule", type="name_to_formula", difficulty=2,
+        promptKo="이산화탄소의 분자식은?",
+        choices=["CO", "CO2", "C2O", "CaO"],
+        correctAnswer="CO2",
+        explanationKo="이산화탄소는 탄소 1개+산소 2개이므로 CO₂입니다.",
+        relatedMoleculeId="carbon-dioxide")
 
     by_mode = {"element": [], "atom": [], "molecule": [], "integrated": []}
     for q in qs:
@@ -883,7 +1157,7 @@ def build_refining() -> dict:
         {"id": "crush-cobble", "input": {"item": "minecraft:cobblestone", "count": 16}, "outputs": [{"id": "stone_powder", "count": 6}, {"id": "metal_trace", "count": 1, "chance": 0.4}], "ticks": 80},
         {"id": "crush-quartz", "input": {"item": "minecraft:quartz", "count": 8}, "outputs": [{"id": "quartz_dust", "count": 4}, {"id": "silica_grit", "count": 2}], "ticks": 80},
         {"id": "crush-iron", "input": {"item": "minecraft:raw_iron", "count": 8}, "outputs": [{"id": "iron_ore_powder", "count": 4}, {"id": "rock_slag", "count": 2}], "ticks": 100},
-        {"id": "crush-nether-quartz", "input": {"item": "minecraft:nether_quartz", "count": 8}, "outputs": [{"id": "nether_quartz_dust", "count": 4}], "ticks": 80},
+        {"id": "crush-nether-quartz", "input": {"item": "minecraft:quartz", "count": 8}, "outputs": [{"id": "nether_quartz_dust", "count": 4}], "ticks": 80},
         {"id": "crush-bone", "input": {"item": "minecraft:bone", "count": 8}, "outputs": [{"id": "calcium_phosphate", "count": 2}], "ticks": 80},
     ]
     dissolve = [
@@ -967,7 +1241,8 @@ def main() -> None:
     dump(OUT / "elements.json", elements)
     dump(OUT / "atoms.json", atoms)
     dump(OUT / "molecules.json", molecules)
-    dump(OUT / "molecules_tier_a.json", molecules)
+    dump(OUT / "molecules_tier_a.json", [m for m in molecules if m["tier"] == "A"])
+    dump(OUT / "molecules_tier_b.json", [m for m in molecules if m["tier"] == "B"])
     dump(OUT / "synthesis.json", synthesis)
     dump(OUT / "fusion.json", build_fusion())
     dump(OUT / "stars.json", build_stars())
@@ -1010,7 +1285,7 @@ def main() -> None:
     dump(OUT / "molecule_tools.json", molecule_tools)
 
     files = [
-        "elements.json", "atoms.json", "molecules_tier_a.json",
+        "elements.json", "atoms.json", "molecules_tier_a.json", "molecules_tier_b.json",
         "synthesis.json", "energy-abilities.json",
     ]
     manifest = {

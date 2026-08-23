@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wonso:item/molecule_card_sodium_hydrogen_carbonate"
+  }
+}

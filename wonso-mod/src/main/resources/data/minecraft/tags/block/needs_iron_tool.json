@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wonso:periodite_ore",
+    "wonso:deep_periodite",
+    "wonso:end_crystal_ore"
+  ]
+}

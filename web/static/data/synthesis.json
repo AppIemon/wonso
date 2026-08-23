@@ -788,5 +788,1761 @@
     "labTier": 2,
     "energyCost": 0,
     "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrogen-fluoride",
+    "output": "hydrogen-fluoride",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "F",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrogen-bromide",
+    "output": "hydrogen-bromide",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "Br",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrogen-iodide",
+    "output": "hydrogen-iodide",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "I",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-nitrogen-monoxide",
+    "output": "nitrogen-monoxide",
+    "inputs": [
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-dinitrogen-monoxide",
+    "output": "dinitrogen-monoxide",
+    "inputs": [
+      {
+        "symbol": "N",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sulfur-trioxide",
+    "output": "sulfur-trioxide",
+    "inputs": [
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-carbon-disulfide",
+    "output": "carbon-disulfide",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-phosphorus-trichloride",
+    "output": "phosphorus-trichloride",
+    "inputs": [
+      {
+        "symbol": "P",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-phosphorus-pentachloride",
+    "output": "phosphorus-pentachloride",
+    "inputs": [
+      {
+        "symbol": "P",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 5
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-silicon-tetrachloride",
+    "output": "silicon-tetrachloride",
+    "inputs": [
+      {
+        "symbol": "Si",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-boron-trifluoride",
+    "output": "boron-trifluoride",
+    "inputs": [
+      {
+        "symbol": "B",
+        "count": 1
+      },
+      {
+        "symbol": "F",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-boron-trioxide",
+    "output": "boron-trioxide",
+    "inputs": [
+      {
+        "symbol": "B",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-aluminium-chloride",
+    "output": "aluminium-chloride",
+    "inputs": [
+      {
+        "symbol": "Al",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-aluminium-hydroxide",
+    "output": "aluminium-hydroxide",
+    "inputs": [
+      {
+        "symbol": "Al",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-magnesium-hydroxide",
+    "output": "magnesium-hydroxide",
+    "inputs": [
+      {
+        "symbol": "Mg",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-magnesium-chloride",
+    "output": "magnesium-chloride",
+    "inputs": [
+      {
+        "symbol": "Mg",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-magnesium-carbonate",
+    "output": "magnesium-carbonate",
+    "inputs": [
+      {
+        "symbol": "Mg",
+        "count": 1
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-calcium-oxide",
+    "output": "calcium-oxide",
+    "inputs": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-calcium-chloride",
+    "output": "calcium-chloride",
+    "inputs": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-calcium-sulfate",
+    "output": "calcium-sulfate",
+    "inputs": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-potassium-chloride",
+    "output": "potassium-chloride",
+    "inputs": [
+      {
+        "symbol": "K",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-potassium-hydroxide",
+    "output": "potassium-hydroxide",
+    "inputs": [
+      {
+        "symbol": "K",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-potassium-carbonate",
+    "output": "potassium-carbonate",
+    "inputs": [
+      {
+        "symbol": "K",
+        "count": 2
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-potassium-nitrate",
+    "output": "potassium-nitrate",
+    "inputs": [
+      {
+        "symbol": "K",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sodium-sulfate",
+    "output": "sodium-sulfate",
+    "inputs": [
+      {
+        "symbol": "Na",
+        "count": 2
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sodium-nitrate",
+    "output": "sodium-nitrate",
+    "inputs": [
+      {
+        "symbol": "Na",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sodium-hydrogen-carbonate",
+    "output": "sodium-hydrogen-carbonate",
+    "inputs": [
+      {
+        "symbol": "Na",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sodium-oxide",
+    "output": "sodium-oxide",
+    "inputs": [
+      {
+        "symbol": "Na",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-iron-ii-oxide",
+    "output": "iron-ii-oxide",
+    "inputs": [
+      {
+        "symbol": "Fe",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-iron-iii-oxide",
+    "output": "iron-iii-oxide",
+    "inputs": [
+      {
+        "symbol": "Fe",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-iron-ii-iii-oxide",
+    "output": "iron-ii-iii-oxide",
+    "inputs": [
+      {
+        "symbol": "Fe",
+        "count": 3
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-copper-i-oxide",
+    "output": "copper-i-oxide",
+    "inputs": [
+      {
+        "symbol": "Cu",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-copper-ii-oxide",
+    "output": "copper-ii-oxide",
+    "inputs": [
+      {
+        "symbol": "Cu",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-copper-sulfate",
+    "output": "copper-sulfate",
+    "inputs": [
+      {
+        "symbol": "Cu",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-zinc-oxide",
+    "output": "zinc-oxide",
+    "inputs": [
+      {
+        "symbol": "Zn",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-zinc-sulfate",
+    "output": "zinc-sulfate",
+    "inputs": [
+      {
+        "symbol": "Zn",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-zinc-chloride",
+    "output": "zinc-chloride",
+    "inputs": [
+      {
+        "symbol": "Zn",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-zinc-sulfide",
+    "output": "zinc-sulfide",
+    "inputs": [
+      {
+        "symbol": "Zn",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-silver-nitrate",
+    "output": "silver-nitrate",
+    "inputs": [
+      {
+        "symbol": "Ag",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-silver-chloride",
+    "output": "silver-chloride",
+    "inputs": [
+      {
+        "symbol": "Ag",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-lead-oxide",
+    "output": "lead-oxide",
+    "inputs": [
+      {
+        "symbol": "Pb",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-lead-sulfide",
+    "output": "lead-sulfide",
+    "inputs": [
+      {
+        "symbol": "Pb",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-mercury-oxide",
+    "output": "mercury-oxide",
+    "inputs": [
+      {
+        "symbol": "Hg",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-tin-dioxide",
+    "output": "tin-dioxide",
+    "inputs": [
+      {
+        "symbol": "Sn",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-titanium-dioxide",
+    "output": "titanium-dioxide",
+    "inputs": [
+      {
+        "symbol": "Ti",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-manganese-dioxide",
+    "output": "manganese-dioxide",
+    "inputs": [
+      {
+        "symbol": "Mn",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-chromium-oxide",
+    "output": "chromium-oxide",
+    "inputs": [
+      {
+        "symbol": "Cr",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-nickel-oxide",
+    "output": "nickel-oxide",
+    "inputs": [
+      {
+        "symbol": "Ni",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrogen-cyanide",
+    "output": "hydrogen-cyanide",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrazine",
+    "output": "hydrazine",
+    "inputs": [
+      {
+        "symbol": "N",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-chlorine-dioxide",
+    "output": "chlorine-dioxide",
+    "inputs": [
+      {
+        "symbol": "Cl",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hypochlorous-acid",
+    "output": "hypochlorous-acid",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-nitrous-acid",
+    "output": "nitrous-acid",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sulfurous-acid",
+    "output": "sulfurous-acid",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-carbonic-acid",
+    "output": "carbonic-acid",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hydrogen-cyanide-note",
+    "output": "hydrogen-cyanide-note",
+    "inputs": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-urea",
+    "output": "urea",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      },
+      {
+        "symbol": "N",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-butane",
+    "output": "butane",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 4
+      },
+      {
+        "symbol": "H",
+        "count": 10
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-pentane",
+    "output": "pentane",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 5
+      },
+      {
+        "symbol": "H",
+        "count": 12
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-hexane",
+    "output": "hexane",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 14
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-benzene",
+    "output": "benzene",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-toluene",
+    "output": "toluene",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 7
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-phenol",
+    "output": "phenol",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-formaldehyde",
+    "output": "formaldehyde",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-acetaldehyde",
+    "output": "acetaldehyde",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-formic-acid",
+    "output": "formic-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-propanol",
+    "output": "propanol",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-glycerol",
+    "output": "glycerol",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-ethylene-glycol",
+    "output": "ethylene-glycol",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-ethyl-acetate",
+    "output": "ethyl-acetate",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 4
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-lactic-acid",
+    "output": "lactic-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-citric-acid",
+    "output": "citric-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      },
+      {
+        "symbol": "O",
+        "count": 7
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-oxalic-acid",
+    "output": "oxalic-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-chloroform",
+    "output": "chloroform",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-carbon-tetrachloride",
+    "output": "carbon-tetrachloride",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-dichloromethane",
+    "output": "dichloromethane",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "Cl",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-propene",
+    "output": "propene",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-cyclohexane",
+    "output": "cyclohexane",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 12
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-naphthalene",
+    "output": "naphthalene",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 10
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-sucrose",
+    "output": "sucrose",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 12
+      },
+      {
+        "symbol": "H",
+        "count": 22
+      },
+      {
+        "symbol": "O",
+        "count": 11
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-fructose",
+    "output": "fructose",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 12
+      },
+      {
+        "symbol": "O",
+        "count": 6
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-glycine",
+    "output": "glycine",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 5
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-alanine",
+    "output": "alanine",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 7
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-ascorbic-acid",
+    "output": "ascorbic-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      },
+      {
+        "symbol": "O",
+        "count": 6
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-caffeine",
+    "output": "caffeine",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 8
+      },
+      {
+        "symbol": "H",
+        "count": 10
+      },
+      {
+        "symbol": "N",
+        "count": 4
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-adenine",
+    "output": "adenine",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 5
+      },
+      {
+        "symbol": "H",
+        "count": 5
+      },
+      {
+        "symbol": "N",
+        "count": 5
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-pyruvic-acid",
+    "output": "pyruvic-acid",
+    "inputs": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-calcium-fluoride",
+    "output": "calcium-fluoride",
+    "inputs": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "F",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-pyrite",
+    "output": "pyrite",
+    "inputs": [
+      {
+        "symbol": "Fe",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-olivine",
+    "output": "olivine",
+    "inputs": [
+      {
+        "symbol": "Mg",
+        "count": 2
+      },
+      {
+        "symbol": "Si",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-chalcopyrite",
+    "output": "chalcopyrite",
+    "inputs": [
+      {
+        "symbol": "Cu",
+        "count": 1
+      },
+      {
+        "symbol": "Fe",
+        "count": 1
+      },
+      {
+        "symbol": "S",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
+  },
+  {
+    "id": "synth-fluorite-note",
+    "output": "fluorite-note",
+    "inputs": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "F",
+        "count": 2
+      }
+    ],
+    "labTier": 2,
+    "energyCost": 0,
+    "energyGainOnFail": 1
   }
 ]

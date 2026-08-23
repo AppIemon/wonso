@@ -1,6 +1,46 @@
 [
   {
-    "id": "q054",
+    "id": "q115",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "수소 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 1,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=1입니다.",
+    "relatedZ": 1
+  },
+  {
+    "id": "q116",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "수소 원자의 양성자 수는?",
+    "correctAnswer": 1,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. H의 Z는 1입니다.",
+    "relatedZ": 1
+  },
+  {
+    "id": "q117",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "헬륨 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 2,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=2입니다.",
+    "relatedZ": 2
+  },
+  {
+    "id": "q118",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "헬륨 원자의 양성자 수는?",
+    "correctAnswer": 2,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. He의 Z는 2입니다.",
+    "relatedZ": 2
+  },
+  {
+    "id": "q119",
     "mode": "atom",
     "type": "electron_count",
     "difficulty": 1,
@@ -10,7 +50,7 @@
     "relatedZ": 6
   },
   {
-    "id": "q055",
+    "id": "q120",
     "mode": "atom",
     "type": "proton_count",
     "difficulty": 1,
@@ -20,47 +60,27 @@
     "relatedZ": 6
   },
   {
-    "id": "q056",
+    "id": "q121",
     "mode": "atom",
     "type": "electron_count",
     "difficulty": 1,
-    "promptKo": "나트륨 원자의 전자 수는? (중성 원자)",
-    "correctAnswer": 11,
-    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=11입니다.",
-    "relatedZ": 11
+    "promptKo": "질소 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 7,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=7입니다.",
+    "relatedZ": 7
   },
   {
-    "id": "q057",
+    "id": "q122",
     "mode": "atom",
     "type": "proton_count",
     "difficulty": 1,
-    "promptKo": "나트륨 원자의 양성자 수는?",
-    "correctAnswer": 11,
-    "explanationKo": "양성자 수는 원자번호와 같습니다. Na의 Z는 11입니다.",
-    "relatedZ": 11
+    "promptKo": "질소 원자의 양성자 수는?",
+    "correctAnswer": 7,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. N의 Z는 7입니다.",
+    "relatedZ": 7
   },
   {
-    "id": "q058",
-    "mode": "atom",
-    "type": "electron_count",
-    "difficulty": 1,
-    "promptKo": "염소 원자의 전자 수는? (중성 원자)",
-    "correctAnswer": 17,
-    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=17입니다.",
-    "relatedZ": 17
-  },
-  {
-    "id": "q059",
-    "mode": "atom",
-    "type": "proton_count",
-    "difficulty": 1,
-    "promptKo": "염소 원자의 양성자 수는?",
-    "correctAnswer": 17,
-    "explanationKo": "양성자 수는 원자번호와 같습니다. Cl의 Z는 17입니다.",
-    "relatedZ": 17
-  },
-  {
-    "id": "q060",
+    "id": "q123",
     "mode": "atom",
     "type": "electron_count",
     "difficulty": 1,
@@ -70,7 +90,7 @@
     "relatedZ": 8
   },
   {
-    "id": "q061",
+    "id": "q124",
     "mode": "atom",
     "type": "proton_count",
     "difficulty": 1,
@@ -80,7 +100,227 @@
     "relatedZ": 8
   },
   {
-    "id": "q062",
+    "id": "q125",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "플루오린 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 9,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=9입니다.",
+    "relatedZ": 9
+  },
+  {
+    "id": "q126",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "플루오린 원자의 양성자 수는?",
+    "correctAnswer": 9,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. F의 Z는 9입니다.",
+    "relatedZ": 9
+  },
+  {
+    "id": "q127",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "네온 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 10,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=10입니다.",
+    "relatedZ": 10
+  },
+  {
+    "id": "q128",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "네온 원자의 양성자 수는?",
+    "correctAnswer": 10,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Ne의 Z는 10입니다.",
+    "relatedZ": 10
+  },
+  {
+    "id": "q129",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "나트륨 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 11,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=11입니다.",
+    "relatedZ": 11
+  },
+  {
+    "id": "q130",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "나트륨 원자의 양성자 수는?",
+    "correctAnswer": 11,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Na의 Z는 11입니다.",
+    "relatedZ": 11
+  },
+  {
+    "id": "q131",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "마그네슘 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 12,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=12입니다.",
+    "relatedZ": 12
+  },
+  {
+    "id": "q132",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "마그네슘 원자의 양성자 수는?",
+    "correctAnswer": 12,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Mg의 Z는 12입니다.",
+    "relatedZ": 12
+  },
+  {
+    "id": "q133",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "알루미늄 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 13,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=13입니다.",
+    "relatedZ": 13
+  },
+  {
+    "id": "q134",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "알루미늄 원자의 양성자 수는?",
+    "correctAnswer": 13,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Al의 Z는 13입니다.",
+    "relatedZ": 13
+  },
+  {
+    "id": "q135",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "규소 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 14,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=14입니다.",
+    "relatedZ": 14
+  },
+  {
+    "id": "q136",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "규소 원자의 양성자 수는?",
+    "correctAnswer": 14,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Si의 Z는 14입니다.",
+    "relatedZ": 14
+  },
+  {
+    "id": "q137",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "인 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 15,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=15입니다.",
+    "relatedZ": 15
+  },
+  {
+    "id": "q138",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "인 원자의 양성자 수는?",
+    "correctAnswer": 15,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. P의 Z는 15입니다.",
+    "relatedZ": 15
+  },
+  {
+    "id": "q139",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "황 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 16,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=16입니다.",
+    "relatedZ": 16
+  },
+  {
+    "id": "q140",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "황 원자의 양성자 수는?",
+    "correctAnswer": 16,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. S의 Z는 16입니다.",
+    "relatedZ": 16
+  },
+  {
+    "id": "q141",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "염소 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 17,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=17입니다.",
+    "relatedZ": 17
+  },
+  {
+    "id": "q142",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "염소 원자의 양성자 수는?",
+    "correctAnswer": 17,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Cl의 Z는 17입니다.",
+    "relatedZ": 17
+  },
+  {
+    "id": "q143",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "아르곤 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 18,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=18입니다.",
+    "relatedZ": 18
+  },
+  {
+    "id": "q144",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "아르곤 원자의 양성자 수는?",
+    "correctAnswer": 18,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Ar의 Z는 18입니다.",
+    "relatedZ": 18
+  },
+  {
+    "id": "q145",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 1,
+    "promptKo": "칼륨 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 19,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=19입니다.",
+    "relatedZ": 19
+  },
+  {
+    "id": "q146",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 1,
+    "promptKo": "칼륨 원자의 양성자 수는?",
+    "correctAnswer": 19,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. K의 Z는 19입니다.",
+    "relatedZ": 19
+  },
+  {
+    "id": "q147",
     "mode": "atom",
     "type": "electron_count",
     "difficulty": 1,
@@ -90,7 +330,7 @@
     "relatedZ": 20
   },
   {
-    "id": "q063",
+    "id": "q148",
     "mode": "atom",
     "type": "proton_count",
     "difficulty": 1,
@@ -100,7 +340,67 @@
     "relatedZ": 20
   },
   {
-    "id": "q064",
+    "id": "q149",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 2,
+    "promptKo": "철 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 26,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=26입니다.",
+    "relatedZ": 26
+  },
+  {
+    "id": "q150",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 2,
+    "promptKo": "철 원자의 양성자 수는?",
+    "correctAnswer": 26,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Fe의 Z는 26입니다.",
+    "relatedZ": 26
+  },
+  {
+    "id": "q151",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 2,
+    "promptKo": "구리 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 29,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=29입니다.",
+    "relatedZ": 29
+  },
+  {
+    "id": "q152",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 2,
+    "promptKo": "구리 원자의 양성자 수는?",
+    "correctAnswer": 29,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Cu의 Z는 29입니다.",
+    "relatedZ": 29
+  },
+  {
+    "id": "q153",
+    "mode": "atom",
+    "type": "electron_count",
+    "difficulty": 2,
+    "promptKo": "크립톤 원자의 전자 수는? (중성 원자)",
+    "correctAnswer": 36,
+    "explanationKo": "중성 원자에서 전자 수 = 양성자 수 = 원자번호 Z=36입니다.",
+    "relatedZ": 36
+  },
+  {
+    "id": "q154",
+    "mode": "atom",
+    "type": "proton_count",
+    "difficulty": 2,
+    "promptKo": "크립톤 원자의 양성자 수는?",
+    "correctAnswer": 36,
+    "explanationKo": "양성자 수는 원자번호와 같습니다. Kr의 Z는 36입니다.",
+    "relatedZ": 36
+  },
+  {
+    "id": "q155",
     "mode": "atom",
     "type": "isotope",
     "difficulty": 2,
@@ -116,7 +416,7 @@
     "relatedZ": 6
   },
   {
-    "id": "q065",
+    "id": "q156",
     "mode": "atom",
     "type": "shell",
     "difficulty": 1,
@@ -132,7 +432,7 @@
     "relatedZ": 11
   },
   {
-    "id": "q066",
+    "id": "q157",
     "mode": "atom",
     "type": "valence",
     "difficulty": 1,
@@ -140,5 +440,25 @@
     "correctAnswer": 7,
     "explanationKo": "염소는 17족으로 원자가 전자 7개(2-8-7)입니다.",
     "relatedZ": 17
+  },
+  {
+    "id": "q186",
+    "mode": "atom",
+    "type": "valence",
+    "difficulty": 1,
+    "promptKo": "산소(O)의 원자가 전자 수는?",
+    "correctAnswer": 6,
+    "explanationKo": "산소는 16족으로 원자가 전자 6개입니다.",
+    "relatedZ": 8
+  },
+  {
+    "id": "q187",
+    "mode": "atom",
+    "type": "shell",
+    "difficulty": 2,
+    "promptKo": "칼슘(Ca)의 전자 배치(껍질) 합은?",
+    "correctAnswer": 20,
+    "explanationKo": "중성 칼슘의 전자 수는 Z=20이므로 껍질 전자 합도 20입니다.",
+    "relatedZ": 20
   }
 ]

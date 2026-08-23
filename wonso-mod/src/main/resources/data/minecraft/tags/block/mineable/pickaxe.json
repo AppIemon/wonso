@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "wonso:periodite_ore",
+    "wonso:deep_periodite",
+    "wonso:nether_salt",
+    "wonso:end_crystal_ore",
+    "wonso:crusher",
+    "wonso:reaction_vat",
+    "wonso:element_refinery",
+    "wonso:electrolyzer",
+    "wonso:reduction_furnace",
+    "wonso:fusion_chamber",
+    "wonso:element_shrine",
+    "wonso:research_table",
+    "wonso:synthesis_lab",
+    "wonso:energy_converter",
+    "wonso:evaporation_pan",
+    "wonso:distiller",
+    "wonso:waste_bin",
+    "wonso:slag_bin"
+  ]
+}

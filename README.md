@@ -2,44 +2,37 @@
 
 수소(H) ~ 오가네손(Og) 118원소를 **원소·원자·분자** 3모드로 학습하는 **Minecraft 26.2 Fabric 야생 모드**.
 
-레퍼런스: [elementwar.xyz](https://elementwar.xyz) — 카드·합성·에너지·도감 + **포켓몬식 원소 대전 PvP**
+레퍼런스: [elementwar.xyz](https://elementwar.xyz) — 카드·합성·에너지·도감 + **포켓몬식 원소 대전** (플레이어는 싸우지 않고 원소령에게 명령만)
 
 ## 구현 상태
 
-문서(`docs/`) 스펙을 코드로 옮긴 첫 구현입니다.
+문서(`docs/`) 스펙을 코드로 옮긴 구현입니다.
 
 | 모듈 | 내용 |
 |------|------|
-| `shared-data/` | 118원소·118원자·Tier A 50분자·퀴즈·합성·정제·에너지 4스킬 |
-| `wonso-mod/` | Fabric 26.2 모드 — 카드 118, Journal/PT 3모드 GUI, 합성·에너지·정제, Advancement 12 |
+| `shared-data/` | 118원소·118원자·Tier A+B 분자·퀴즈·합성·4단 정제·핵융합·별·에너지 4스킬 |
+| `wonso-mod/` | Fabric 26.2 — 카드, Journal/PT 3모드, 합성·에너지·정제 블록 GUI, 월드젠 광석, 신전 PvE 대전, 파티 6 |
 | `web/` | SvelteKit 3모드 UI (주기율표 / Bohr / 분자 / 퀴즈) |
-| `scripts/data/` | JSON 생성·118 완전성 검증 |
+| `scripts/data/` | JSON 생성·완전성 검증 |
 
-## 기획 문서
+## 인게임
 
-- [docs/README.md](./docs/README.md) — 문서 인덱스
-- [제품 기획서](./docs/PRODUCT_SPEC.md)
-- [Minecraft Fabric 모드 기획](./docs/MINECRAFT_MOD_SPEC.md)
-- [elementwar.xyz 레퍼런스](./docs/ELEMENTWAR_REFERENCE.md)
-- [현실 반영 원소 획득](./docs/REAL_WORLD_EXTRACTION.md)
-- [바닐라 거친 정제](./docs/VANILLA_REFINING_SPEC.md)
-- [원소 대전 (PvP/PvE)](./docs/ELEMENT_BATTLE_SPEC.md)
-- [아키텍처 계획](./docs/ARCHITECTURE_PLAN.md)
-- [콘텐츠 작성 계획](./docs/CONTENT_WRITING_PLAN.md)
+- 화학 도감 우클릭 또는 키 `P` — 주기율표 3모드, 파티/대전/정제/융합
+- 분쇄기·반응통·정제기·전기분해기 우클릭 — 4단 정제
+- 핵융합 챔버 — H+H→He, 3He→C, U+C→Og / 별 점화
+- 원소 신전 — 턴제 PvE (파티 6, 스킬 4, 분자 도구, 족 상성)
+- 연구대 — 파티 편성
+- 에너지 스킬: Z/X/C/V
+- `/wonso card H` · `energy 50` · `synth water` · `refine crush` · `fusion fusion-he` · `star protostar` · `battle` · `party add 17`
 
-## 모드 (Java 25, Gradle 9.5.1, Loom 1.17)
+월드젠: 오버월드 periodite (−64~16) / deep periodite (−64~−32), 네더 소금, 엔드 결정 광석.
+
+## 모드 빌드 (Java 25, Gradle 9.5.1, Loom 1.17)
 
 ```bash
 cd wonso-mod
 ./gradlew build
 ```
-
-인게임:
-
-- 화학 도감 우클릭 또는 키 `P` — 주기율표 3모드
-- `/wonso card H` · `/wonso energy 50` · `/wonso synth water` · `/wonso skill heal_all`
-- 분자 카드 웅크리기 사용 — 에너지 변환
-- 에너지 스킬: Z/X/C/V
 
 ## 웹
 

@@ -70,7 +70,54 @@
       "sodium-hydroxide",
       "calcium-hydroxide",
       "hydroxide",
-      "ammonium"
+      "ammonium",
+      "hydrogen-fluoride",
+      "hydrogen-bromide",
+      "hydrogen-iodide",
+      "aluminium-hydroxide",
+      "magnesium-hydroxide",
+      "potassium-hydroxide",
+      "sodium-hydrogen-carbonate",
+      "hydrogen-cyanide",
+      "hydrazine",
+      "hypochlorous-acid",
+      "nitrous-acid",
+      "sulfurous-acid",
+      "carbonic-acid",
+      "hydrogen-cyanide-note",
+      "urea",
+      "butane",
+      "pentane",
+      "hexane",
+      "benzene",
+      "toluene",
+      "phenol",
+      "formaldehyde",
+      "acetaldehyde",
+      "formic-acid",
+      "propanol",
+      "glycerol",
+      "ethylene-glycol",
+      "ethyl-acetate",
+      "lactic-acid",
+      "citric-acid",
+      "oxalic-acid",
+      "chloroform",
+      "dichloromethane",
+      "propene",
+      "cyclohexane",
+      "naphthalene",
+      "sucrose",
+      "fructose",
+      "glycine",
+      "alanine",
+      "ascorbic-acid",
+      "caffeine",
+      "adenine",
+      "pyruvic-acid",
+      "bicarbonate",
+      "hydronium",
+      "acetate"
     ]
   },
   {
@@ -262,7 +309,10 @@
       "compound": null,
       "noteKo": "붕소는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "boron-trifluoride",
+      "boron-trioxide"
+    ]
   },
   {
     "z": 6,
@@ -327,7 +377,48 @@
       "glucose",
       "acetone",
       "carbonate",
-      "sodium-carbonate"
+      "sodium-carbonate",
+      "carbon-disulfide",
+      "magnesium-carbonate",
+      "potassium-carbonate",
+      "sodium-hydrogen-carbonate",
+      "hydrogen-cyanide",
+      "carbonic-acid",
+      "hydrogen-cyanide-note",
+      "urea",
+      "butane",
+      "pentane",
+      "hexane",
+      "benzene",
+      "toluene",
+      "phenol",
+      "formaldehyde",
+      "acetaldehyde",
+      "formic-acid",
+      "propanol",
+      "glycerol",
+      "ethylene-glycol",
+      "ethyl-acetate",
+      "lactic-acid",
+      "citric-acid",
+      "oxalic-acid",
+      "chloroform",
+      "carbon-tetrachloride",
+      "dichloromethane",
+      "propene",
+      "cyclohexane",
+      "naphthalene",
+      "sucrose",
+      "fructose",
+      "glycine",
+      "alanine",
+      "ascorbic-acid",
+      "caffeine",
+      "adenine",
+      "pyruvic-acid",
+      "bicarbonate",
+      "cyanide",
+      "acetate"
     ]
   },
   {
@@ -381,7 +472,22 @@
       "nitrogen-dioxide",
       "nitric-acid",
       "nitrate",
-      "ammonium"
+      "ammonium",
+      "nitrogen-monoxide",
+      "dinitrogen-monoxide",
+      "potassium-nitrate",
+      "sodium-nitrate",
+      "silver-nitrate",
+      "hydrogen-cyanide",
+      "hydrazine",
+      "nitrous-acid",
+      "hydrogen-cyanide-note",
+      "urea",
+      "glycine",
+      "alanine",
+      "caffeine",
+      "adenine",
+      "cyanide"
     ]
   },
   {
@@ -460,7 +566,69 @@
       "hydroxide",
       "carbonate",
       "phosphate",
-      "sodium-carbonate"
+      "sodium-carbonate",
+      "nitrogen-monoxide",
+      "dinitrogen-monoxide",
+      "sulfur-trioxide",
+      "boron-trioxide",
+      "aluminium-hydroxide",
+      "magnesium-hydroxide",
+      "magnesium-carbonate",
+      "calcium-oxide",
+      "calcium-sulfate",
+      "potassium-hydroxide",
+      "potassium-carbonate",
+      "potassium-nitrate",
+      "sodium-sulfate",
+      "sodium-nitrate",
+      "sodium-hydrogen-carbonate",
+      "sodium-oxide",
+      "iron-ii-oxide",
+      "iron-iii-oxide",
+      "iron-ii-iii-oxide",
+      "copper-i-oxide",
+      "copper-ii-oxide",
+      "copper-sulfate",
+      "zinc-oxide",
+      "zinc-sulfate",
+      "silver-nitrate",
+      "lead-oxide",
+      "mercury-oxide",
+      "tin-dioxide",
+      "titanium-dioxide",
+      "manganese-dioxide",
+      "chromium-oxide",
+      "nickel-oxide",
+      "chlorine-dioxide",
+      "hypochlorous-acid",
+      "nitrous-acid",
+      "sulfurous-acid",
+      "carbonic-acid",
+      "urea",
+      "phenol",
+      "formaldehyde",
+      "acetaldehyde",
+      "formic-acid",
+      "propanol",
+      "glycerol",
+      "ethylene-glycol",
+      "ethyl-acetate",
+      "lactic-acid",
+      "citric-acid",
+      "oxalic-acid",
+      "sucrose",
+      "fructose",
+      "glycine",
+      "alanine",
+      "ascorbic-acid",
+      "caffeine",
+      "pyruvic-acid",
+      "bicarbonate",
+      "permanganate",
+      "chromate",
+      "hydronium",
+      "acetate",
+      "olivine"
     ]
   },
   {
@@ -513,7 +681,11 @@
       "noteKo": "할로겐은 브라인·형석 루트."
     },
     "relatedMoleculeIds": [
-      "f2"
+      "f2",
+      "hydrogen-fluoride",
+      "boron-trifluoride",
+      "calcium-fluoride",
+      "fluorite-note"
     ]
   },
   {
@@ -616,7 +788,11 @@
       "sodium-chloride",
       "sodium-hydroxide",
       "sodium-ion",
-      "sodium-carbonate"
+      "sodium-carbonate",
+      "sodium-sulfate",
+      "sodium-nitrate",
+      "sodium-hydrogen-carbonate",
+      "sodium-oxide"
     ]
   },
   {
@@ -666,7 +842,12 @@
       "noteKo": "마그네슘는 지각 미량 또는 주기율광석 보조 루트."
     },
     "relatedMoleculeIds": [
-      "magnesium-oxide"
+      "magnesium-oxide",
+      "magnesium-hydroxide",
+      "magnesium-chloride",
+      "magnesium-carbonate",
+      "magnesium-ion",
+      "olivine"
     ]
   },
   {
@@ -718,7 +899,9 @@
       "noteKo": "현실도 알루미늄은 전기 지옥. 점토→알루미나→전해."
     },
     "relatedMoleculeIds": [
-      "aluminium-oxide"
+      "aluminium-oxide",
+      "aluminium-chloride",
+      "aluminium-hydroxide"
     ]
   },
   {
@@ -770,7 +953,9 @@
       "noteKo": "모래는 규소가 아니라 이산화규소. 탄소로 산소를 빼야 한다."
     },
     "relatedMoleculeIds": [
-      "silicon-dioxide"
+      "silicon-dioxide",
+      "silicon-tetrachloride",
+      "olivine"
     ]
   },
   {
@@ -821,7 +1006,9 @@
     "relatedMoleculeIds": [
       "white-phosphorus",
       "phosphoric-acid",
-      "phosphate"
+      "phosphate",
+      "phosphorus-trichloride",
+      "phosphorus-pentachloride"
     ]
   },
   {
@@ -877,7 +1064,18 @@
       "hydrogen-sulfide",
       "octasulfur",
       "sulfuric-acid",
-      "sulfate"
+      "sulfate",
+      "sulfur-trioxide",
+      "carbon-disulfide",
+      "calcium-sulfate",
+      "sodium-sulfate",
+      "copper-sulfate",
+      "zinc-sulfate",
+      "zinc-sulfide",
+      "lead-sulfide",
+      "sulfurous-acid",
+      "pyrite",
+      "chalcopyrite"
     ]
   },
   {
@@ -932,7 +1130,21 @@
       "cl2",
       "hydrogen-chloride",
       "sodium-chloride",
-      "chloride-ion"
+      "chloride-ion",
+      "phosphorus-trichloride",
+      "phosphorus-pentachloride",
+      "silicon-tetrachloride",
+      "aluminium-chloride",
+      "magnesium-chloride",
+      "calcium-chloride",
+      "potassium-chloride",
+      "zinc-chloride",
+      "silver-chloride",
+      "chlorine-dioxide",
+      "hypochlorous-acid",
+      "chloroform",
+      "carbon-tetrachloride",
+      "dichloromethane"
     ]
   },
   {
@@ -1030,7 +1242,13 @@
       "compound": null,
       "noteKo": "칼륨는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "potassium-chloride",
+      "potassium-hydroxide",
+      "potassium-carbonate",
+      "potassium-nitrate",
+      "potassium-ion"
+    ]
   },
   {
     "z": 20,
@@ -1081,7 +1299,12 @@
     "relatedMoleculeIds": [
       "calcium-carbonate",
       "calcium-hydroxide",
-      "calcium-ion"
+      "calcium-ion",
+      "calcium-oxide",
+      "calcium-chloride",
+      "calcium-sulfate",
+      "calcium-fluoride",
+      "fluorite-note"
     ]
   },
   {
@@ -1180,7 +1403,9 @@
       "compound": null,
       "noteKo": "타이타늄는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "titanium-dioxide"
+    ]
   },
   {
     "z": 23,
@@ -1278,7 +1503,10 @@
       "compound": null,
       "noteKo": "크로뮴는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "chromium-oxide",
+      "chromate"
+    ]
   },
   {
     "z": 25,
@@ -1328,7 +1556,10 @@
       "compound": null,
       "noteKo": "망가니즈는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "manganese-dioxide",
+      "permanganate"
+    ]
   },
   {
     "z": 26,
@@ -1379,7 +1610,13 @@
       "noteKo": "철 광석을 그냥 구워먹기엔 아깝다. 분말 루트가 효율적이다."
     },
     "relatedMoleculeIds": [
-      "iron-iii-ion"
+      "iron-iii-ion",
+      "iron-ii-oxide",
+      "iron-iii-oxide",
+      "iron-ii-iii-oxide",
+      "iron-ii-ion",
+      "pyrite",
+      "chalcopyrite"
     ]
   },
   {
@@ -1476,7 +1713,9 @@
       "compound": null,
       "noteKo": "니켈는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "nickel-oxide"
+    ]
   },
   {
     "z": 29,
@@ -1526,7 +1765,13 @@
       "compound": "CuCO3",
       "noteKo": "구리 광석 → 산화구리 → 환원."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "copper-i-oxide",
+      "copper-ii-oxide",
+      "copper-sulfate",
+      "copper-ii-ion",
+      "chalcopyrite"
+    ]
   },
   {
     "z": 30,
@@ -1574,7 +1819,13 @@
       "compound": null,
       "noteKo": "아연는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "zinc-oxide",
+      "zinc-sulfate",
+      "zinc-chloride",
+      "zinc-sulfide",
+      "zinc-ion"
+    ]
   },
   {
     "z": 31,
@@ -1819,7 +2070,8 @@
       "noteKo": "할로겐은 브라인·형석 루트."
     },
     "relatedMoleculeIds": [
-      "br2"
+      "br2",
+      "hydrogen-bromide"
     ]
   },
   {
@@ -2397,7 +2649,11 @@
       "compound": null,
       "noteKo": "은는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "silver-nitrate",
+      "silver-chloride",
+      "silver-ion"
+    ]
   },
   {
     "z": 48,
@@ -2541,7 +2797,9 @@
       "compound": null,
       "noteKo": "주석는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "tin-dioxide"
+    ]
   },
   {
     "z": 51,
@@ -2689,7 +2947,8 @@
       "noteKo": "할로겐은 브라인·형석 루트."
     },
     "relatedMoleculeIds": [
-      "i2"
+      "i2",
+      "hydrogen-iodide"
     ]
   },
   {
@@ -3975,7 +4234,9 @@
       "compound": null,
       "noteKo": "수은는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "mercury-oxide"
+    ]
   },
   {
     "z": 81,
@@ -4073,7 +4334,10 @@
       "compound": null,
       "noteKo": "납는 지각 미량 또는 주기율광석 보조 루트."
     },
-    "relatedMoleculeIds": []
+    "relatedMoleculeIds": [
+      "lead-oxide",
+      "lead-sulfide"
+    ]
   },
   {
     "z": 83,

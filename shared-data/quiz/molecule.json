@@ -1,6 +1,6 @@
 [
   {
-    "id": "q067",
+    "id": "q158",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -10,7 +10,7 @@
     "relatedMoleculeId": "water"
   },
   {
-    "id": "q068",
+    "id": "q159",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -20,7 +20,7 @@
     "relatedMoleculeId": "carbon-dioxide"
   },
   {
-    "id": "q069",
+    "id": "q160",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -30,7 +30,7 @@
     "relatedMoleculeId": "methane"
   },
   {
-    "id": "q070",
+    "id": "q161",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 2,
@@ -40,7 +40,7 @@
     "relatedMoleculeId": "glucose"
   },
   {
-    "id": "q071",
+    "id": "q162",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -50,7 +50,7 @@
     "relatedMoleculeId": "ammonia"
   },
   {
-    "id": "q072",
+    "id": "q163",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -60,17 +60,7 @@
     "relatedMoleculeId": "o2"
   },
   {
-    "id": "q073",
-    "mode": "molecule",
-    "type": "parse_count",
-    "difficulty": 1,
-    "promptKo": "O₂에서 원자 총수는?",
-    "correctAnswer": 2,
-    "explanationKo": "산소(O₂)는 O×2이므로 원자 총수는 2입니다. 아래첨자는 원자 개수입니다.",
-    "relatedMoleculeId": "o2"
-  },
-  {
-    "id": "q074",
+    "id": "q164",
     "mode": "molecule",
     "type": "parse_count",
     "difficulty": 1,
@@ -80,7 +70,117 @@
     "relatedMoleculeId": "sodium-chloride"
   },
   {
-    "id": "q075",
+    "id": "q165",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "C₂H₆O에서 원자 총수는?",
+    "correctAnswer": 9,
+    "explanationKo": "에탄올(C₂H₆O)는 C×2, H×6, O×1이므로 원자 총수는 9입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "ethanol"
+  },
+  {
+    "id": "q166",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "H₂SO₄에서 원자 총수는?",
+    "correctAnswer": 7,
+    "explanationKo": "황산(H₂SO₄)는 H×2, S×1, O×4이므로 원자 총수는 7입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "sulfuric-acid"
+  },
+  {
+    "id": "q167",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "CaCO₃에서 원자 총수는?",
+    "correctAnswer": 5,
+    "explanationKo": "탄산 칼슘(CaCO₃)는 Ca×1, C×1, O×3이므로 원자 총수는 5입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "calcium-carbonate"
+  },
+  {
+    "id": "q168",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "H₂O₂에서 원자 총수는?",
+    "correctAnswer": 4,
+    "explanationKo": "과산화 수소(H₂O₂)는 H×2, O×2이므로 원자 총수는 4입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "hydrogen-peroxide"
+  },
+  {
+    "id": "q169",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "C₆H₆에서 원자 총수는?",
+    "correctAnswer": 12,
+    "explanationKo": "벤젠(C₆H₆)는 C×6, H×6이므로 원자 총수는 12입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "benzene"
+  },
+  {
+    "id": "q170",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "CH₄N₂O에서 원자 총수는?",
+    "correctAnswer": 8,
+    "explanationKo": "요소(CH₄N₂O)는 C×1, H×4, N×2, O×1이므로 원자 총수는 8입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "urea"
+  },
+  {
+    "id": "q171",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 3,
+    "promptKo": "C₁₂H₂₂O₁₁에서 원자 총수는?",
+    "correctAnswer": 45,
+    "explanationKo": "수크로스(C₁₂H₂₂O₁₁)는 C×12, H×22, O×11이므로 원자 총수는 45입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "sucrose"
+  },
+  {
+    "id": "q172",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "Fe₂O₃에서 원자 총수는?",
+    "correctAnswer": 5,
+    "explanationKo": "산화 철(III)(Fe₂O₃)는 Fe×2, O×3이므로 원자 총수는 5입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "iron-iii-oxide"
+  },
+  {
+    "id": "q173",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "H₂CO₃에서 원자 총수는?",
+    "correctAnswer": 6,
+    "explanationKo": "탄산(H₂CO₃)는 H×2, C×1, O×3이므로 원자 총수는 6입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "carbonic-acid"
+  },
+  {
+    "id": "q174",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "CHCl₃에서 원자 총수는?",
+    "correctAnswer": 5,
+    "explanationKo": "클로로폼(CHCl₃)는 C×1, H×1, Cl×3이므로 원자 총수는 5입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "chloroform"
+  },
+  {
+    "id": "q175",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 3,
+    "promptKo": "C₂H₅NO₂에서 원자 총수는?",
+    "correctAnswer": 10,
+    "explanationKo": "글리신(C₂H₅NO₂)는 C×2, H×5, N×1, O×2이므로 원자 총수는 10입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "glycine"
+  },
+  {
+    "id": "q176",
     "mode": "molecule",
     "type": "classify",
     "difficulty": 1,
@@ -95,7 +195,7 @@
     "relatedMoleculeId": "o2"
   },
   {
-    "id": "q076",
+    "id": "q177",
     "mode": "molecule",
     "type": "classify",
     "difficulty": 1,
@@ -111,7 +211,7 @@
     "relatedMoleculeId": "water"
   },
   {
-    "id": "q077",
+    "id": "q178",
     "mode": "molecule",
     "type": "name_to_formula",
     "difficulty": 1,
@@ -125,5 +225,37 @@
     "correctAnswer": "H2O",
     "explanationKo": "물은 수소 2개+산소 1개의 분자이므로 H₂O입니다.",
     "relatedMoleculeId": "water"
+  },
+  {
+    "id": "q188",
+    "mode": "molecule",
+    "type": "classify",
+    "difficulty": 2,
+    "promptKo": "Fe₂O₃에서 철 원자는 몇 개인가?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctAnswer": "2",
+    "explanationKo": "아래첨자 2는 철 원자 2개를 뜻합니다. 산소는 3개입니다.",
+    "relatedMoleculeId": "iron-iii-oxide"
+  },
+  {
+    "id": "q189",
+    "mode": "molecule",
+    "type": "name_to_formula",
+    "difficulty": 2,
+    "promptKo": "이산화탄소의 분자식은?",
+    "choices": [
+      "CO",
+      "CO2",
+      "C2O",
+      "CaO"
+    ],
+    "correctAnswer": "CO2",
+    "explanationKo": "이산화탄소는 탄소 1개+산소 2개이므로 CO₂입니다.",
+    "relatedMoleculeId": "carbon-dioxide"
   }
 ]

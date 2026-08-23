@@ -2,6 +2,8 @@ package com.appiemon.wonso.gameplay;
 
 import com.appiemon.wonso.WonsoMod;
 import com.appiemon.wonso.data.WonsoPlayerState;
+import net.minecraft.advancements.AdvancementHolder;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 
@@ -17,7 +19,7 @@ public final class DiscoveryManager {
 		boolean added = state.discoverElement(symbol);
 		player.setAttached(ElementEnergyManager.STATE, state);
 		if (added && player instanceof ServerPlayer serverPlayer) {
-			grant(serverPlayer, "wonso/first_element");
+			grant(serverPlayer, "first_element");
 		}
 		return added;
 	}
@@ -27,8 +29,8 @@ public final class DiscoveryManager {
 		boolean added = state.discoverMolecule(id);
 		player.setAttached(ElementEnergyManager.STATE, state);
 		if (added && player instanceof ServerPlayer serverPlayer) {
-			grant(serverPlayer, "wonso/molecule_dex");
-			grant(serverPlayer, "wonso/first_synthesis");
+			grant(serverPlayer, "molecule_dex");
+			grant(serverPlayer, "first_synthesis");
 		}
 		return added;
 	}
@@ -38,7 +40,7 @@ public final class DiscoveryManager {
 		state.tableOpened = true;
 		player.setAttached(ElementEnergyManager.STATE, state);
 		if (player instanceof ServerPlayer serverPlayer) {
-			grant(serverPlayer, "wonso/open_periodic_table");
+			grant(serverPlayer, "open_periodic_table");
 		}
 	}
 
@@ -47,23 +49,39 @@ public final class DiscoveryManager {
 		state.atomViewed = true;
 		player.setAttached(ElementEnergyManager.STATE, state);
 		if (player instanceof ServerPlayer serverPlayer) {
-			grant(serverPlayer, "wonso/atom_view");
+			grant(serverPlayer, "atom_view");
 		}
 	}
 
 	public static void markEnergyConvert(ServerPlayer player) {
-		grant(player, "wonso/energy_convert");
+		grant(player, "energy_convert");
 	}
 
 	public static void markEnergySkill(ServerPlayer player) {
-		grant(player, "wonso/energy_skill");
+		grant(player, "energy_skill");
 	}
 
 	public static void markSynergy(ServerPlayer player) {
-		grant(player, "wonso/group_synergy");
+		grant(player, "group_synergy");
 	}
 
-	private static void grant(ServerPlayer player, String path) {
-		WonsoMod.LOGGER.debug("advancement {}", path);
+	public static void grant(ServerPlayer player, String path) {
+		if (player == null || path == null || path.isBlank()) {
+			return;
+		}
+		String idPath = path.contains(":") ? path.substring(path.indexOf(':') + 1) : path.replace("wonso/", "");
+		Identifier id = WonsoMod.id(idPath);
+		try {
+			var server = player.level().getServer();
+			if (server == null) {
+				return;
+			}
+			AdvancementHolder holder = server.getAdvancements().get(id);
+			if (holder != null) {
+				player.getAdvancements().award(holder, "wonso");
+			}
+		} catch (Exception e) {
+			WonsoMod.LOGGER.debug("advancement {} skipped: {}", id, e.toString());
+		}
 	}
 }

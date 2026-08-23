@@ -1,6 +1,8 @@
 package com.appiemon.wonso.block;
 
+import com.appiemon.wonso.gameplay.BattleManager;
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
@@ -22,6 +24,9 @@ public class MachineBlock extends Block {
 
 	@Override
 	protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
+		if (!level.isClientSide() && player instanceof ServerPlayer serverPlayer && "element_shrine".equals(machineId)) {
+			BattleManager.startShrine(serverPlayer);
+		}
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -78,6 +78,9 @@ public final class WonsoItems {
 					output.accept(CHEMISTRY_JOURNAL);
 					output.accept(GUIDE_BOOK);
 					output.accept(REFINING_CATALYST);
+					output.accept(STELLAR_CORE);
+					output.accept(NEUTRON_STAR_FRAGMENT);
+					output.accept(BLACK_HOLE_ESSENCE);
 					ELEMENT_CARDS.values().forEach(output::accept);
 					MOLECULE_CARDS.values().forEach(output::accept);
 					INTERMEDIATES.values().forEach(output::accept);
