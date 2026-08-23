@@ -1,0 +1,131 @@
+[
+  {
+    "id": "slurry-si",
+    "inputs": [
+      {
+        "id": "silica_grit",
+        "count": 4
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "id": "murky_silicon_slurry",
+        "count": 2
+      },
+      {
+        "id": "waste_sludge",
+        "count": 1
+      }
+    ],
+    "ticks": 200
+  },
+  {
+    "id": "slurry-fe",
+    "inputs": [
+      {
+        "id": "iron_ore_powder",
+        "count": 4
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "id": "iron_slurry",
+        "count": 2
+      },
+      {
+        "id": "sulfur_trace",
+        "count": 1,
+        "chance": 0.35
+      }
+    ],
+    "ticks": 220
+  },
+  {
+    "id": "charcoal-residue",
+    "inputs": [
+      {
+        "item": "minecraft:charcoal",
+        "count": 16
+      }
+    ],
+    "outputs": [
+      {
+        "id": "carbon_residue",
+        "count": 4
+      },
+      {
+        "id": "ash",
+        "count": 8
+      }
+    ],
+    "ticks": 160
+  },
+  {
+    "id": "electro-water",
+    "inputs": [
+      {
+        "item": "minecraft:water_bucket",
+        "count": 4
+      },
+      {
+        "item": "minecraft:redstone",
+        "count": 8
+      }
+    ],
+    "outputs": [
+      {
+        "id": "electrolyzed_hydrogen",
+        "count": 1
+      },
+      {
+        "id": "oxygen_bubble",
+        "count": 1
+      }
+    ],
+    "ticks": 400
+  },
+  {
+    "id": "brine",
+    "inputs": [
+      {
+        "item": "minecraft:kelp",
+        "count": 32
+      },
+      {
+        "item": "minecraft:sand",
+        "count": 16
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "id": "salt_brine",
+        "count": 2
+      },
+      {
+        "id": "waste_sludge",
+        "count": 1
+      }
+    ],
+    "ticks": 300
+  }
+]

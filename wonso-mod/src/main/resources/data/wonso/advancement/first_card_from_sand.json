@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:element_card_si"
+    },
+    "title": {
+      "text": "모래에서 규소"
+    },
+    "description": {
+      "text": "Si 카드"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:first_impure"
+}

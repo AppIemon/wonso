@@ -1,0 +1,33 @@
+[
+  {
+    "id": "fusion-he",
+    "inputs": [
+      "H",
+      "H"
+    ],
+    "output": "He",
+    "energyCost": 30,
+    "tier": 1
+  },
+  {
+    "id": "fusion-c",
+    "inputs": [
+      "He",
+      "He",
+      "He"
+    ],
+    "output": "C",
+    "energyCost": 60,
+    "tier": 1
+  },
+  {
+    "id": "fusion-og",
+    "inputs": [
+      "U",
+      "C"
+    ],
+    "output": "Og",
+    "energyCost": 200,
+    "tier": 3
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "refine-si",
+    "tier": 1,
+    "success": 0.65,
+    "inputs": [
+      {
+        "id": "murky_silicon_slurry",
+        "count": 2
+      }
+    ],
+    "output": {
+      "id": "impure_Si",
+      "count": 1
+    },
+    "byproducts": [
+      {
+        "id": "slag",
+        "count": 1
+      }
+    ],
+    "ticks": 400
+  },
+  {
+    "id": "refine-fe",
+    "tier": 1,
+    "success": 0.65,
+    "inputs": [
+      {
+        "id": "iron_slurry",
+        "count": 2
+      }
+    ],
+    "output": {
+      "id": "impure_Fe",
+      "count": 1
+    },
+    "byproducts": [
+      {
+        "id": "slag",
+        "count": 1
+      }
+    ],
+    "ticks": 360
+  },
+  {
+    "id": "refine-c",
+    "tier": 1,
+    "success": 0.65,
+    "inputs": [
+      {
+        "id": "carbon_residue",
+        "count": 4
+      }
+    ],
+    "output": {
+      "id": "impure_C",
+      "count": 1
+    },
+    "byproducts": [
+      {
+        "id": "ash",
+        "count": 2
+      }
+    ],
+    "ticks": 300
+  },
+  {
+    "id": "refine-o",
+    "tier": 1,
+    "success": 0.65,
+    "inputs": [
+      {
+        "id": "oxygen_bubble",
+        "count": 2
+      }
+    ],
+    "output": {
+      "id": "impure_O",
+      "count": 1
+    },
+    "byproducts": [],
+    "ticks": 280
+  },
+  {
+    "id": "refine-h",
+    "tier": 1,
+    "success": 0.65,
+    "inputs": [
+      {
+        "id": "electrolyzed_hydrogen",
+        "count": 2
+      }
+    ],
+    "output": {
+      "id": "impure_H",
+      "count": 1
+    },
+    "byproducts": [],
+    "ticks": 280
+  },
+  {
+    "id": "refine-nacl",
+    "tier": 2,
+    "success": 0.45,
+    "inputs": [
+      {
+        "id": "salt_brine",
+        "count": 2
+      }
+    ],
+    "output": {
+      "id": "impure_Cl",
+      "count": 1,
+      "alt": {
+        "id": "impure_Na",
+        "weight": 0.4
+      }
+    },
+    "byproducts": [
+      {
+        "id": "toxic_waste",
+        "count": 1
+      }
+    ],
+    "ticks": 500,
+    "exclusive": true
+  },
+  {
+    "id": "refine-cu",
+    "tier": 2,
+    "success": 0.45,
+    "inputs": [
+      {
+        "item": "minecraft:raw_copper",
+        "count": 16
+      }
+    ],
+    "output": {
+      "id": "impure_Cu",
+      "count": 1
+    },
+    "byproducts": [
+      {
+        "id": "slag",
+        "count": 2
+      }
+    ],
+    "ticks": 420
+  },
+  {
+    "id": "ingot-fe-penalty",
+    "tier": 1,
+    "success": 1.0,
+    "inputs": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      }
+    ],
+    "output": {
+      "id": "impure_Fe",
+      "count": 1
+    },
+    "byproducts": [],
+    "ticks": 200,
+    "noteKo": "광석을 쓰세요"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "protostar",
+    "nameKo": "원시별",
+    "costEnergy": 50,
+    "drawBonus": 2,
+    "debuff": null
+  },
+  {
+    "id": "neutron_star",
+    "nameKo": "중성자별",
+    "costEnergy": 80,
+    "drawBonus": 4,
+    "debuff": "slowness"
+  },
+  {
+    "id": "black_hole",
+    "nameKo": "블랙홀",
+    "costEnergy": 120,
+    "drawBonus": 8,
+    "debuff": "wither_trace"
+  }
+]

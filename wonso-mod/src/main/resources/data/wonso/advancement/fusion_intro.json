@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:fusion_chamber"
+    },
+    "title": {
+      "text": "핵융합 입문"
+    },
+    "description": {
+      "text": "핵융합"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:group_synergy"
+}

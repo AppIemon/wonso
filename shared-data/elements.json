@@ -1,0 +1,5796 @@
+[
+  {
+    "z": 1,
+    "symbol": "H",
+    "nameKo": "수소",
+    "nameEn": "Hydrogen",
+    "atomicMass": 1.008,
+    "massUncertainty": null,
+    "period": 1,
+    "group": 1,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "1s¹",
+    "electronegativity": 2.2,
+    "density": 8.99e-05,
+    "yearDiscovered": "고대",
+    "displayRow": 1,
+    "displayColumn": 1,
+    "aliasesKo": [
+      "하이드로젠"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "수소(H, Z=1)는 주기율표 1주기 1족의 반응성 비금속입니다. 원소(종류)·원자(한 입자)·분자(H₂, H₂O)를 구분하는 모범 사례입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 5,
+      "speed": 13,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 1,
+      "tier": "T1",
+      "crustMassPercent": 0.14,
+      "process": "전기분해",
+      "vanilla": [
+        "water_bucket",
+        "redstone"
+      ],
+      "compound": "H2O",
+      "noteKo": "물은 수소 원소가 아니라 H₂O. 전기분해로 H와 O를 나눈다."
+    },
+    "relatedMoleculeIds": [
+      "h2",
+      "water",
+      "ammonia",
+      "hydrogen-chloride",
+      "hydrogen-sulfide",
+      "sulfuric-acid",
+      "nitric-acid",
+      "phosphoric-acid",
+      "methane",
+      "ethane",
+      "ethene",
+      "ethyne",
+      "propane",
+      "methanol",
+      "ethanol",
+      "acetic-acid",
+      "glucose",
+      "acetone",
+      "hydrogen-peroxide",
+      "sodium-hydroxide",
+      "calcium-hydroxide",
+      "hydroxide",
+      "ammonium"
+    ]
+  },
+  {
+    "z": 2,
+    "symbol": "He",
+    "nameKo": "헬륨",
+    "nameEn": "Helium",
+    "atomicMass": 4.0026,
+    "massUncertainty": null,
+    "period": 1,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "1s²",
+    "electronegativity": null,
+    "density": 0.0001785,
+    "yearDiscovered": "1868",
+    "displayRow": 1,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "헬륨(He, Z=2)는 주기율표 1주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 2,
+      "health": 12,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 4,
+      "defense": 6,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 2,
+      "tier": "T3",
+      "crustMassPercent": 8e-07,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 3,
+    "symbol": "Li",
+    "nameKo": "리튬",
+    "nameEn": "Lithium",
+    "atomicMass": 6.94,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[He] 2s¹",
+    "electronegativity": 0.98,
+    "density": 0.534,
+    "yearDiscovered": "1817",
+    "displayRow": 2,
+    "displayColumn": 1,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "리튬(Li, Z=3)는 주기율표 2주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 4,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 24,
+      "attack": 10,
+      "defense": 7,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 3,
+      "tier": "T3",
+      "crustMassPercent": 0.002,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "리튬는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 4,
+    "symbol": "Be",
+    "nameKo": "베릴륨",
+    "nameEn": "Beryllium",
+    "atomicMass": 9.0122,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[He] 2s²",
+    "electronegativity": 1.57,
+    "density": 1.85,
+    "yearDiscovered": "1798",
+    "displayRow": 2,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "베릴륨(Be, Z=4)는 주기율표 2주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 8,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 4,
+      "tier": "T3",
+      "crustMassPercent": 0.00028,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "베릴륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 5,
+    "symbol": "B",
+    "nameKo": "붕소",
+    "nameEn": "Boron",
+    "atomicMass": 10.81,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 13,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[He] 2s² 2p¹",
+    "electronegativity": 2.04,
+    "density": 2.34,
+    "yearDiscovered": "1808",
+    "displayRow": 2,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "붕소(B, Z=5)는 주기율표 2주기 13족의 준금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 9,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 5,
+      "tier": "T3",
+      "crustMassPercent": 0.001,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "붕소는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 6,
+    "symbol": "C",
+    "nameKo": "탄소",
+    "nameEn": "Carbon",
+    "atomicMass": 12.011,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 14,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[He] 2s² 2p²",
+    "electronegativity": 2.55,
+    "density": 2.267,
+    "yearDiscovered": "고대",
+    "displayRow": 2,
+    "displayColumn": 14,
+    "aliasesKo": [
+      "카본"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "탄소(C, Z=6)는 주기율표 2주기 14족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "uncommon",
+      "cost": 2,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 10,
+      "speed": 8,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 6,
+      "tier": "T2",
+      "crustMassPercent": 0.02,
+      "process": "건조분해",
+      "vanilla": [
+        "charcoal",
+        "coal"
+      ],
+      "compound": "C",
+      "noteKo": "나무와 석탄은 탄소의 저장고."
+    },
+    "relatedMoleculeIds": [
+      "carbon-dioxide",
+      "carbon-monoxide",
+      "calcium-carbonate",
+      "methane",
+      "ethane",
+      "ethene",
+      "ethyne",
+      "propane",
+      "methanol",
+      "ethanol",
+      "acetic-acid",
+      "glucose",
+      "acetone",
+      "carbonate",
+      "sodium-carbonate"
+    ]
+  },
+  {
+    "z": 7,
+    "symbol": "N",
+    "nameKo": "질소",
+    "nameEn": "Nitrogen",
+    "atomicMass": 14.007,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 15,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[He] 2s² 2p³",
+    "electronegativity": 3.04,
+    "density": 0.001251,
+    "yearDiscovered": "1772",
+    "displayRow": 2,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "질소(N, Z=7)는 주기율표 2주기 15족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "uncommon",
+      "cost": 2,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 4,
+      "speed": 7,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 7,
+      "tier": "T2",
+      "crustMassPercent": 0.002,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "N2",
+      "noteKo": "공기의 78%는 질소. 분별 증류."
+    },
+    "relatedMoleculeIds": [
+      "n2",
+      "ammonia",
+      "nitrogen-dioxide",
+      "nitric-acid",
+      "nitrate",
+      "ammonium"
+    ]
+  },
+  {
+    "z": 8,
+    "symbol": "O",
+    "nameKo": "산소",
+    "nameEn": "Oxygen",
+    "atomicMass": 15.999,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 16,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[He] 2s² 2p⁴",
+    "electronegativity": 3.44,
+    "density": 0.001429,
+    "yearDiscovered": "1774",
+    "displayRow": 2,
+    "displayColumn": 16,
+    "aliasesKo": [
+      "옥시전"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "산소(O, Z=8)는 주기율표 2주기 16족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 5,
+      "speed": 6,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 8,
+      "tier": "T0",
+      "crustMassPercent": 46.1,
+      "process": "전기분해",
+      "vanilla": [
+        "water_bucket",
+        "redstone"
+      ],
+      "compound": "H2O",
+      "noteKo": "산소는 물 전기분해 또는 공기 분별로 얻는다."
+    },
+    "relatedMoleculeIds": [
+      "o2",
+      "o3",
+      "water",
+      "carbon-dioxide",
+      "sulfur-dioxide",
+      "nitrogen-dioxide",
+      "carbon-monoxide",
+      "silicon-dioxide",
+      "sulfuric-acid",
+      "nitric-acid",
+      "phosphoric-acid",
+      "calcium-carbonate",
+      "methanol",
+      "ethanol",
+      "acetic-acid",
+      "glucose",
+      "acetone",
+      "hydrogen-peroxide",
+      "sodium-hydroxide",
+      "calcium-hydroxide",
+      "magnesium-oxide",
+      "aluminium-oxide",
+      "sulfate",
+      "nitrate",
+      "hydroxide",
+      "carbonate",
+      "phosphate",
+      "sodium-carbonate"
+    ]
+  },
+  {
+    "z": 9,
+    "symbol": "F",
+    "nameKo": "플루오린",
+    "nameEn": "Fluorine",
+    "atomicMass": 18.998,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[He] 2s² 2p⁵",
+    "electronegativity": 3.98,
+    "density": 0.001696,
+    "yearDiscovered": "1886",
+    "displayRow": 2,
+    "displayColumn": 17,
+    "aliasesKo": [
+      "불소",
+      "플로린"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "플루오린(F, Z=9)는 주기율표 2주기 17족의 할로겐입니다.",
+    "card": {
+      "attack": 9,
+      "health": 5,
+      "rarity": "uncommon",
+      "cost": 2,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 30,
+      "attack": 11,
+      "defense": 6,
+      "speed": 16,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 9,
+      "tier": "T2",
+      "crustMassPercent": 0.054,
+      "process": "증류",
+      "vanilla": [
+        "kelp",
+        "water_bucket"
+      ],
+      "compound": "brine",
+      "noteKo": "할로겐은 브라인·형석 루트."
+    },
+    "relatedMoleculeIds": [
+      "f2"
+    ]
+  },
+  {
+    "z": 10,
+    "symbol": "Ne",
+    "nameKo": "네온",
+    "nameEn": "Neon",
+    "atomicMass": 20.18,
+    "massUncertainty": null,
+    "period": 2,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[He] 2s² 2p⁶",
+    "electronegativity": null,
+    "density": 0.0009,
+    "yearDiscovered": "1898",
+    "displayRow": 2,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "네온(Ne, Z=10)는 주기율표 2주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 2,
+      "health": 12,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 4,
+      "defense": 7,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 10,
+      "tier": "T3",
+      "crustMassPercent": 5e-07,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 11,
+    "symbol": "Na",
+    "nameKo": "나트륨",
+    "nameEn": "Sodium",
+    "atomicMass": 22.99,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s¹",
+    "electronegativity": 0.93,
+    "density": 0.968,
+    "yearDiscovered": "1807",
+    "displayRow": 3,
+    "displayColumn": 1,
+    "aliasesKo": [
+      "소듐"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "나트륨(Na, Z=11)는 주기율표 3주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 4,
+      "rarity": "common",
+      "cost": 1,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 24,
+      "attack": 10,
+      "defense": 8,
+      "speed": 14,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 11,
+      "tier": "T1",
+      "crustMassPercent": 2.3,
+      "process": "전기분해",
+      "vanilla": [
+        "kelp",
+        "sand",
+        "water_bucket"
+      ],
+      "compound": "NaCl",
+      "noteKo": "바다와 모래 사이 어딘가에 나트륨이… 식염 전기분해."
+    },
+    "relatedMoleculeIds": [
+      "sodium-chloride",
+      "sodium-hydroxide",
+      "sodium-ion",
+      "sodium-carbonate"
+    ]
+  },
+  {
+    "z": 12,
+    "symbol": "Mg",
+    "nameKo": "마그네슘",
+    "nameEn": "Magnesium",
+    "atomicMass": 24.305,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s²",
+    "electronegativity": 1.31,
+    "density": 1.738,
+    "yearDiscovered": "1755",
+    "displayRow": 3,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "마그네슘(Mg, Z=12)는 주기율표 3주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 9,
+      "speed": 13,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 12,
+      "tier": "T1",
+      "crustMassPercent": 2.9,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "마그네슘는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": [
+      "magnesium-oxide"
+    ]
+  },
+  {
+    "z": 13,
+    "symbol": "Al",
+    "nameKo": "알루미늄",
+    "nameEn": "Aluminium",
+    "atomicMass": 26.982,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 13,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s² 3p¹",
+    "electronegativity": 1.61,
+    "density": 2.7,
+    "yearDiscovered": "1825",
+    "displayRow": 3,
+    "displayColumn": 13,
+    "aliasesKo": [
+      "알류미늄"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "알루미늄(Al, Z=13)는 주기율표 3주기 13족의 전이후금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 10,
+      "speed": 12,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 13,
+      "tier": "T1",
+      "crustMassPercent": 8.23,
+      "process": "전기분해",
+      "vanilla": [
+        "clay_ball",
+        "redstone"
+      ],
+      "compound": "Al2O3",
+      "noteKo": "현실도 알루미늄은 전기 지옥. 점토→알루미나→전해."
+    },
+    "relatedMoleculeIds": [
+      "aluminium-oxide"
+    ]
+  },
+  {
+    "z": 14,
+    "symbol": "Si",
+    "nameKo": "규소",
+    "nameEn": "Silicon",
+    "atomicMass": 28.085,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 14,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s² 3p²",
+    "electronegativity": 1.9,
+    "density": 2.329,
+    "yearDiscovered": "1824",
+    "displayRow": 3,
+    "displayColumn": 14,
+    "aliasesKo": [
+      "실리콘"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "규소(Si, Z=14)는 주기율표 3주기 14족의 준금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 4,
+      "speed": 11,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 14,
+      "tier": "T1",
+      "crustMassPercent": 28.2,
+      "process": "고온 환원",
+      "vanilla": [
+        "sand",
+        "charcoal"
+      ],
+      "compound": "SiO2",
+      "noteKo": "모래는 규소가 아니라 이산화규소. 탄소로 산소를 빼야 한다."
+    },
+    "relatedMoleculeIds": [
+      "silicon-dioxide"
+    ]
+  },
+  {
+    "z": 15,
+    "symbol": "P",
+    "nameKo": "인",
+    "nameEn": "Phosphorus",
+    "atomicMass": 30.974,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 15,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s² 3p³",
+    "electronegativity": 2.19,
+    "density": 1.82,
+    "yearDiscovered": "1669",
+    "displayRow": 3,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "인(P, Z=15)는 주기율표 3주기 15족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "uncommon",
+      "cost": 2,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 5,
+      "speed": 10,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 15,
+      "tier": "T2",
+      "crustMassPercent": 0.1,
+      "process": "산 처리",
+      "vanilla": [
+        "bone"
+      ],
+      "compound": "Ca3(PO4)2",
+      "noteKo": "뼈를 분쇄하면 인회석 루트."
+    },
+    "relatedMoleculeIds": [
+      "white-phosphorus",
+      "phosphoric-acid",
+      "phosphate"
+    ]
+  },
+  {
+    "z": 16,
+    "symbol": "S",
+    "nameKo": "황",
+    "nameEn": "Sulfur",
+    "atomicMass": 32.06,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 16,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ne] 3s² 3p⁴",
+    "electronegativity": 2.58,
+    "density": 2.067,
+    "yearDiscovered": "고대",
+    "displayRow": 3,
+    "displayColumn": 16,
+    "aliasesKo": [
+      "설퍼"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "황(S, Z=16)는 주기율표 3주기 16족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 6,
+      "rarity": "common",
+      "cost": 1,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 7,
+      "defense": 6,
+      "speed": 9,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 16,
+      "tier": "T1",
+      "crustMassPercent": 0.042,
+      "process": "정광",
+      "vanilla": [
+        "blaze_powder",
+        "nether_quartz"
+      ],
+      "compound": "S",
+      "noteKo": "황은 네더 황화물·블레이즈에서."
+    },
+    "relatedMoleculeIds": [
+      "sulfur-dioxide",
+      "hydrogen-sulfide",
+      "octasulfur",
+      "sulfuric-acid",
+      "sulfate"
+    ]
+  },
+  {
+    "z": 17,
+    "symbol": "Cl",
+    "nameKo": "염소",
+    "nameEn": "Chlorine",
+    "atomicMass": 35.45,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[Ne] 3s² 3p⁵",
+    "electronegativity": 3.16,
+    "density": 0.003214,
+    "yearDiscovered": "1774",
+    "displayRow": 3,
+    "displayColumn": 17,
+    "aliasesKo": [
+      "클로린"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "염소(Cl, Z=17)는 주기율표 3주기 17족의 할로겐입니다.",
+    "card": {
+      "attack": 9,
+      "health": 5,
+      "rarity": "uncommon",
+      "cost": 2,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 30,
+      "attack": 11,
+      "defense": 7,
+      "speed": 8,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 17,
+      "tier": "T2",
+      "crustMassPercent": 0.017,
+      "process": "전기분해",
+      "vanilla": [
+        "kelp",
+        "water_bucket"
+      ],
+      "compound": "NaCl",
+      "noteKo": "염소는 나트륨과 같은 브라인에서 따로 순화된다."
+    },
+    "relatedMoleculeIds": [
+      "cl2",
+      "hydrogen-chloride",
+      "sodium-chloride",
+      "chloride-ion"
+    ]
+  },
+  {
+    "z": 18,
+    "symbol": "Ar",
+    "nameKo": "아르곤",
+    "nameEn": "Argon",
+    "atomicMass": 39.948,
+    "massUncertainty": null,
+    "period": 3,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[Ne] 3s² 3p⁶",
+    "electronegativity": null,
+    "density": 0.001784,
+    "yearDiscovered": "1894",
+    "displayRow": 3,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아르곤(Ar, Z=18)는 주기율표 3주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 2,
+      "health": 12,
+      "rarity": "rare",
+      "cost": 3,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 4,
+      "defense": 8,
+      "speed": 7,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 18,
+      "tier": "T3",
+      "crustMassPercent": 0.00035,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 19,
+    "symbol": "K",
+    "nameKo": "칼륨",
+    "nameEn": "Potassium",
+    "atomicMass": 39.098,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 4s¹",
+    "electronegativity": 0.82,
+    "density": 0.862,
+    "yearDiscovered": "1807",
+    "displayRow": 4,
+    "displayColumn": 1,
+    "aliasesKo": [
+      "포타슘"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "칼륨(K, Z=19)는 주기율표 4주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 4,
+      "rarity": "common",
+      "cost": 1,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 24,
+      "attack": 10,
+      "defense": 9,
+      "speed": 6,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 19,
+      "tier": "T1",
+      "crustMassPercent": 1.5,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "칼륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 20,
+    "symbol": "Ca",
+    "nameKo": "칼슘",
+    "nameEn": "Calcium",
+    "atomicMass": 40.078,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 4s²",
+    "electronegativity": 1.0,
+    "density": 1.55,
+    "yearDiscovered": "고대",
+    "displayRow": 4,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "칼슘(Ca, Z=20)는 주기율표 4주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 4,
+      "health": 6,
+      "rarity": "common",
+      "cost": 2,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 6,
+      "defense": 10,
+      "speed": 16,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 20,
+      "tier": "T1",
+      "crustMassPercent": 5.0,
+      "process": "열분해",
+      "vanilla": [
+        "calcite",
+        "bone"
+      ],
+      "compound": "CaCO3",
+      "noteKo": "해얼돌·뼈는 탄산칼슘/인산칼슘."
+    },
+    "relatedMoleculeIds": [
+      "calcium-carbonate",
+      "calcium-hydroxide",
+      "calcium-ion"
+    ]
+  },
+  {
+    "z": 21,
+    "symbol": "Sc",
+    "nameKo": "스칸듐",
+    "nameEn": "Scandium",
+    "atomicMass": 44.956,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 3,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹ 4s²",
+    "electronegativity": 1.36,
+    "density": 2.985,
+    "yearDiscovered": "1879",
+    "displayRow": 4,
+    "displayColumn": 3,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "스칸듐(Sc, Z=21)는 주기율표 4주기 3족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 8,
+      "defense": 4,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 21,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "스칸듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 22,
+    "symbol": "Ti",
+    "nameKo": "타이타늄",
+    "nameEn": "Titanium",
+    "atomicMass": 47.867,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 4,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d² 4s²",
+    "electronegativity": 1.54,
+    "density": 4.506,
+    "yearDiscovered": "1791",
+    "displayRow": 4,
+    "displayColumn": 4,
+    "aliasesKo": [
+      "티타늄"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "타이타늄(Ti, Z=22)는 주기율표 4주기 4족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 8,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 8,
+      "defense": 5,
+      "speed": 14,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 22,
+      "tier": "T2",
+      "crustMassPercent": 0.56,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "타이타늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 23,
+    "symbol": "V",
+    "nameKo": "바나듐",
+    "nameEn": "Vanadium",
+    "atomicMass": 50.942,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 5,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d³ 4s²",
+    "electronegativity": 1.63,
+    "density": 6.11,
+    "yearDiscovered": "1801",
+    "displayRow": 4,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "바나듐(V, Z=23)는 주기율표 4주기 5족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 8,
+      "defense": 6,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 23,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "바나듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 24,
+    "symbol": "Cr",
+    "nameKo": "크로뮴",
+    "nameEn": "Chromium",
+    "atomicMass": 51.996,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 6,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d⁵ 4s¹",
+    "electronegativity": 1.66,
+    "density": 7.15,
+    "yearDiscovered": "1797",
+    "displayRow": 4,
+    "displayColumn": 6,
+    "aliasesKo": [
+      "크롬"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "크로뮴(Cr, Z=24)는 주기율표 4주기 6족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 8,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 8,
+      "defense": 7,
+      "speed": 12,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 24,
+      "tier": "T2",
+      "crustMassPercent": 0.014,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "크로뮴는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 25,
+    "symbol": "Mn",
+    "nameKo": "망가니즈",
+    "nameEn": "Manganese",
+    "atomicMass": 54.938,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 7,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d⁵ 4s²",
+    "electronegativity": 1.55,
+    "density": 7.21,
+    "yearDiscovered": "1774",
+    "displayRow": 4,
+    "displayColumn": 7,
+    "aliasesKo": [
+      "망간"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "망가니즈(Mn, Z=25)는 주기율표 4주기 7족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 8,
+      "speed": 11,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 25,
+      "tier": "T2",
+      "crustMassPercent": 0.11,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "망가니즈는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 26,
+    "symbol": "Fe",
+    "nameKo": "철",
+    "nameEn": "Iron",
+    "atomicMass": 55.845,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 8,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d⁶ 4s²",
+    "electronegativity": 1.83,
+    "density": 7.874,
+    "yearDiscovered": "고대",
+    "displayRow": 4,
+    "displayColumn": 8,
+    "aliasesKo": [
+      "아이언"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "철(Fe, Z=26)는 주기율표 4주기 8족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "common",
+      "cost": 2,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 9,
+      "speed": 10,
+      "rarity": "common"
+    },
+    "extraction": {
+      "z": 26,
+      "tier": "T1",
+      "crustMassPercent": 5.6,
+      "process": "정광",
+      "vanilla": [
+        "raw_iron",
+        "coal"
+      ],
+      "compound": "Fe2O3",
+      "noteKo": "철 광석을 그냥 구워먹기엔 아깝다. 분말 루트가 효율적이다."
+    },
+    "relatedMoleculeIds": [
+      "iron-iii-ion"
+    ]
+  },
+  {
+    "z": 27,
+    "symbol": "Co",
+    "nameKo": "코발트",
+    "nameEn": "Cobalt",
+    "atomicMass": 58.933,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 9,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d⁷ 4s²",
+    "electronegativity": 1.88,
+    "density": 8.9,
+    "yearDiscovered": "1735",
+    "displayRow": 4,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "코발트(Co, Z=27)는 주기율표 4주기 9족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 10,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 27,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "코발트는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 28,
+    "symbol": "Ni",
+    "nameKo": "니켈",
+    "nameEn": "Nickel",
+    "atomicMass": 58.693,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 10,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d⁸ 4s²",
+    "electronegativity": 1.91,
+    "density": 8.908,
+    "yearDiscovered": "1751",
+    "displayRow": 4,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "니켈(Ni, Z=28)는 주기율표 4주기 10족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 4,
+      "speed": 8,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 28,
+      "tier": "T2",
+      "crustMassPercent": 0.0084,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "니켈는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 29,
+    "symbol": "Cu",
+    "nameKo": "구리",
+    "nameEn": "Copper",
+    "atomicMass": 63.546,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 11,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s¹",
+    "electronegativity": 1.9,
+    "density": 8.96,
+    "yearDiscovered": "고대",
+    "displayRow": 4,
+    "displayColumn": 11,
+    "aliasesKo": [
+      "코퍼"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "구리(Cu, Z=29)는 주기율표 4주기 11족의 전이금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 5,
+      "speed": 7,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 29,
+      "tier": "T2",
+      "crustMassPercent": 0.0068,
+      "process": "정광",
+      "vanilla": [
+        "raw_copper",
+        "coal"
+      ],
+      "compound": "CuCO3",
+      "noteKo": "구리 광석 → 산화구리 → 환원."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 30,
+    "symbol": "Zn",
+    "nameKo": "아연",
+    "nameEn": "Zinc",
+    "atomicMass": 65.38,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 12,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s²",
+    "electronegativity": 1.65,
+    "density": 7.14,
+    "yearDiscovered": "고대",
+    "displayRow": 4,
+    "displayColumn": 12,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아연(Zn, Z=30)는 주기율표 4주기 12족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "uncommon",
+      "cost": 3,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 6,
+      "speed": 6,
+      "rarity": "uncommon"
+    },
+    "extraction": {
+      "z": 30,
+      "tier": "T2",
+      "crustMassPercent": 0.0078,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "아연는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 31,
+    "symbol": "Ga",
+    "nameKo": "갈륨",
+    "nameEn": "Gallium",
+    "atomicMass": 69.723,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 13,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p¹",
+    "electronegativity": 1.81,
+    "density": 5.91,
+    "yearDiscovered": "1875",
+    "displayRow": 4,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "갈륨(Ga, Z=31)는 주기율표 4주기 13족의 전이후금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 7,
+      "defense": 7,
+      "speed": 16,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 31,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "갈륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 32,
+    "symbol": "Ge",
+    "nameKo": "저마늄",
+    "nameEn": "Germanium",
+    "atomicMass": 72.63,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 14,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p²",
+    "electronegativity": 2.01,
+    "density": 5.323,
+    "yearDiscovered": "1886",
+    "displayRow": 4,
+    "displayColumn": 14,
+    "aliasesKo": [
+      "게르마늄"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "저마늄(Ge, Z=32)는 주기율표 4주기 14족의 준금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 7,
+      "defense": 8,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 32,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "저마늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 33,
+    "symbol": "As",
+    "nameKo": "비소",
+    "nameEn": "Arsenic",
+    "atomicMass": 74.922,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 15,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p³",
+    "electronegativity": 2.18,
+    "density": 5.727,
+    "yearDiscovered": "고대",
+    "displayRow": 4,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "비소(As, Z=33)는 주기율표 4주기 15족의 준금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 7,
+      "defense": 9,
+      "speed": 14,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 33,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "비소는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 34,
+    "symbol": "Se",
+    "nameKo": "셀레늄",
+    "nameEn": "Selenium",
+    "atomicMass": 78.971,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 16,
+    "category": "reactive_nonmetal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁴",
+    "electronegativity": 2.55,
+    "density": 4.81,
+    "yearDiscovered": "1817",
+    "displayRow": 4,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "셀레늄(Se, Z=34)는 주기율표 4주기 16족의 반응성 비금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "reactive_nonmetal"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 8,
+      "defense": 10,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 34,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "셀레늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 35,
+    "symbol": "Br",
+    "nameKo": "브로민",
+    "nameEn": "Bromine",
+    "atomicMass": 79.904,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "liquid",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁵",
+    "electronegativity": 2.96,
+    "density": 3.1028,
+    "yearDiscovered": "1826",
+    "displayRow": 4,
+    "displayColumn": 17,
+    "aliasesKo": [
+      "브롬"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "브로민(Br, Z=35)는 주기율표 4주기 17족의 할로겐입니다. 상온에서 액체인 드문 원소입니다.",
+    "card": {
+      "attack": 10,
+      "health": 6,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 12,
+      "defense": 4,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 35,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "kelp",
+        "water_bucket"
+      ],
+      "compound": "brine",
+      "noteKo": "할로겐은 브라인·형석 루트."
+    },
+    "relatedMoleculeIds": [
+      "br2"
+    ]
+  },
+  {
+    "z": 36,
+    "symbol": "Kr",
+    "nameKo": "크립톤",
+    "nameEn": "Krypton",
+    "atomicMass": 83.798,
+    "massUncertainty": null,
+    "period": 4,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁶",
+    "electronegativity": 3.0,
+    "density": 0.003749,
+    "yearDiscovered": "1898",
+    "displayRow": 4,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "크립톤(Kr, Z=36)는 주기율표 4주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 3,
+      "health": 13,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 78,
+      "attack": 5,
+      "defense": 5,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 36,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 37,
+    "symbol": "Rb",
+    "nameKo": "루비듐",
+    "nameEn": "Rubidium",
+    "atomicMass": 85.468,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 5s¹",
+    "electronegativity": 0.82,
+    "density": 1.532,
+    "yearDiscovered": "1861",
+    "displayRow": 5,
+    "displayColumn": 1,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "루비듐(Rb, Z=37)는 주기율표 5주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 9,
+      "health": 5,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 30,
+      "attack": 11,
+      "defense": 6,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 37,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "루비듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 38,
+    "symbol": "Sr",
+    "nameKo": "스트론튬",
+    "nameEn": "Strontium",
+    "atomicMass": 87.62,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 5s²",
+    "electronegativity": 0.95,
+    "density": 2.64,
+    "yearDiscovered": "1790",
+    "displayRow": 5,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "스트론튬(Sr, Z=38)는 주기율표 5주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 7,
+      "defense": 7,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 38,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "스트론튬는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 39,
+    "symbol": "Y",
+    "nameKo": "이트륨",
+    "nameEn": "Yttrium",
+    "atomicMass": 88.906,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 3,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹ 5s²",
+    "electronegativity": 1.22,
+    "density": 4.472,
+    "yearDiscovered": "1794",
+    "displayRow": 5,
+    "displayColumn": 3,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "이트륨(Y, Z=39)는 주기율표 5주기 3족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 4,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 8,
+      "speed": 8,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 39,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "이트륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 40,
+    "symbol": "Zr",
+    "nameKo": "지르코늄",
+    "nameEn": "Zirconium",
+    "atomicMass": 91.224,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 4,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d² 5s²",
+    "electronegativity": 1.33,
+    "density": 6.52,
+    "yearDiscovered": "1789",
+    "displayRow": 5,
+    "displayColumn": 4,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "지르코늄(Zr, Z=40)는 주기율표 5주기 4족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 9,
+      "speed": 7,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 40,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "지르코늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 41,
+    "symbol": "Nb",
+    "nameKo": "나이오븀",
+    "nameEn": "Niobium",
+    "atomicMass": 92.906,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 5,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d⁴ 5s¹",
+    "electronegativity": 1.6,
+    "density": 8.57,
+    "yearDiscovered": "1801",
+    "displayRow": 5,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "나이오븀(Nb, Z=41)는 주기율표 5주기 5족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 10,
+      "speed": 6,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 41,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "나이오븀는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 42,
+    "symbol": "Mo",
+    "nameKo": "몰리브데넘",
+    "nameEn": "Molybdenum",
+    "atomicMass": 95.95,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 6,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d⁵ 5s¹",
+    "electronegativity": 2.16,
+    "density": 10.28,
+    "yearDiscovered": "1781",
+    "displayRow": 5,
+    "displayColumn": 6,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "몰리브데넘(Mo, Z=42)는 주기율표 5주기 6족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 4,
+      "speed": 16,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 42,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "몰리브데넘는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 43,
+    "symbol": "Tc",
+    "nameKo": "테크네튬",
+    "nameEn": "Technetium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 5,
+    "group": 7,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d⁵ 5s²",
+    "electronegativity": 1.9,
+    "density": 11.5,
+    "yearDiscovered": "1937",
+    "displayRow": 5,
+    "displayColumn": 7,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "테크네튬(Tc, Z=43)는 주기율표 5주기 7족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "legendary",
+      "cost": 7,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 5,
+      "speed": 15,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 43,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "테크네튬는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 44,
+    "symbol": "Ru",
+    "nameKo": "루테늄",
+    "nameEn": "Ruthenium",
+    "atomicMass": 101.07,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 8,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d⁷ 5s¹",
+    "electronegativity": 2.2,
+    "density": 12.45,
+    "yearDiscovered": "1844",
+    "displayRow": 5,
+    "displayColumn": 8,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "루테늄(Ru, Z=44)는 주기율표 5주기 8족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 6,
+      "speed": 14,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 44,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "루테늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 45,
+    "symbol": "Rh",
+    "nameKo": "로듐",
+    "nameEn": "Rhodium",
+    "atomicMass": 102.91,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 9,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d⁸ 5s¹",
+    "electronegativity": 2.28,
+    "density": 12.41,
+    "yearDiscovered": "1803",
+    "displayRow": 5,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "로듐(Rh, Z=45)는 주기율표 5주기 9족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 7,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 45,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "로듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 46,
+    "symbol": "Pd",
+    "nameKo": "팔라듐",
+    "nameEn": "Palladium",
+    "atomicMass": 106.42,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 10,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰",
+    "electronegativity": 2.2,
+    "density": 12.023,
+    "yearDiscovered": "1803",
+    "displayRow": 5,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "팔라듐(Pd, Z=46)는 주기율표 5주기 10족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 8,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 46,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "팔라듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 47,
+    "symbol": "Ag",
+    "nameKo": "은",
+    "nameEn": "Silver",
+    "atomicMass": 107.87,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 11,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s¹",
+    "electronegativity": 1.93,
+    "density": 10.49,
+    "yearDiscovered": "고대",
+    "displayRow": 5,
+    "displayColumn": 11,
+    "aliasesKo": [
+      "실버"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "은(Ag, Z=47)는 주기율표 5주기 11족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 9,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 47,
+      "tier": "T3",
+      "crustMassPercent": 8e-06,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "은는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 48,
+    "symbol": "Cd",
+    "nameKo": "카드뮴",
+    "nameEn": "Cadmium",
+    "atomicMass": 112.41,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 12,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s²",
+    "electronegativity": 1.69,
+    "density": 8.65,
+    "yearDiscovered": "1817",
+    "displayRow": 5,
+    "displayColumn": 12,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "카드뮴(Cd, Z=48)는 주기율표 5주기 12족의 전이금속입니다.",
+    "card": {
+      "attack": 7,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 9,
+      "defense": 10,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 48,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "카드뮴는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 49,
+    "symbol": "In",
+    "nameKo": "인듐",
+    "nameEn": "Indium",
+    "atomicMass": 114.82,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 13,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p¹",
+    "electronegativity": 1.78,
+    "density": 7.31,
+    "yearDiscovered": "1863",
+    "displayRow": 5,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "인듐(In, Z=49)는 주기율표 5주기 13족의 전이후금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 7,
+      "defense": 4,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 49,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "인듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 50,
+    "symbol": "Sn",
+    "nameKo": "주석",
+    "nameEn": "Tin",
+    "atomicMass": 118.71,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 14,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p²",
+    "electronegativity": 1.96,
+    "density": 7.287,
+    "yearDiscovered": "고대",
+    "displayRow": 5,
+    "displayColumn": 14,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "주석(Sn, Z=50)는 주기율표 5주기 14족의 전이후금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 7,
+      "defense": 5,
+      "speed": 8,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 50,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "주석는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 51,
+    "symbol": "Sb",
+    "nameKo": "안티모니",
+    "nameEn": "Antimony",
+    "atomicMass": 121.76,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 15,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p³",
+    "electronegativity": 2.05,
+    "density": 6.685,
+    "yearDiscovered": "고대",
+    "displayRow": 5,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "안티모니(Sb, Z=51)는 주기율표 5주기 15족의 준금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 7,
+      "defense": 6,
+      "speed": 7,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 51,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "안티모니는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 52,
+    "symbol": "Te",
+    "nameKo": "텔루륨",
+    "nameEn": "Tellurium",
+    "atomicMass": 127.6,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 16,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁴",
+    "electronegativity": 2.1,
+    "density": 6.232,
+    "yearDiscovered": "1782",
+    "displayRow": 5,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "텔루륨(Te, Z=52)는 주기율표 5주기 16족의 준금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 7,
+      "defense": 7,
+      "speed": 6,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 52,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "텔루륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 53,
+    "symbol": "I",
+    "nameKo": "아이오딘",
+    "nameEn": "Iodine",
+    "atomicMass": 126.9,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁵",
+    "electronegativity": 2.66,
+    "density": 4.933,
+    "yearDiscovered": "1811",
+    "displayRow": 5,
+    "displayColumn": 17,
+    "aliasesKo": [
+      "요오드",
+      "요드"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아이오딘(I, Z=53)는 주기율표 5주기 17족의 할로겐입니다.",
+    "card": {
+      "attack": 10,
+      "health": 7,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 12,
+      "defense": 8,
+      "speed": 16,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 53,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "kelp",
+        "water_bucket"
+      ],
+      "compound": "brine",
+      "noteKo": "할로겐은 브라인·형석 루트."
+    },
+    "relatedMoleculeIds": [
+      "i2"
+    ]
+  },
+  {
+    "z": 54,
+    "symbol": "Xe",
+    "nameKo": "제논",
+    "nameEn": "Xenon",
+    "atomicMass": 131.29,
+    "massUncertainty": null,
+    "period": 5,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁶",
+    "electronegativity": 2.6,
+    "density": 0.005887,
+    "yearDiscovered": "1898",
+    "displayRow": 5,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "제논(Xe, Z=54)는 주기율표 5주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 3,
+      "health": 14,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 84,
+      "attack": 5,
+      "defense": 9,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 54,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 55,
+    "symbol": "Cs",
+    "nameKo": "세슘",
+    "nameEn": "Caesium",
+    "atomicMass": 132.91,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 6s¹",
+    "electronegativity": 0.79,
+    "density": 1.93,
+    "yearDiscovered": "1860",
+    "displayRow": 6,
+    "displayColumn": 1,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "세슘(Cs, Z=55)는 주기율표 6주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 9,
+      "health": 6,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 36,
+      "attack": 11,
+      "defense": 10,
+      "speed": 14,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 55,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "세슘는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 56,
+    "symbol": "Ba",
+    "nameKo": "바륨",
+    "nameEn": "Barium",
+    "atomicMass": 137.33,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 6s²",
+    "electronegativity": 0.89,
+    "density": 3.51,
+    "yearDiscovered": "1808",
+    "displayRow": 6,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "바륨(Ba, Z=56)는 주기율표 6주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 5,
+      "health": 8,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 7,
+      "defense": 4,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 56,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "바륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 57,
+    "symbol": "La",
+    "nameKo": "란타넘",
+    "nameEn": "Lanthanum",
+    "atomicMass": 138.91,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 5d¹ 6s²",
+    "electronegativity": 1.1,
+    "density": 6.145,
+    "yearDiscovered": "1839",
+    "displayRow": 8,
+    "displayColumn": 3,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "란타넘(La, Z=57)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 8,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 10,
+      "defense": 5,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 57,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 58,
+    "symbol": "Ce",
+    "nameKo": "세륨",
+    "nameEn": "Cerium",
+    "atomicMass": 140.12,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹ 5d¹ 6s²",
+    "electronegativity": 1.12,
+    "density": 6.77,
+    "yearDiscovered": "1803",
+    "displayRow": 8,
+    "displayColumn": 4,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "세륨(Ce, Z=58)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 8,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 10,
+      "defense": 6,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 58,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 59,
+    "symbol": "Pr",
+    "nameKo": "프라세오디뮴",
+    "nameEn": "Praseodymium",
+    "atomicMass": 140.91,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f³ 6s²",
+    "electronegativity": 1.13,
+    "density": 6.773,
+    "yearDiscovered": "1885",
+    "displayRow": 8,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "프라세오디뮴(Pr, Z=59)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 8,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 5,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 10,
+      "defense": 7,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 59,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 60,
+    "symbol": "Nd",
+    "nameKo": "네오디뮴",
+    "nameEn": "Neodymium",
+    "atomicMass": 144.24,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁴ 6s²",
+    "electronegativity": 1.14,
+    "density": 7.007,
+    "yearDiscovered": "1885",
+    "displayRow": 8,
+    "displayColumn": 6,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "네오디뮴(Nd, Z=60)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 8,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 60,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 61,
+    "symbol": "Pm",
+    "nameKo": "프로메튬",
+    "nameEn": "Promethium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁵ 6s²",
+    "electronegativity": 1.13,
+    "density": 7.26,
+    "yearDiscovered": "1945",
+    "displayRow": 8,
+    "displayColumn": 7,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "프로메튬(Pm, Z=61)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "legendary",
+      "cost": 8,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 9,
+      "speed": 8,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 61,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 62,
+    "symbol": "Sm",
+    "nameKo": "사마륨",
+    "nameEn": "Samarium",
+    "atomicMass": 150.36,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁶ 6s²",
+    "electronegativity": 1.17,
+    "density": 7.52,
+    "yearDiscovered": "1879",
+    "displayRow": 8,
+    "displayColumn": 8,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "사마륨(Sm, Z=62)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 10,
+      "speed": 7,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 62,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 63,
+    "symbol": "Eu",
+    "nameKo": "유로퓸",
+    "nameEn": "Europium",
+    "atomicMass": 151.96,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁷ 6s²",
+    "electronegativity": 1.2,
+    "density": 5.243,
+    "yearDiscovered": "1901",
+    "displayRow": 8,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "유로퓸(Eu, Z=63)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 4,
+      "speed": 6,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 63,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 64,
+    "symbol": "Gd",
+    "nameKo": "가돌리늄",
+    "nameEn": "Gadolinium",
+    "atomicMass": 157.25,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁷ 5d¹ 6s²",
+    "electronegativity": 1.2,
+    "density": 7.9,
+    "yearDiscovered": "1880",
+    "displayRow": 8,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "가돌리늄(Gd, Z=64)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 5,
+      "speed": 16,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 64,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 65,
+    "symbol": "Tb",
+    "nameKo": "터븀",
+    "nameEn": "Terbium",
+    "atomicMass": 158.93,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f⁹ 6s²",
+    "electronegativity": 1.1,
+    "density": 8.23,
+    "yearDiscovered": "1843",
+    "displayRow": 8,
+    "displayColumn": 11,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "터븀(Tb, Z=65)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 6,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 65,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 66,
+    "symbol": "Dy",
+    "nameKo": "디스프로슘",
+    "nameEn": "Dysprosium",
+    "atomicMass": 162.5,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁰ 6s²",
+    "electronegativity": 1.22,
+    "density": 8.54,
+    "yearDiscovered": "1886",
+    "displayRow": 8,
+    "displayColumn": 12,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "디스프로슘(Dy, Z=66)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 7,
+      "speed": 14,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 66,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 67,
+    "symbol": "Ho",
+    "nameKo": "홀뮴",
+    "nameEn": "Holmium",
+    "atomicMass": 164.93,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹¹ 6s²",
+    "electronegativity": 1.23,
+    "density": 8.79,
+    "yearDiscovered": "1878",
+    "displayRow": 8,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "홀뮴(Ho, Z=67)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 8,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 67,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 68,
+    "symbol": "Er",
+    "nameKo": "어븀",
+    "nameEn": "Erbium",
+    "atomicMass": 167.26,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹² 6s²",
+    "electronegativity": 1.24,
+    "density": 9.066,
+    "yearDiscovered": "1842",
+    "displayRow": 8,
+    "displayColumn": 14,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "어븀(Er, Z=68)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 9,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 68,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 69,
+    "symbol": "Tm",
+    "nameKo": "툴륨",
+    "nameEn": "Thulium",
+    "atomicMass": 168.93,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹³ 6s²",
+    "electronegativity": 1.25,
+    "density": 9.32,
+    "yearDiscovered": "1879",
+    "displayRow": 8,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "툴륨(Tm, Z=69)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 10,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 69,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 70,
+    "symbol": "Yb",
+    "nameKo": "이터븀",
+    "nameEn": "Ytterbium",
+    "atomicMass": 173.05,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 6s²",
+    "electronegativity": 1.1,
+    "density": 6.9,
+    "yearDiscovered": "1878",
+    "displayRow": 8,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "이터븀(Yb, Z=70)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 4,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 70,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 71,
+    "symbol": "Lu",
+    "nameKo": "루테튬",
+    "nameEn": "Lutetium",
+    "atomicMass": 174.97,
+    "massUncertainty": null,
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹ 6s²",
+    "electronegativity": 1.27,
+    "density": 9.84,
+    "yearDiscovered": "1907",
+    "displayRow": 8,
+    "displayColumn": 17,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "루테튬(Lu, Z=71)는 주기율표 6주기 란타넘/악티늄 계열의 란타넘족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "lanthanide"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 11,
+      "defense": 5,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 71,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 72,
+    "symbol": "Hf",
+    "nameKo": "하프늄",
+    "nameEn": "Hafnium",
+    "atomicMass": 178.49,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 4,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d² 6s²",
+    "electronegativity": 1.3,
+    "density": 13.31,
+    "yearDiscovered": "1923",
+    "displayRow": 6,
+    "displayColumn": 4,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "하프늄(Hf, Z=72)는 주기율표 6주기 4족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 10,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 10,
+      "defense": 6,
+      "speed": 8,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 72,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "하프늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 73,
+    "symbol": "Ta",
+    "nameKo": "탄탈럼",
+    "nameEn": "Tantalum",
+    "atomicMass": 180.95,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 5,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d³ 6s²",
+    "electronegativity": 1.5,
+    "density": 16.65,
+    "yearDiscovered": "1802",
+    "displayRow": 6,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "탄탈럼(Ta, Z=73)는 주기율표 6주기 5족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 10,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 10,
+      "defense": 7,
+      "speed": 7,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 73,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "탄탈럼는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 74,
+    "symbol": "W",
+    "nameKo": "텅스텐",
+    "nameEn": "Tungsten",
+    "atomicMass": 183.84,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 6,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁴ 6s²",
+    "electronegativity": 2.36,
+    "density": 19.25,
+    "yearDiscovered": "1783",
+    "displayRow": 6,
+    "displayColumn": 6,
+    "aliasesKo": [
+      "울프람"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "텅스텐(W, Z=74)는 주기율표 6주기 6족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 10,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 10,
+      "defense": 8,
+      "speed": 6,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 74,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "텅스텐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 75,
+    "symbol": "Re",
+    "nameKo": "레늄",
+    "nameEn": "Rhenium",
+    "atomicMass": 186.21,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 7,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁵ 6s²",
+    "electronegativity": 1.9,
+    "density": 21.02,
+    "yearDiscovered": "1925",
+    "displayRow": 6,
+    "displayColumn": 7,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "레늄(Re, Z=75)는 주기율표 6주기 7족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 9,
+      "speed": 16,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 75,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "레늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 76,
+    "symbol": "Os",
+    "nameKo": "오스뮴",
+    "nameEn": "Osmium",
+    "atomicMass": 190.23,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 8,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁶ 6s²",
+    "electronegativity": 2.2,
+    "density": 22.59,
+    "yearDiscovered": "1803",
+    "displayRow": 6,
+    "displayColumn": 8,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "오스뮴(Os, Z=76)는 주기율표 6주기 8족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 10,
+      "speed": 15,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 76,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "오스뮴는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 77,
+    "symbol": "Ir",
+    "nameKo": "이리듐",
+    "nameEn": "Iridium",
+    "atomicMass": 192.22,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 9,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁷ 6s²",
+    "electronegativity": 2.2,
+    "density": 22.56,
+    "yearDiscovered": "1803",
+    "displayRow": 6,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "이리듐(Ir, Z=77)는 주기율표 6주기 9족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 4,
+      "speed": 14,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 77,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "이리듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 78,
+    "symbol": "Pt",
+    "nameKo": "백금",
+    "nameEn": "Platinum",
+    "atomicMass": 195.08,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 10,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+    "electronegativity": 2.28,
+    "density": 21.45,
+    "yearDiscovered": "1735",
+    "displayRow": 6,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "백금(Pt, Z=78)는 주기율표 6주기 10족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 5,
+      "speed": 13,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 78,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "백금는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 79,
+    "symbol": "Au",
+    "nameKo": "금",
+    "nameEn": "Gold",
+    "atomicMass": 196.97,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 11,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+    "electronegativity": 2.54,
+    "density": 19.32,
+    "yearDiscovered": "고대",
+    "displayRow": 6,
+    "displayColumn": 11,
+    "aliasesKo": [
+      "골드"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "금(Au, Z=79)는 주기율표 6주기 11족의 전이금속입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 6,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 6,
+      "speed": 12,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 79,
+      "tier": "T3",
+      "crustMassPercent": 4e-07,
+      "process": "미량 추출",
+      "vanilla": [
+        "raw_gold"
+      ],
+      "compound": "Au",
+      "noteKo": "금 광석은 정제하기도 전에 귀하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 80,
+    "symbol": "Hg",
+    "nameKo": "수은",
+    "nameEn": "Mercury",
+    "atomicMass": 200.59,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 12,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "liquid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+    "electronegativity": 2.0,
+    "density": 13.534,
+    "yearDiscovered": "고대",
+    "displayRow": 6,
+    "displayColumn": 12,
+    "aliasesKo": [
+      "머큐리"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "수은(Hg, Z=80)는 주기율표 6주기 12족의 전이금속입니다. 상온에서 액체인 드문 원소입니다.",
+    "card": {
+      "attack": 8,
+      "health": 11,
+      "rarity": "rare",
+      "cost": 7,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 10,
+      "defense": 7,
+      "speed": 11,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 80,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "수은는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 81,
+    "symbol": "Tl",
+    "nameKo": "탈륨",
+    "nameEn": "Thallium",
+    "atomicMass": 204.38,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 13,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+    "electronegativity": 1.62,
+    "density": 11.85,
+    "yearDiscovered": "1861",
+    "displayRow": 6,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "탈륨(Tl, Z=81)는 주기율표 6주기 13족의 전이후금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 7,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 8,
+      "speed": 10,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 81,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "탈륨는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 82,
+    "symbol": "Pb",
+    "nameKo": "납",
+    "nameEn": "Lead",
+    "atomicMass": 207.2,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 14,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+    "electronegativity": 1.87,
+    "density": 11.34,
+    "yearDiscovered": "고대",
+    "displayRow": 6,
+    "displayColumn": 14,
+    "aliasesKo": [
+      "납금속"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "납(Pb, Z=82)는 주기율표 6주기 14족의 전이후금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 7,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 9,
+      "speed": 9,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 82,
+      "tier": "T3",
+      "crustMassPercent": 0.001,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "납는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 83,
+    "symbol": "Bi",
+    "nameKo": "비스무트",
+    "nameEn": "Bismuth",
+    "atomicMass": 208.98,
+    "massUncertainty": null,
+    "period": 6,
+    "group": 15,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+    "electronegativity": 2.02,
+    "density": 9.78,
+    "yearDiscovered": "1753",
+    "displayRow": 6,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "비스무트(Bi, Z=83)는 주기율표 6주기 15족의 전이후금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "rare",
+      "cost": 7,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 10,
+      "speed": 8,
+      "rarity": "rare"
+    },
+    "extraction": {
+      "z": 83,
+      "tier": "T3",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "비스무트는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 84,
+    "symbol": "Po",
+    "nameKo": "폴로늄",
+    "nameEn": "Polonium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 6,
+    "group": 16,
+    "category": "metalloid",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+    "electronegativity": 2.0,
+    "density": 9.196,
+    "yearDiscovered": "1898",
+    "displayRow": 6,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "폴로늄(Po, Z=84)는 주기율표 6주기 16족의 준금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "metalloid"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 4,
+      "speed": 7,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 84,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "폴로늄는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 85,
+    "symbol": "At",
+    "nameKo": "아스타틴",
+    "nameEn": "Astatine",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 6,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+    "electronegativity": 2.2,
+    "density": 6.35,
+    "yearDiscovered": "1940",
+    "displayRow": 6,
+    "displayColumn": 17,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아스타틴(At, Z=85)는 주기율표 6주기 17족의 할로겐입니다.",
+    "card": {
+      "attack": 11,
+      "health": 8,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 48,
+      "attack": 13,
+      "defense": 5,
+      "speed": 6,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 85,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "kelp",
+        "water_bucket"
+      ],
+      "compound": "brine",
+      "noteKo": "할로겐은 브라인·형석 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 86,
+    "symbol": "Rn",
+    "nameKo": "라돈",
+    "nameEn": "Radon",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 6,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "gas",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+    "electronegativity": 2.2,
+    "density": 0.00973,
+    "yearDiscovered": "1900",
+    "displayRow": 6,
+    "displayColumn": 18,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "라돈(Rn, Z=86)는 주기율표 6주기 18족의 비활성 기체입니다.",
+    "card": {
+      "attack": 4,
+      "health": 15,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 90,
+      "attack": 6,
+      "defense": 6,
+      "speed": 16,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 86,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "증류",
+      "vanilla": [
+        "glass_bottle"
+      ],
+      "compound": "liquid_air",
+      "noteKo": "비활성 기체는 공기 분별 증류 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 87,
+    "symbol": "Fr",
+    "nameKo": "프랑슘",
+    "nameEn": "Francium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 1,
+    "category": "alkali_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 7s¹",
+    "electronegativity": 0.7,
+    "density": 1.87,
+    "yearDiscovered": "1939",
+    "displayRow": 7,
+    "displayColumn": 1,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "프랑슘(Fr, Z=87)는 주기율표 7주기 1족의 알칼리금속입니다.",
+    "card": {
+      "attack": 10,
+      "health": 7,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "alkali_metal"
+    },
+    "battle": {
+      "hp": 42,
+      "attack": 12,
+      "defense": 7,
+      "speed": 15,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 87,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "프랑슘는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 88,
+    "symbol": "Ra",
+    "nameKo": "라듐",
+    "nameEn": "Radium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 2,
+    "category": "alkaline_earth_metal",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 7s²",
+    "electronegativity": 0.9,
+    "density": 5.5,
+    "yearDiscovered": "1898",
+    "displayRow": 7,
+    "displayColumn": 2,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "라듐(Ra, Z=88)는 주기율표 7주기 2족의 알칼리토금속입니다.",
+    "card": {
+      "attack": 6,
+      "health": 9,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "alkaline_earth_metal"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 8,
+      "defense": 8,
+      "speed": 14,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 88,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "정광",
+      "vanilla": [
+        "cobblestone",
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "라듐는 지각 미량 또는 주기율광석 보조 루트."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 89,
+    "symbol": "Ac",
+    "nameKo": "악티늄",
+    "nameEn": "Actinium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 6d¹ 7s²",
+    "electronegativity": 1.1,
+    "density": 10.07,
+    "yearDiscovered": "1899",
+    "displayRow": 9,
+    "displayColumn": 3,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "악티늄(Ac, Z=89)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 9,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 11,
+      "defense": 9,
+      "speed": 13,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 89,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 90,
+    "symbol": "Th",
+    "nameKo": "토륨",
+    "nameEn": "Thorium",
+    "atomicMass": 232.04,
+    "massUncertainty": null,
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 6d² 7s²",
+    "electronegativity": 1.3,
+    "density": 11.72,
+    "yearDiscovered": "1828",
+    "displayRow": 9,
+    "displayColumn": 4,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "토륨(Th, Z=90)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 10,
+      "speed": 12,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 90,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 91,
+    "symbol": "Pa",
+    "nameKo": "프로탁티늄",
+    "nameEn": "Protactinium",
+    "atomicMass": 231.04,
+    "massUncertainty": null,
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f² 6d¹ 7s²",
+    "electronegativity": 1.5,
+    "density": 15.37,
+    "yearDiscovered": "1913",
+    "displayRow": 9,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "프로탁티늄(Pa, Z=91)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 4,
+      "speed": 11,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 91,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 92,
+    "symbol": "U",
+    "nameKo": "우라늄",
+    "nameEn": "Uranium",
+    "atomicMass": 238.03,
+    "massUncertainty": null,
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f³ 6d¹ 7s²",
+    "electronegativity": 1.38,
+    "density": 19.05,
+    "yearDiscovered": "1789",
+    "displayRow": 9,
+    "displayColumn": 6,
+    "aliasesKo": [
+      "우라니움"
+    ],
+    "hasKnownMolecules": true,
+    "descriptionKo": "우라늄(U, Z=92)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 5,
+      "speed": 10,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 92,
+      "tier": "T4",
+      "crustMassPercent": 0.00018,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 93,
+    "symbol": "Np",
+    "nameKo": "넵투늄",
+    "nameEn": "Neptunium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f⁴ 6d¹ 7s²",
+    "electronegativity": 1.36,
+    "density": 20.45,
+    "yearDiscovered": "1940",
+    "displayRow": 9,
+    "displayColumn": 7,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "넵투늄(Np, Z=93)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 6,
+      "speed": 9,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 93,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 94,
+    "symbol": "Pu",
+    "nameKo": "플루토늄",
+    "nameEn": "Plutonium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f⁶ 7s²",
+    "electronegativity": 1.28,
+    "density": 19.82,
+    "yearDiscovered": "1940",
+    "displayRow": 9,
+    "displayColumn": 8,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "플루토늄(Pu, Z=94)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 7,
+      "speed": 8,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 94,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 95,
+    "symbol": "Am",
+    "nameKo": "아메리슘",
+    "nameEn": "Americium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f⁷ 7s²",
+    "electronegativity": 1.13,
+    "density": 13.69,
+    "yearDiscovered": "1944",
+    "displayRow": 9,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아메리슘(Am, Z=95)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 8,
+      "speed": 7,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 95,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 96,
+    "symbol": "Cm",
+    "nameKo": "퀴륨",
+    "nameEn": "Curium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f⁷ 6d¹ 7s²",
+    "electronegativity": 1.28,
+    "density": 13.51,
+    "yearDiscovered": "1944",
+    "displayRow": 9,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "퀴륨(Cm, Z=96)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 9,
+      "speed": 6,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 96,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 97,
+    "symbol": "Bk",
+    "nameKo": "버클륨",
+    "nameEn": "Berkelium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f⁹ 7s²",
+    "electronegativity": 1.3,
+    "density": 14.78,
+    "yearDiscovered": "1949",
+    "displayRow": 9,
+    "displayColumn": 11,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "버클륨(Bk, Z=97)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 10,
+      "speed": 16,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 97,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 98,
+    "symbol": "Cf",
+    "nameKo": "캘리포늄",
+    "nameEn": "Californium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "solid",
+    "electronConfiguration": "[Rn] 5f¹⁰ 7s²",
+    "electronegativity": 1.3,
+    "density": 15.1,
+    "yearDiscovered": "1950",
+    "displayRow": 9,
+    "displayColumn": 12,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "캘리포늄(Cf, Z=98)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 4,
+      "speed": 15,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 98,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 99,
+    "symbol": "Es",
+    "nameKo": "아인슈타이늄",
+    "nameEn": "Einsteinium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹¹ 7s²",
+    "electronegativity": 1.3,
+    "density": 8.84,
+    "yearDiscovered": "1952",
+    "displayRow": 9,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "아인슈타이늄(Es, Z=99)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 9,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 12,
+      "defense": 5,
+      "speed": 14,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 99,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 100,
+    "symbol": "Fm",
+    "nameKo": "페르뮴",
+    "nameEn": "Fermium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹² 7s²",
+    "electronegativity": 1.3,
+    "density": null,
+    "yearDiscovered": "1952",
+    "displayRow": 9,
+    "displayColumn": 14,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "페르뮴(Fm, Z=100)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 11,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 12,
+      "defense": 6,
+      "speed": 13,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 100,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 101,
+    "symbol": "Md",
+    "nameKo": "멘델레븀",
+    "nameEn": "Mendelevium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹³ 7s²",
+    "electronegativity": 1.3,
+    "density": null,
+    "yearDiscovered": "1955",
+    "displayRow": 9,
+    "displayColumn": 15,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "멘델레븀(Md, Z=101)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 11,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 12,
+      "defense": 7,
+      "speed": 12,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 101,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 102,
+    "symbol": "No",
+    "nameKo": "노벨륨",
+    "nameEn": "Nobelium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 7s²",
+    "electronegativity": 1.3,
+    "density": null,
+    "yearDiscovered": "1958",
+    "displayRow": 9,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "노벨륨(No, Z=102)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 11,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 12,
+      "defense": 8,
+      "speed": 11,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 102,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 103,
+    "symbol": "Lr",
+    "nameKo": "로렌슘",
+    "nameEn": "Lawrencium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 7s² 7p¹",
+    "electronegativity": 1.3,
+    "density": null,
+    "yearDiscovered": "1961",
+    "displayRow": 9,
+    "displayColumn": 17,
+    "aliasesKo": [],
+    "hasKnownMolecules": true,
+    "descriptionKo": "로렌슘(Lr, Z=103)는 주기율표 7주기 란타넘/악티늄 계열의 악티늄족입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 10,
+      "health": 11,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "actinide"
+    },
+    "battle": {
+      "hp": 66,
+      "attack": 12,
+      "defense": 9,
+      "speed": 10,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 103,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "족 분리",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": "mixed_rare_earth",
+      "noteKo": "희토류/악티늄족은 다단계 침출이 필요하다."
+    },
+    "relatedMoleculeIds": []
+  },
+  {
+    "z": 104,
+    "symbol": "Rf",
+    "nameKo": "러더포듐",
+    "nameEn": "Rutherfordium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 4,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d² 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1969",
+    "displayRow": 7,
+    "displayColumn": 4,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "러더포듐(Rf, Z=104)는 주기율표 7주기 4족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 10,
+      "speed": 9,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 104,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "러더포듐은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 105,
+    "symbol": "Db",
+    "nameKo": "더브늄",
+    "nameEn": "Dubnium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 5,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d³ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1967",
+    "displayRow": 7,
+    "displayColumn": 5,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "더브늄(Db, Z=105)는 주기율표 7주기 5족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 4,
+      "speed": 8,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 105,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "더브늄은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 106,
+    "symbol": "Sg",
+    "nameKo": "시보귬",
+    "nameEn": "Seaborgium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 6,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁴ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1974",
+    "displayRow": 7,
+    "displayColumn": 6,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "시보귬(Sg, Z=106)는 주기율표 7주기 6족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 5,
+      "speed": 7,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 106,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "시보귬은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 107,
+    "symbol": "Bh",
+    "nameKo": "보륨",
+    "nameEn": "Bohrium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 7,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁵ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1976",
+    "displayRow": 7,
+    "displayColumn": 7,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "보륨(Bh, Z=107)는 주기율표 7주기 7족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 6,
+      "speed": 6,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 107,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "보륨은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 108,
+    "symbol": "Hs",
+    "nameKo": "하슘",
+    "nameEn": "Hassium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 8,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁶ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1984",
+    "displayRow": 7,
+    "displayColumn": 8,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "하슘(Hs, Z=108)는 주기율표 7주기 8족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 7,
+      "speed": 16,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 108,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "하슘은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 109,
+    "symbol": "Mt",
+    "nameKo": "마이트너륨",
+    "nameEn": "Meitnerium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 9,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁷ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1982",
+    "displayRow": 7,
+    "displayColumn": 9,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "마이트너륨(Mt, Z=109)는 주기율표 7주기 9족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 8,
+      "speed": 15,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 109,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "마이트너륨은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 110,
+    "symbol": "Ds",
+    "nameKo": "다름슈타튬",
+    "nameEn": "Darmstadtium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 10,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁸ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1994",
+    "displayRow": 7,
+    "displayColumn": 10,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "다름슈타튬(Ds, Z=110)는 주기율표 7주기 10족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 9,
+      "speed": 14,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 110,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "다름슈타튬은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 111,
+    "symbol": "Rg",
+    "nameKo": "뢴트게늄",
+    "nameEn": "Roentgenium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 11,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁹ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1994",
+    "displayRow": 7,
+    "displayColumn": 11,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "뢴트게늄(Rg, Z=111)는 주기율표 7주기 11족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 10,
+      "speed": 13,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 111,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "뢴트게늄은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 112,
+    "symbol": "Cn",
+    "nameKo": "코페르니슘",
+    "nameEn": "Copernicium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 12,
+    "category": "transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1996",
+    "displayRow": 7,
+    "displayColumn": 12,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "코페르니슘(Cn, Z=112)는 주기율표 7주기 12족의 전이금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 9,
+      "health": 12,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "transition_metal"
+    },
+    "battle": {
+      "hp": 72,
+      "attack": 11,
+      "defense": 4,
+      "speed": 12,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 112,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "코페르니슘은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 113,
+    "symbol": "Nh",
+    "nameKo": "니호늄",
+    "nameEn": "Nihonium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 13,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "2003",
+    "displayRow": 7,
+    "displayColumn": 13,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "니호늄(Nh, Z=113)는 주기율표 7주기 13족의 전이후금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 7,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 9,
+      "defense": 5,
+      "speed": 11,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 113,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "니호늄은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 114,
+    "symbol": "Fl",
+    "nameKo": "플레로븀",
+    "nameEn": "Flerovium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 14,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "1998",
+    "displayRow": 7,
+    "displayColumn": 14,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "플레로븀(Fl, Z=114)는 주기율표 7주기 14족의 전이후금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 7,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 9,
+      "defense": 6,
+      "speed": 10,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 114,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "플레로븀은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 115,
+    "symbol": "Mc",
+    "nameKo": "모스코븀",
+    "nameEn": "Moscovium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 15,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "2003",
+    "displayRow": 7,
+    "displayColumn": 15,
+    "aliasesKo": [
+      "머늄"
+    ],
+    "hasKnownMolecules": false,
+    "descriptionKo": "모스코븀(Mc, Z=115)는 주기율표 7주기 15족의 전이후금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 7,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 9,
+      "defense": 7,
+      "speed": 9,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 115,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "모스코븀은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 116,
+    "symbol": "Lv",
+    "nameKo": "리버모륨",
+    "nameEn": "Livermorium",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 16,
+    "category": "post_transition_metal",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "2000",
+    "displayRow": 7,
+    "displayColumn": 16,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "리버모륨(Lv, Z=116)는 주기율표 7주기 16족의 전이후금속입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 7,
+      "health": 10,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "post_transition_metal"
+    },
+    "battle": {
+      "hp": 60,
+      "attack": 9,
+      "defense": 8,
+      "speed": 8,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 116,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "리버모륨은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 117,
+    "symbol": "Ts",
+    "nameKo": "테네신",
+    "nameEn": "Tennessine",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 17,
+    "category": "halogen",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "2010",
+    "displayRow": 7,
+    "displayColumn": 17,
+    "aliasesKo": [],
+    "hasKnownMolecules": false,
+    "descriptionKo": "테네신(Ts, Z=117)는 주기율표 7주기 17족의 할로겐입니다. 실험실에서만 합성되며 데이터는 최신 연구 기준입니다.",
+    "card": {
+      "attack": 12,
+      "health": 9,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "halogen"
+    },
+    "battle": {
+      "hp": 54,
+      "attack": 14,
+      "defense": 9,
+      "speed": 7,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 117,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "테네신은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  },
+  {
+    "z": 118,
+    "symbol": "Og",
+    "nameKo": "오가네손",
+    "nameEn": "Oganesson",
+    "atomicMass": null,
+    "massUncertainty": "synthetic",
+    "period": 7,
+    "group": 18,
+    "category": "noble_gas",
+    "stateAtRoomTemp": "unknown",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+    "electronegativity": null,
+    "density": null,
+    "yearDiscovered": "2002",
+    "displayRow": 7,
+    "displayColumn": 18,
+    "aliasesKo": [
+      "오가네슨"
+    ],
+    "hasKnownMolecules": false,
+    "descriptionKo": "오가네손(Og, Z=118)는 주기율표 7주기 18족의 비활성 기체입니다. 초중원소로 반감기가 매우 짧고, 안정한 분자는 알려지지 않았습니다.",
+    "card": {
+      "attack": 5,
+      "health": 16,
+      "rarity": "legendary",
+      "cost": 10,
+      "category": "noble_gas"
+    },
+    "battle": {
+      "hp": 96,
+      "attack": 7,
+      "defense": 10,
+      "speed": 6,
+      "rarity": "legendary"
+    },
+    "extraction": {
+      "z": 118,
+      "tier": "T4",
+      "crustMassPercent": null,
+      "process": "핵융합",
+      "vanilla": [
+        "periodite_ore"
+      ],
+      "compound": null,
+      "noteKo": "합성 원소. Fusion Chamber만 가능."
+    },
+    "relatedMoleculeIds": [],
+    "noteKo": "오가네손은 초중원소로, 안정한 분자가 알려지지 않았습니다."
+  }
+]

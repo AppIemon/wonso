@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:stellar_core"
+    },
+    "title": {
+      "text": "별"
+    },
+    "description": {
+      "text": "별 획득"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:fusion_intro"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "water",
+    "effect": "heal_percent",
+    "value": 0.3
+  },
+  {
+    "id": "sodium-chloride",
+    "effect": "defense_stage",
+    "value": 1
+  },
+  {
+    "id": "hydrogen-peroxide",
+    "effect": "attack_stage",
+    "value": 1
+  },
+  {
+    "id": "glucose",
+    "effect": "heal_percent",
+    "value": 0.5,
+    "turns": 2
+  }
+]

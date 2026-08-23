@@ -1,0 +1,54 @@
+[
+  {
+    "ore": "periodite_ore",
+    "y": [
+      -64,
+      16
+    ],
+    "zRange": [
+      1,
+      26
+    ],
+    "biome": "overworld"
+  },
+  {
+    "ore": "deep_periodite",
+    "y": [
+      -64,
+      -32
+    ],
+    "zRange": [
+      27,
+      56
+    ],
+    "biome": "deepslate"
+  },
+  {
+    "ore": "nether_salt",
+    "y": [
+      0,
+      128
+    ],
+    "zRange": [
+      11,
+      17
+    ],
+    "biome": "nether",
+    "symbols": [
+      "Na",
+      "Cl"
+    ]
+  },
+  {
+    "ore": "end_crystal_ore",
+    "y": [
+      0,
+      80
+    ],
+    "zRange": [
+      54,
+      118
+    ],
+    "biome": "end"
+  }
+]

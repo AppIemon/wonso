@@ -1,0 +1,30 @@
+[
+  {
+    "id": "heal_all",
+    "nameKo": "전체 치료",
+    "cost": 20,
+    "effect": "heal_player",
+    "value": 8
+  },
+  {
+    "id": "attack_up",
+    "nameKo": "공격력 증가",
+    "cost": 15,
+    "effect": "strength",
+    "seconds": 30
+  },
+  {
+    "id": "energy_up",
+    "nameKo": "에너지 증가",
+    "cost": 10,
+    "effect": "energy",
+    "value": 5
+  },
+  {
+    "id": "draw_card",
+    "nameKo": "카드 뽑기",
+    "cost": 25,
+    "effect": "random_element_card",
+    "value": 1
+  }
+]

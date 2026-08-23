@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:molecule_card_water"
+    },
+    "title": {
+      "text": "첫 합성"
+    },
+    "description": {
+      "text": "첫 분자 합성"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:atom_view"
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:energy_converter"
+    },
+    "title": {
+      "text": "에너지 변환"
+    },
+    "description": {
+      "text": "분자→에너지"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:molecule_dex"
+}

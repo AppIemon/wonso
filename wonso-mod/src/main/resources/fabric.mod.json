@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "wonso",
+	"version": "${version}",
+	"name": "wonso",
+	"description": "118원소를 원소·원자·분자 3모드로 학습하는 Minecraft 26.2 Fabric 야생 모드. 포켓몬식 원소 대전.",
+	"authors": ["AppIemon"],
+	"contact": {
+		"sources": "https://github.com/AppIemon/wonso"
+	},
+	"license": "MIT",
+	"icon": "assets/wonso/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.appiemon.wonso.WonsoMod"],
+		"client": ["com.appiemon.wonso.client.WonsoClient"]
+	},
+	"mixins": [
+		"wonso.mixins.json",
+		{
+			"config": "wonso.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,2701 @@
+[
+  {
+    "z": 1,
+    "defaultProtons": 1,
+    "defaultNeutrons": 0,
+    "defaultElectrons": 1,
+    "shellDistribution": [
+      1
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 1,
+        "neutrons": 0,
+        "abundance": 99.985,
+        "name": "¹H (경수소)"
+      },
+      {
+        "massNumber": 2,
+        "neutrons": 1,
+        "abundance": 0.015,
+        "name": "²H (중수소)"
+      },
+      {
+        "massNumber": 3,
+        "neutrons": 2,
+        "abundance": null,
+        "name": "³H (삼중수소)"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 2,
+    "defaultProtons": 2,
+    "defaultNeutrons": 2,
+    "defaultElectrons": 2,
+    "shellDistribution": [
+      2
+    ],
+    "valenceElectrons": 0,
+    "isotopes": [
+      {
+        "massNumber": 4,
+        "neutrons": 2,
+        "abundance": 100.0,
+        "name": "4He"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 3,
+    "defaultProtons": 3,
+    "defaultNeutrons": 4,
+    "defaultElectrons": 3,
+    "shellDistribution": [
+      2,
+      1
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 7,
+        "neutrons": 4,
+        "abundance": 100.0,
+        "name": "7Li"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 4,
+    "defaultProtons": 4,
+    "defaultNeutrons": 5,
+    "defaultElectrons": 4,
+    "shellDistribution": [
+      2,
+      2
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 9,
+        "neutrons": 5,
+        "abundance": 100.0,
+        "name": "9Be"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 5,
+    "defaultProtons": 5,
+    "defaultNeutrons": 6,
+    "defaultElectrons": 5,
+    "shellDistribution": [
+      2,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 11,
+        "neutrons": 6,
+        "abundance": 100.0,
+        "name": "11B"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 6,
+    "defaultProtons": 6,
+    "defaultNeutrons": 6,
+    "defaultElectrons": 6,
+    "shellDistribution": [
+      2,
+      4
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 12,
+        "neutrons": 6,
+        "abundance": 98.93,
+        "name": "¹²C"
+      },
+      {
+        "massNumber": 13,
+        "neutrons": 7,
+        "abundance": 1.07,
+        "name": "¹³C"
+      },
+      {
+        "massNumber": 14,
+        "neutrons": 8,
+        "abundance": null,
+        "name": "¹⁴C"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 7,
+    "defaultProtons": 7,
+    "defaultNeutrons": 7,
+    "defaultElectrons": 7,
+    "shellDistribution": [
+      2,
+      5
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 14,
+        "neutrons": 7,
+        "abundance": 100.0,
+        "name": "14N"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 8,
+    "defaultProtons": 8,
+    "defaultNeutrons": 8,
+    "defaultElectrons": 8,
+    "shellDistribution": [
+      2,
+      6
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 16,
+        "neutrons": 8,
+        "abundance": 99.76,
+        "name": "¹⁶O"
+      },
+      {
+        "massNumber": 18,
+        "neutrons": 10,
+        "abundance": 0.2,
+        "name": "¹⁸O"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 9,
+    "defaultProtons": 9,
+    "defaultNeutrons": 10,
+    "defaultElectrons": 9,
+    "shellDistribution": [
+      2,
+      7
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 19,
+        "neutrons": 10,
+        "abundance": 100.0,
+        "name": "19F"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 10,
+    "defaultProtons": 10,
+    "defaultNeutrons": 10,
+    "defaultElectrons": 10,
+    "shellDistribution": [
+      2,
+      8
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 20,
+        "neutrons": 10,
+        "abundance": 100.0,
+        "name": "20Ne"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 11,
+    "defaultProtons": 11,
+    "defaultNeutrons": 12,
+    "defaultElectrons": 11,
+    "shellDistribution": [
+      2,
+      8,
+      1
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 23,
+        "neutrons": 12,
+        "abundance": 100.0,
+        "name": "23Na"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 12,
+    "defaultProtons": 12,
+    "defaultNeutrons": 12,
+    "defaultElectrons": 12,
+    "shellDistribution": [
+      2,
+      8,
+      2
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 24,
+        "neutrons": 12,
+        "abundance": 100.0,
+        "name": "24Mg"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 13,
+    "defaultProtons": 13,
+    "defaultNeutrons": 14,
+    "defaultElectrons": 13,
+    "shellDistribution": [
+      2,
+      8,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 27,
+        "neutrons": 14,
+        "abundance": 100.0,
+        "name": "27Al"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 14,
+    "defaultProtons": 14,
+    "defaultNeutrons": 14,
+    "defaultElectrons": 14,
+    "shellDistribution": [
+      2,
+      8,
+      4
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 28,
+        "neutrons": 14,
+        "abundance": 100.0,
+        "name": "28Si"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 15,
+    "defaultProtons": 15,
+    "defaultNeutrons": 16,
+    "defaultElectrons": 15,
+    "shellDistribution": [
+      2,
+      8,
+      5
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 31,
+        "neutrons": 16,
+        "abundance": 100.0,
+        "name": "31P"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 16,
+    "defaultProtons": 16,
+    "defaultNeutrons": 16,
+    "defaultElectrons": 16,
+    "shellDistribution": [
+      2,
+      8,
+      6
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 32,
+        "neutrons": 16,
+        "abundance": 100.0,
+        "name": "32S"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 17,
+    "defaultProtons": 17,
+    "defaultNeutrons": 18,
+    "defaultElectrons": 17,
+    "shellDistribution": [
+      2,
+      8,
+      7
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 35,
+        "neutrons": 18,
+        "abundance": 75.76,
+        "name": "³⁵Cl"
+      },
+      {
+        "massNumber": 37,
+        "neutrons": 20,
+        "abundance": 24.24,
+        "name": "³⁷Cl"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 18,
+    "defaultProtons": 18,
+    "defaultNeutrons": 22,
+    "defaultElectrons": 18,
+    "shellDistribution": [
+      2,
+      8,
+      8
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 40,
+        "neutrons": 22,
+        "abundance": 100.0,
+        "name": "40Ar"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 19,
+    "defaultProtons": 19,
+    "defaultNeutrons": 20,
+    "defaultElectrons": 19,
+    "shellDistribution": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 39,
+        "neutrons": 20,
+        "abundance": 100.0,
+        "name": "39K"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 20,
+    "defaultProtons": 20,
+    "defaultNeutrons": 20,
+    "defaultElectrons": 20,
+    "shellDistribution": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 40,
+        "neutrons": 20,
+        "abundance": 100.0,
+        "name": "40Ca"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 21,
+    "defaultProtons": 21,
+    "defaultNeutrons": 24,
+    "defaultElectrons": 21,
+    "shellDistribution": [
+      2,
+      8,
+      11
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 45,
+        "neutrons": 24,
+        "abundance": 100.0,
+        "name": "45Sc"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 22,
+    "defaultProtons": 22,
+    "defaultNeutrons": 26,
+    "defaultElectrons": 22,
+    "shellDistribution": [
+      2,
+      8,
+      12
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 48,
+        "neutrons": 26,
+        "abundance": 100.0,
+        "name": "48Ti"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 23,
+    "defaultProtons": 23,
+    "defaultNeutrons": 28,
+    "defaultElectrons": 23,
+    "shellDistribution": [
+      2,
+      8,
+      13
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 51,
+        "neutrons": 28,
+        "abundance": 100.0,
+        "name": "51V"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 24,
+    "defaultProtons": 24,
+    "defaultNeutrons": 28,
+    "defaultElectrons": 24,
+    "shellDistribution": [
+      2,
+      8,
+      14
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 52,
+        "neutrons": 28,
+        "abundance": 100.0,
+        "name": "52Cr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 25,
+    "defaultProtons": 25,
+    "defaultNeutrons": 30,
+    "defaultElectrons": 25,
+    "shellDistribution": [
+      2,
+      8,
+      15
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 55,
+        "neutrons": 30,
+        "abundance": 100.0,
+        "name": "55Mn"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 26,
+    "defaultProtons": 26,
+    "defaultNeutrons": 30,
+    "defaultElectrons": 26,
+    "shellDistribution": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 56,
+        "neutrons": 30,
+        "abundance": 91.75,
+        "name": "⁵⁶Fe"
+      },
+      {
+        "massNumber": 54,
+        "neutrons": 28,
+        "abundance": 5.85,
+        "name": "⁵⁴Fe"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 27,
+    "defaultProtons": 27,
+    "defaultNeutrons": 32,
+    "defaultElectrons": 27,
+    "shellDistribution": [
+      2,
+      8,
+      17
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 59,
+        "neutrons": 32,
+        "abundance": 100.0,
+        "name": "59Co"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 28,
+    "defaultProtons": 28,
+    "defaultNeutrons": 30,
+    "defaultElectrons": 28,
+    "shellDistribution": [
+      2,
+      8,
+      18
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 58,
+        "neutrons": 30,
+        "abundance": 100.0,
+        "name": "58Ni"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 29,
+    "defaultProtons": 29,
+    "defaultNeutrons": 34,
+    "defaultElectrons": 29,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 63,
+        "neutrons": 34,
+        "abundance": 100.0,
+        "name": "63Cu"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 30,
+    "defaultProtons": 30,
+    "defaultNeutrons": 34,
+    "defaultElectrons": 30,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 64,
+        "neutrons": 34,
+        "abundance": 100.0,
+        "name": "64Zn"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 31,
+    "defaultProtons": 31,
+    "defaultNeutrons": 38,
+    "defaultElectrons": 31,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 69,
+        "neutrons": 38,
+        "abundance": 100.0,
+        "name": "69Ga"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 32,
+    "defaultProtons": 32,
+    "defaultNeutrons": 42,
+    "defaultElectrons": 32,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 74,
+        "neutrons": 42,
+        "abundance": 100.0,
+        "name": "74Ge"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 33,
+    "defaultProtons": 33,
+    "defaultNeutrons": 42,
+    "defaultElectrons": 33,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 75,
+        "neutrons": 42,
+        "abundance": 100.0,
+        "name": "75As"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 34,
+    "defaultProtons": 34,
+    "defaultNeutrons": 46,
+    "defaultElectrons": 34,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 80,
+        "neutrons": 46,
+        "abundance": 100.0,
+        "name": "80Se"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 35,
+    "defaultProtons": 35,
+    "defaultNeutrons": 44,
+    "defaultElectrons": 35,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 79,
+        "neutrons": 44,
+        "abundance": 100.0,
+        "name": "79Br"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 36,
+    "defaultProtons": 36,
+    "defaultNeutrons": 48,
+    "defaultElectrons": 36,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 84,
+        "neutrons": 48,
+        "abundance": 100.0,
+        "name": "84Kr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 37,
+    "defaultProtons": 37,
+    "defaultNeutrons": 48,
+    "defaultElectrons": 37,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      9
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 85,
+        "neutrons": 48,
+        "abundance": 100.0,
+        "name": "85Rb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 38,
+    "defaultProtons": 38,
+    "defaultNeutrons": 50,
+    "defaultElectrons": 38,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      10
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 88,
+        "neutrons": 50,
+        "abundance": 100.0,
+        "name": "88Sr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 39,
+    "defaultProtons": 39,
+    "defaultNeutrons": 50,
+    "defaultElectrons": 39,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      11
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 89,
+        "neutrons": 50,
+        "abundance": 100.0,
+        "name": "89Y"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 40,
+    "defaultProtons": 40,
+    "defaultNeutrons": 50,
+    "defaultElectrons": 40,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      12
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 90,
+        "neutrons": 50,
+        "abundance": 100.0,
+        "name": "90Zr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 41,
+    "defaultProtons": 41,
+    "defaultNeutrons": 52,
+    "defaultElectrons": 41,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      13
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 93,
+        "neutrons": 52,
+        "abundance": 100.0,
+        "name": "93Nb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 42,
+    "defaultProtons": 42,
+    "defaultNeutrons": 56,
+    "defaultElectrons": 42,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      14
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 98,
+        "neutrons": 56,
+        "abundance": 100.0,
+        "name": "98Mo"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 43,
+    "defaultProtons": 43,
+    "defaultNeutrons": 55,
+    "defaultElectrons": 43,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      15
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 98,
+        "neutrons": 55,
+        "abundance": null,
+        "name": "98Tc"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 44,
+    "defaultProtons": 44,
+    "defaultNeutrons": 58,
+    "defaultElectrons": 44,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      16
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 102,
+        "neutrons": 58,
+        "abundance": 100.0,
+        "name": "102Ru"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 45,
+    "defaultProtons": 45,
+    "defaultNeutrons": 58,
+    "defaultElectrons": 45,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      17
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 103,
+        "neutrons": 58,
+        "abundance": 100.0,
+        "name": "103Rh"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 46,
+    "defaultProtons": 46,
+    "defaultNeutrons": 60,
+    "defaultElectrons": 46,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 106,
+        "neutrons": 60,
+        "abundance": 100.0,
+        "name": "106Pd"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 47,
+    "defaultProtons": 47,
+    "defaultNeutrons": 60,
+    "defaultElectrons": 47,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      19
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 107,
+        "neutrons": 60,
+        "abundance": 100.0,
+        "name": "107Ag"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 48,
+    "defaultProtons": 48,
+    "defaultNeutrons": 66,
+    "defaultElectrons": 48,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      20
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 114,
+        "neutrons": 66,
+        "abundance": 100.0,
+        "name": "114Cd"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 49,
+    "defaultProtons": 49,
+    "defaultNeutrons": 66,
+    "defaultElectrons": 49,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      21
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 115,
+        "neutrons": 66,
+        "abundance": 100.0,
+        "name": "115In"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 50,
+    "defaultProtons": 50,
+    "defaultNeutrons": 70,
+    "defaultElectrons": 50,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      22
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 120,
+        "neutrons": 70,
+        "abundance": 100.0,
+        "name": "120Sn"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 51,
+    "defaultProtons": 51,
+    "defaultNeutrons": 70,
+    "defaultElectrons": 51,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      23
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 121,
+        "neutrons": 70,
+        "abundance": 100.0,
+        "name": "121Sb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 52,
+    "defaultProtons": 52,
+    "defaultNeutrons": 78,
+    "defaultElectrons": 52,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      24
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 130,
+        "neutrons": 78,
+        "abundance": 100.0,
+        "name": "130Te"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 53,
+    "defaultProtons": 53,
+    "defaultNeutrons": 74,
+    "defaultElectrons": 53,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      25
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 127,
+        "neutrons": 74,
+        "abundance": 100.0,
+        "name": "127I"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 54,
+    "defaultProtons": 54,
+    "defaultNeutrons": 78,
+    "defaultElectrons": 54,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      26
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 132,
+        "neutrons": 78,
+        "abundance": 100.0,
+        "name": "132Xe"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 55,
+    "defaultProtons": 55,
+    "defaultNeutrons": 78,
+    "defaultElectrons": 55,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      27
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 133,
+        "neutrons": 78,
+        "abundance": 100.0,
+        "name": "133Cs"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 56,
+    "defaultProtons": 56,
+    "defaultNeutrons": 82,
+    "defaultElectrons": 56,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      28
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 138,
+        "neutrons": 82,
+        "abundance": 100.0,
+        "name": "138Ba"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 57,
+    "defaultProtons": 57,
+    "defaultNeutrons": 82,
+    "defaultElectrons": 57,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      29
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 139,
+        "neutrons": 82,
+        "abundance": 100.0,
+        "name": "139La"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 58,
+    "defaultProtons": 58,
+    "defaultNeutrons": 82,
+    "defaultElectrons": 58,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      30
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 140,
+        "neutrons": 82,
+        "abundance": 100.0,
+        "name": "140Ce"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 59,
+    "defaultProtons": 59,
+    "defaultNeutrons": 82,
+    "defaultElectrons": 59,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      31
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 141,
+        "neutrons": 82,
+        "abundance": 100.0,
+        "name": "141Pr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 60,
+    "defaultProtons": 60,
+    "defaultNeutrons": 82,
+    "defaultElectrons": 60,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 142,
+        "neutrons": 82,
+        "abundance": 100.0,
+        "name": "142Nd"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 61,
+    "defaultProtons": 61,
+    "defaultNeutrons": 84,
+    "defaultElectrons": 61,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      1
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 145,
+        "neutrons": 84,
+        "abundance": null,
+        "name": "145Pm"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 62,
+    "defaultProtons": 62,
+    "defaultNeutrons": 90,
+    "defaultElectrons": 62,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      2
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 152,
+        "neutrons": 90,
+        "abundance": 100.0,
+        "name": "152Sm"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 63,
+    "defaultProtons": 63,
+    "defaultNeutrons": 90,
+    "defaultElectrons": 63,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 153,
+        "neutrons": 90,
+        "abundance": 100.0,
+        "name": "153Eu"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 64,
+    "defaultProtons": 64,
+    "defaultNeutrons": 94,
+    "defaultElectrons": 64,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      4
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 158,
+        "neutrons": 94,
+        "abundance": 100.0,
+        "name": "158Gd"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 65,
+    "defaultProtons": 65,
+    "defaultNeutrons": 94,
+    "defaultElectrons": 65,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      5
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 159,
+        "neutrons": 94,
+        "abundance": 100.0,
+        "name": "159Tb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 66,
+    "defaultProtons": 66,
+    "defaultNeutrons": 98,
+    "defaultElectrons": 66,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      6
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 164,
+        "neutrons": 98,
+        "abundance": 100.0,
+        "name": "164Dy"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 67,
+    "defaultProtons": 67,
+    "defaultNeutrons": 98,
+    "defaultElectrons": 67,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      7
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 165,
+        "neutrons": 98,
+        "abundance": 100.0,
+        "name": "165Ho"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 68,
+    "defaultProtons": 68,
+    "defaultNeutrons": 98,
+    "defaultElectrons": 68,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      8
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 166,
+        "neutrons": 98,
+        "abundance": 100.0,
+        "name": "166Er"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 69,
+    "defaultProtons": 69,
+    "defaultNeutrons": 100,
+    "defaultElectrons": 69,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      9
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 169,
+        "neutrons": 100,
+        "abundance": 100.0,
+        "name": "169Tm"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 70,
+    "defaultProtons": 70,
+    "defaultNeutrons": 104,
+    "defaultElectrons": 70,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      10
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 174,
+        "neutrons": 104,
+        "abundance": 100.0,
+        "name": "174Yb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 71,
+    "defaultProtons": 71,
+    "defaultNeutrons": 104,
+    "defaultElectrons": 71,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      11
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 175,
+        "neutrons": 104,
+        "abundance": 100.0,
+        "name": "175Lu"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 72,
+    "defaultProtons": 72,
+    "defaultNeutrons": 108,
+    "defaultElectrons": 72,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      12
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 180,
+        "neutrons": 108,
+        "abundance": 100.0,
+        "name": "180Hf"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 73,
+    "defaultProtons": 73,
+    "defaultNeutrons": 108,
+    "defaultElectrons": 73,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      13
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 181,
+        "neutrons": 108,
+        "abundance": 100.0,
+        "name": "181Ta"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 74,
+    "defaultProtons": 74,
+    "defaultNeutrons": 110,
+    "defaultElectrons": 74,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      14
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 184,
+        "neutrons": 110,
+        "abundance": 100.0,
+        "name": "184W"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 75,
+    "defaultProtons": 75,
+    "defaultNeutrons": 112,
+    "defaultElectrons": 75,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      15
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 187,
+        "neutrons": 112,
+        "abundance": 100.0,
+        "name": "187Re"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 76,
+    "defaultProtons": 76,
+    "defaultNeutrons": 116,
+    "defaultElectrons": 76,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      16
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 192,
+        "neutrons": 116,
+        "abundance": 100.0,
+        "name": "192Os"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 77,
+    "defaultProtons": 77,
+    "defaultNeutrons": 116,
+    "defaultElectrons": 77,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      17
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 193,
+        "neutrons": 116,
+        "abundance": 100.0,
+        "name": "193Ir"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 78,
+    "defaultProtons": 78,
+    "defaultNeutrons": 117,
+    "defaultElectrons": 78,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 195,
+        "neutrons": 117,
+        "abundance": 100.0,
+        "name": "195Pt"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 79,
+    "defaultProtons": 79,
+    "defaultNeutrons": 118,
+    "defaultElectrons": 79,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      19
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 197,
+        "neutrons": 118,
+        "abundance": 100.0,
+        "name": "197Au"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 80,
+    "defaultProtons": 80,
+    "defaultNeutrons": 122,
+    "defaultElectrons": 80,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      20
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 202,
+        "neutrons": 122,
+        "abundance": 100.0,
+        "name": "202Hg"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 81,
+    "defaultProtons": 81,
+    "defaultNeutrons": 124,
+    "defaultElectrons": 81,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      21
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 205,
+        "neutrons": 124,
+        "abundance": 100.0,
+        "name": "205Tl"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 82,
+    "defaultProtons": 82,
+    "defaultNeutrons": 126,
+    "defaultElectrons": 82,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      22
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 208,
+        "neutrons": 126,
+        "abundance": 100.0,
+        "name": "208Pb"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 83,
+    "defaultProtons": 83,
+    "defaultNeutrons": 126,
+    "defaultElectrons": 83,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      23
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 209,
+        "neutrons": 126,
+        "abundance": 100.0,
+        "name": "209Bi"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 84,
+    "defaultProtons": 84,
+    "defaultNeutrons": 125,
+    "defaultElectrons": 84,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      24
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 209,
+        "neutrons": 125,
+        "abundance": null,
+        "name": "209Po"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 85,
+    "defaultProtons": 85,
+    "defaultNeutrons": 125,
+    "defaultElectrons": 85,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      25
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 210,
+        "neutrons": 125,
+        "abundance": null,
+        "name": "210At"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 86,
+    "defaultProtons": 86,
+    "defaultNeutrons": 136,
+    "defaultElectrons": 86,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      26
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 222,
+        "neutrons": 136,
+        "abundance": null,
+        "name": "222Rn"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 87,
+    "defaultProtons": 87,
+    "defaultNeutrons": 136,
+    "defaultElectrons": 87,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      27
+    ],
+    "valenceElectrons": 1,
+    "isotopes": [
+      {
+        "massNumber": 223,
+        "neutrons": 136,
+        "abundance": null,
+        "name": "223Fr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 88,
+    "defaultProtons": 88,
+    "defaultNeutrons": 138,
+    "defaultElectrons": 88,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      28
+    ],
+    "valenceElectrons": 2,
+    "isotopes": [
+      {
+        "massNumber": 226,
+        "neutrons": 138,
+        "abundance": null,
+        "name": "226Ra"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 89,
+    "defaultProtons": 89,
+    "defaultNeutrons": 138,
+    "defaultElectrons": 89,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      29
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 227,
+        "neutrons": 138,
+        "abundance": null,
+        "name": "227Ac"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 90,
+    "defaultProtons": 90,
+    "defaultNeutrons": 142,
+    "defaultElectrons": 90,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      30
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 232,
+        "neutrons": 142,
+        "abundance": 100.0,
+        "name": "232Th"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 91,
+    "defaultProtons": 91,
+    "defaultNeutrons": 140,
+    "defaultElectrons": 91,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      31
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 231,
+        "neutrons": 140,
+        "abundance": 100.0,
+        "name": "231Pa"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 92,
+    "defaultProtons": 92,
+    "defaultNeutrons": 146,
+    "defaultElectrons": 92,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 238,
+        "neutrons": 146,
+        "abundance": 99.27,
+        "name": "²³⁸U"
+      },
+      {
+        "massNumber": 235,
+        "neutrons": 143,
+        "abundance": 0.72,
+        "name": "²³⁵U"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 93,
+    "defaultProtons": 93,
+    "defaultNeutrons": 144,
+    "defaultElectrons": 93,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      1
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 237,
+        "neutrons": 144,
+        "abundance": null,
+        "name": "237Np"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 94,
+    "defaultProtons": 94,
+    "defaultNeutrons": 150,
+    "defaultElectrons": 94,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      2
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 244,
+        "neutrons": 150,
+        "abundance": null,
+        "name": "244Pu"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 95,
+    "defaultProtons": 95,
+    "defaultNeutrons": 148,
+    "defaultElectrons": 95,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 243,
+        "neutrons": 148,
+        "abundance": null,
+        "name": "243Am"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 96,
+    "defaultProtons": 96,
+    "defaultNeutrons": 151,
+    "defaultElectrons": 96,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      4
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 247,
+        "neutrons": 151,
+        "abundance": null,
+        "name": "247Cm"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 97,
+    "defaultProtons": 97,
+    "defaultNeutrons": 150,
+    "defaultElectrons": 97,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      5
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 247,
+        "neutrons": 150,
+        "abundance": null,
+        "name": "247Bk"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 98,
+    "defaultProtons": 98,
+    "defaultNeutrons": 153,
+    "defaultElectrons": 98,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      6
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 251,
+        "neutrons": 153,
+        "abundance": null,
+        "name": "251Cf"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 99,
+    "defaultProtons": 99,
+    "defaultNeutrons": 153,
+    "defaultElectrons": 99,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      7
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 252,
+        "neutrons": 153,
+        "abundance": null,
+        "name": "252Es"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 100,
+    "defaultProtons": 100,
+    "defaultNeutrons": 157,
+    "defaultElectrons": 100,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 257,
+        "neutrons": 157,
+        "abundance": null,
+        "name": "257Fm"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 101,
+    "defaultProtons": 101,
+    "defaultNeutrons": 157,
+    "defaultElectrons": 101,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      9
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 258,
+        "neutrons": 157,
+        "abundance": null,
+        "name": "258Md"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 102,
+    "defaultProtons": 102,
+    "defaultNeutrons": 157,
+    "defaultElectrons": 102,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 259,
+        "neutrons": 157,
+        "abundance": null,
+        "name": "259No"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 103,
+    "defaultProtons": 103,
+    "defaultNeutrons": 163,
+    "defaultElectrons": 103,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 266,
+        "neutrons": 163,
+        "abundance": null,
+        "name": "266Lr"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 104,
+    "defaultProtons": 104,
+    "defaultNeutrons": 163,
+    "defaultElectrons": 104,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 267,
+        "neutrons": 163,
+        "abundance": null,
+        "name": "267Rf"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 105,
+    "defaultProtons": 105,
+    "defaultNeutrons": 163,
+    "defaultElectrons": 105,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 268,
+        "neutrons": 163,
+        "abundance": null,
+        "name": "268Db"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 106,
+    "defaultProtons": 106,
+    "defaultNeutrons": 163,
+    "defaultElectrons": 106,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 269,
+        "neutrons": 163,
+        "abundance": null,
+        "name": "269Sg"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 107,
+    "defaultProtons": 107,
+    "defaultNeutrons": 163,
+    "defaultElectrons": 107,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 270,
+        "neutrons": 163,
+        "abundance": null,
+        "name": "270Bh"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 108,
+    "defaultProtons": 108,
+    "defaultNeutrons": 161,
+    "defaultElectrons": 108,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      16
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 269,
+        "neutrons": 161,
+        "abundance": null,
+        "name": "269Hs"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 109,
+    "defaultProtons": 109,
+    "defaultNeutrons": 169,
+    "defaultElectrons": 109,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 278,
+        "neutrons": 169,
+        "abundance": null,
+        "name": "278Mt"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 110,
+    "defaultProtons": 110,
+    "defaultNeutrons": 171,
+    "defaultElectrons": 110,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 281,
+        "neutrons": 171,
+        "abundance": null,
+        "name": "281Ds"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 111,
+    "defaultProtons": 111,
+    "defaultNeutrons": 171,
+    "defaultElectrons": 111,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      1
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 282,
+        "neutrons": 171,
+        "abundance": null,
+        "name": "282Rg"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 112,
+    "defaultProtons": 112,
+    "defaultNeutrons": 173,
+    "defaultElectrons": 112,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 285,
+        "neutrons": 173,
+        "abundance": null,
+        "name": "285Cn"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 113,
+    "defaultProtons": 113,
+    "defaultNeutrons": 173,
+    "defaultElectrons": 113,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "valenceElectrons": 3,
+    "isotopes": [
+      {
+        "massNumber": 286,
+        "neutrons": 173,
+        "abundance": null,
+        "name": "286Nh"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 114,
+    "defaultProtons": 114,
+    "defaultNeutrons": 175,
+    "defaultElectrons": 114,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "valenceElectrons": 4,
+    "isotopes": [
+      {
+        "massNumber": 289,
+        "neutrons": 175,
+        "abundance": null,
+        "name": "289Fl"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 115,
+    "defaultProtons": 115,
+    "defaultNeutrons": 175,
+    "defaultElectrons": 115,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "valenceElectrons": 5,
+    "isotopes": [
+      {
+        "massNumber": 290,
+        "neutrons": 175,
+        "abundance": null,
+        "name": "290Mc"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 116,
+    "defaultProtons": 116,
+    "defaultNeutrons": 177,
+    "defaultElectrons": 116,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ],
+    "valenceElectrons": 6,
+    "isotopes": [
+      {
+        "massNumber": 293,
+        "neutrons": 177,
+        "abundance": null,
+        "name": "293Lv"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 117,
+    "defaultProtons": 117,
+    "defaultNeutrons": 177,
+    "defaultElectrons": 117,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
+    "valenceElectrons": 7,
+    "isotopes": [
+      {
+        "massNumber": 294,
+        "neutrons": 177,
+        "abundance": null,
+        "name": "294Ts"
+      }
+    ],
+    "ions": []
+  },
+  {
+    "z": 118,
+    "defaultProtons": 118,
+    "defaultNeutrons": 176,
+    "defaultElectrons": 118,
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
+    "valenceElectrons": 8,
+    "isotopes": [
+      {
+        "massNumber": 294,
+        "neutrons": 176,
+        "abundance": null,
+        "name": "294Og"
+      }
+    ],
+    "ions": []
+  }
+]

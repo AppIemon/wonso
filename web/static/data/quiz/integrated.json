@@ -1,0 +1,18 @@
+[
+  {
+    "id": "q078",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 1,
+    "promptKo": "다음 중 '원자'만 가리키는 것은?",
+    "choices": [
+      "NaCl",
+      "O₂",
+      "¹²C",
+      "공기"
+    ],
+    "correctAnswer": "¹²C",
+    "explanationKo": "¹²C는 탄소 원자(특정 동위원소)입니다. O₂는 분자, NaCl은 화합물입니다.",
+    "relatedZ": 6
+  }
+]

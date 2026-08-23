@@ -1,0 +1,103 @@
+[
+  {
+    "id": "crush-sand",
+    "input": {
+      "item": "minecraft:sand",
+      "count": 16
+    },
+    "outputs": [
+      {
+        "id": "silica_grit",
+        "count": 4
+      },
+      {
+        "id": "sand_dust",
+        "count": 8
+      }
+    ],
+    "ticks": 80
+  },
+  {
+    "id": "crush-cobble",
+    "input": {
+      "item": "minecraft:cobblestone",
+      "count": 16
+    },
+    "outputs": [
+      {
+        "id": "stone_powder",
+        "count": 6
+      },
+      {
+        "id": "metal_trace",
+        "count": 1,
+        "chance": 0.4
+      }
+    ],
+    "ticks": 80
+  },
+  {
+    "id": "crush-quartz",
+    "input": {
+      "item": "minecraft:quartz",
+      "count": 8
+    },
+    "outputs": [
+      {
+        "id": "quartz_dust",
+        "count": 4
+      },
+      {
+        "id": "silica_grit",
+        "count": 2
+      }
+    ],
+    "ticks": 80
+  },
+  {
+    "id": "crush-iron",
+    "input": {
+      "item": "minecraft:raw_iron",
+      "count": 8
+    },
+    "outputs": [
+      {
+        "id": "iron_ore_powder",
+        "count": 4
+      },
+      {
+        "id": "rock_slag",
+        "count": 2
+      }
+    ],
+    "ticks": 100
+  },
+  {
+    "id": "crush-nether-quartz",
+    "input": {
+      "item": "minecraft:nether_quartz",
+      "count": 8
+    },
+    "outputs": [
+      {
+        "id": "nether_quartz_dust",
+        "count": 4
+      }
+    ],
+    "ticks": 80
+  },
+  {
+    "id": "crush-bone",
+    "input": {
+      "item": "minecraft:bone",
+      "count": 8
+    },
+    "outputs": [
+      {
+        "id": "calcium_phosphate",
+        "count": 2
+      }
+    ],
+    "ticks": 80
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "q067",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "H₂O에서 원자 총수는?",
+    "correctAnswer": 3,
+    "explanationKo": "물(H₂O)는 H×2, O×1이므로 원자 총수는 3입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "water"
+  },
+  {
+    "id": "q068",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "CO₂에서 원자 총수는?",
+    "correctAnswer": 3,
+    "explanationKo": "이산화탄소(CO₂)는 C×1, O×2이므로 원자 총수는 3입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "carbon-dioxide"
+  },
+  {
+    "id": "q069",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "CH₄에서 원자 총수는?",
+    "correctAnswer": 5,
+    "explanationKo": "메테인(CH₄)는 C×1, H×4이므로 원자 총수는 5입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "methane"
+  },
+  {
+    "id": "q070",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 2,
+    "promptKo": "C₆H₁₂O₆에서 원자 총수는?",
+    "correctAnswer": 24,
+    "explanationKo": "포도당(C₆H₁₂O₆)는 C×6, H×12, O×6이므로 원자 총수는 24입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "glucose"
+  },
+  {
+    "id": "q071",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "NH₃에서 원자 총수는?",
+    "correctAnswer": 4,
+    "explanationKo": "암모니아(NH₃)는 N×1, H×3이므로 원자 총수는 4입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "ammonia"
+  },
+  {
+    "id": "q072",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "O₂에서 원자 총수는?",
+    "correctAnswer": 2,
+    "explanationKo": "산소(O₂)는 O×2이므로 원자 총수는 2입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "o2"
+  },
+  {
+    "id": "q073",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "O₂에서 원자 총수는?",
+    "correctAnswer": 2,
+    "explanationKo": "산소(O₂)는 O×2이므로 원자 총수는 2입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "o2"
+  },
+  {
+    "id": "q074",
+    "mode": "molecule",
+    "type": "parse_count",
+    "difficulty": 1,
+    "promptKo": "NaCl에서 원자 총수는?",
+    "correctAnswer": 2,
+    "explanationKo": "염화 나트륨(NaCl)는 Na×1, Cl×1이므로 원자 총수는 2입니다. 아래첨자는 원자 개수입니다.",
+    "relatedMoleculeId": "sodium-chloride"
+  },
+  {
+    "id": "q075",
+    "mode": "molecule",
+    "type": "classify",
+    "difficulty": 1,
+    "promptKo": "다음 중 '분자'인 것은?",
+    "choices": [
+      "O (산소 원자)",
+      "O₂ (산소 분자)",
+      "O (산소 원소)"
+    ],
+    "correctAnswer": "O₂ (산소 분자)",
+    "explanationKo": "O는 산소 원소/원자를 나타낼 때 쓰고, O₂는 산소 분자 1개를 나타냅니다. 원소·원자·분자를 구분하세요.",
+    "relatedMoleculeId": "o2"
+  },
+  {
+    "id": "q076",
+    "mode": "molecule",
+    "type": "classify",
+    "difficulty": 1,
+    "promptKo": "2H₂O에서 산소 원자는 몇 개인가?",
+    "choices": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "2",
+    "explanationKo": "계수 2는 물 분자 2개를 뜻하고, 분자당 산소는 1개이므로 산소 원자는 2개입니다. 수소 원자는 4개입니다.",
+    "relatedMoleculeId": "water"
+  },
+  {
+    "id": "q077",
+    "mode": "molecule",
+    "type": "name_to_formula",
+    "difficulty": 1,
+    "promptKo": "물의 분자식은?",
+    "choices": [
+      "HO",
+      "H2O",
+      "H2O2",
+      "OH"
+    ],
+    "correctAnswer": "H2O",
+    "explanationKo": "물은 수소 2개+산소 1개의 분자이므로 H₂O입니다.",
+    "relatedMoleculeId": "water"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:element_card_c"
+    },
+    "title": {
+      "text": "원자 모드"
+    },
+    "description": {
+      "text": "원자 탭 확인"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:open_periodic_table"
+}

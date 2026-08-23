@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:element_refinery"
+    },
+    "title": {
+      "text": "정제 장인"
+    },
+    "description": {
+      "text": "정제 100회"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:first_impure"
+}

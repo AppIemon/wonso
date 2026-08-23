@@ -1,0 +1,25 @@
+{
+  "version": "2026.08.1",
+  "bundles": {
+    "elements": {
+      "checksum": "632df38d07757301",
+      "size": 144008
+    },
+    "atoms": {
+      "checksum": "151f11c5d2708f95",
+      "size": 43963
+    },
+    "molecules_tier_a": {
+      "checksum": "d5551e8497884193",
+      "size": 30645
+    },
+    "synthesis": {
+      "checksum": "b72911f5771c1a8e",
+      "size": 12631
+    },
+    "energy-abilities": {
+      "checksum": "49abd771a8a175f1",
+      "size": 503
+    }
+  }
+}

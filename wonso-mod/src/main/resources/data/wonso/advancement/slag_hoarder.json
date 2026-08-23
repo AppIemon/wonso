@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:slag"
+    },
+    "title": {
+      "text": "슬래그 수집가"
+    },
+    "description": {
+      "text": "슬래그 64"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:first_crush"
+}
