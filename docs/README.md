@@ -5,6 +5,7 @@
 | [PRODUCT_SPEC.md](./PRODUCT_SPEC.md) | 제품 기획서 — 3모드 정의, UX, KPI, 로드맵 |
 | [MINECRAFT_MOD_SPEC.md](./MINECRAFT_MOD_SPEC.md) | **Minecraft 26.2 Fabric 모드** — 야생 서바이벌, 블록·아이템, GUI |
 | [ELEMENTWAR_REFERENCE.md](./ELEMENTWAR_REFERENCE.md) | **elementwar.xyz** 레퍼런스 분석 & 모드 이식 맵 |
+| [ELEMENT_BATTLE_SPEC.md](./ELEMENT_BATTLE_SPEC.md) | **원소 대전** — 포켓몬식 PvP/PvE (플레이어 직접 전투 ❌) |
 | [ARCHITECTURE_PLAN.md](./ARCHITECTURE_PLAN.md) | 공유 데이터·API·스키마 (모드+웹) |
 | [CONTENT_WRITING_PLAN.md](./CONTENT_WRITING_PLAN.md) | 118원소·분자·퀴즈 콘텐츠 작성 로드맵 |
 
