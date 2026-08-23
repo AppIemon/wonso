@@ -9,7 +9,8 @@
 - [docs/README.md](./docs/README.md) — 문서 인덱스
 - [제품 기획서](./docs/PRODUCT_SPEC.md)
 - [Minecraft Fabric 모드 기획](./docs/MINECRAFT_MOD_SPEC.md)
-- [원소 대전 (PvP/PvE)](./docs/ELEMENT_BATTLE_SPEC.md)
+- [elementwar.xyz 레퍼런스](./docs/ELEMENTWAR_REFERENCE.md)
+- [바닐라 거친 정제](./docs/VANILLA_REFINING_SPEC.md)
 - [아키텍처 계획](./docs/ARCHITECTURE_PLAN.md)
 - [콘텐츠 작성 계획](./docs/CONTENT_WRITING_PLAN.md)
 
