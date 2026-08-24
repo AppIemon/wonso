@@ -1,0 +1,710 @@
+[
+  {
+    "z": 1,
+    "symbol": "H",
+    "crustMassPercent": 0.14,
+    "tier": "T1"
+  },
+  {
+    "z": 2,
+    "symbol": "He",
+    "crustMassPercent": 8e-07,
+    "tier": "T3"
+  },
+  {
+    "z": 3,
+    "symbol": "Li",
+    "crustMassPercent": 0.002,
+    "tier": "T3"
+  },
+  {
+    "z": 4,
+    "symbol": "Be",
+    "crustMassPercent": 0.00028,
+    "tier": "T3"
+  },
+  {
+    "z": 5,
+    "symbol": "B",
+    "crustMassPercent": 0.001,
+    "tier": "T3"
+  },
+  {
+    "z": 6,
+    "symbol": "C",
+    "crustMassPercent": 0.02,
+    "tier": "T2"
+  },
+  {
+    "z": 7,
+    "symbol": "N",
+    "crustMassPercent": 0.002,
+    "tier": "T2"
+  },
+  {
+    "z": 8,
+    "symbol": "O",
+    "crustMassPercent": 46.1,
+    "tier": "T0"
+  },
+  {
+    "z": 9,
+    "symbol": "F",
+    "crustMassPercent": 0.054,
+    "tier": "T2"
+  },
+  {
+    "z": 10,
+    "symbol": "Ne",
+    "crustMassPercent": 5e-07,
+    "tier": "T3"
+  },
+  {
+    "z": 11,
+    "symbol": "Na",
+    "crustMassPercent": 2.3,
+    "tier": "T1"
+  },
+  {
+    "z": 12,
+    "symbol": "Mg",
+    "crustMassPercent": 2.9,
+    "tier": "T1"
+  },
+  {
+    "z": 13,
+    "symbol": "Al",
+    "crustMassPercent": 8.23,
+    "tier": "T1"
+  },
+  {
+    "z": 14,
+    "symbol": "Si",
+    "crustMassPercent": 28.2,
+    "tier": "T1"
+  },
+  {
+    "z": 15,
+    "symbol": "P",
+    "crustMassPercent": 0.1,
+    "tier": "T2"
+  },
+  {
+    "z": 16,
+    "symbol": "S",
+    "crustMassPercent": 0.042,
+    "tier": "T1"
+  },
+  {
+    "z": 17,
+    "symbol": "Cl",
+    "crustMassPercent": 0.017,
+    "tier": "T2"
+  },
+  {
+    "z": 18,
+    "symbol": "Ar",
+    "crustMassPercent": 0.00035,
+    "tier": "T3"
+  },
+  {
+    "z": 19,
+    "symbol": "K",
+    "crustMassPercent": 1.5,
+    "tier": "T1"
+  },
+  {
+    "z": 20,
+    "symbol": "Ca",
+    "crustMassPercent": 5.0,
+    "tier": "T1"
+  },
+  {
+    "z": 21,
+    "symbol": "Sc",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 22,
+    "symbol": "Ti",
+    "crustMassPercent": 0.56,
+    "tier": "T2"
+  },
+  {
+    "z": 23,
+    "symbol": "V",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 24,
+    "symbol": "Cr",
+    "crustMassPercent": 0.014,
+    "tier": "T2"
+  },
+  {
+    "z": 25,
+    "symbol": "Mn",
+    "crustMassPercent": 0.11,
+    "tier": "T2"
+  },
+  {
+    "z": 26,
+    "symbol": "Fe",
+    "crustMassPercent": 5.6,
+    "tier": "T1"
+  },
+  {
+    "z": 27,
+    "symbol": "Co",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 28,
+    "symbol": "Ni",
+    "crustMassPercent": 0.0084,
+    "tier": "T2"
+  },
+  {
+    "z": 29,
+    "symbol": "Cu",
+    "crustMassPercent": 0.0068,
+    "tier": "T2"
+  },
+  {
+    "z": 30,
+    "symbol": "Zn",
+    "crustMassPercent": 0.0078,
+    "tier": "T2"
+  },
+  {
+    "z": 31,
+    "symbol": "Ga",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 32,
+    "symbol": "Ge",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 33,
+    "symbol": "As",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 34,
+    "symbol": "Se",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 35,
+    "symbol": "Br",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 36,
+    "symbol": "Kr",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 37,
+    "symbol": "Rb",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 38,
+    "symbol": "Sr",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 39,
+    "symbol": "Y",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 40,
+    "symbol": "Zr",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 41,
+    "symbol": "Nb",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 42,
+    "symbol": "Mo",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 43,
+    "symbol": "Tc",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 44,
+    "symbol": "Ru",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 45,
+    "symbol": "Rh",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 46,
+    "symbol": "Pd",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 47,
+    "symbol": "Ag",
+    "crustMassPercent": 8e-06,
+    "tier": "T3"
+  },
+  {
+    "z": 48,
+    "symbol": "Cd",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 49,
+    "symbol": "In",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 50,
+    "symbol": "Sn",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 51,
+    "symbol": "Sb",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 52,
+    "symbol": "Te",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 53,
+    "symbol": "I",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 54,
+    "symbol": "Xe",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 55,
+    "symbol": "Cs",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 56,
+    "symbol": "Ba",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 57,
+    "symbol": "La",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 58,
+    "symbol": "Ce",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 59,
+    "symbol": "Pr",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 60,
+    "symbol": "Nd",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 61,
+    "symbol": "Pm",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 62,
+    "symbol": "Sm",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 63,
+    "symbol": "Eu",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 64,
+    "symbol": "Gd",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 65,
+    "symbol": "Tb",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 66,
+    "symbol": "Dy",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 67,
+    "symbol": "Ho",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 68,
+    "symbol": "Er",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 69,
+    "symbol": "Tm",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 70,
+    "symbol": "Yb",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 71,
+    "symbol": "Lu",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 72,
+    "symbol": "Hf",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 73,
+    "symbol": "Ta",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 74,
+    "symbol": "W",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 75,
+    "symbol": "Re",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 76,
+    "symbol": "Os",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 77,
+    "symbol": "Ir",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 78,
+    "symbol": "Pt",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 79,
+    "symbol": "Au",
+    "crustMassPercent": 4e-07,
+    "tier": "T3"
+  },
+  {
+    "z": 80,
+    "symbol": "Hg",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 81,
+    "symbol": "Tl",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 82,
+    "symbol": "Pb",
+    "crustMassPercent": 0.001,
+    "tier": "T3"
+  },
+  {
+    "z": 83,
+    "symbol": "Bi",
+    "crustMassPercent": null,
+    "tier": "T3"
+  },
+  {
+    "z": 84,
+    "symbol": "Po",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 85,
+    "symbol": "At",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 86,
+    "symbol": "Rn",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 87,
+    "symbol": "Fr",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 88,
+    "symbol": "Ra",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 89,
+    "symbol": "Ac",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 90,
+    "symbol": "Th",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 91,
+    "symbol": "Pa",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 92,
+    "symbol": "U",
+    "crustMassPercent": 0.00018,
+    "tier": "T4"
+  },
+  {
+    "z": 93,
+    "symbol": "Np",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 94,
+    "symbol": "Pu",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 95,
+    "symbol": "Am",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 96,
+    "symbol": "Cm",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 97,
+    "symbol": "Bk",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 98,
+    "symbol": "Cf",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 99,
+    "symbol": "Es",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 100,
+    "symbol": "Fm",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 101,
+    "symbol": "Md",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 102,
+    "symbol": "No",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 103,
+    "symbol": "Lr",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 104,
+    "symbol": "Rf",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 105,
+    "symbol": "Db",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 106,
+    "symbol": "Sg",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 107,
+    "symbol": "Bh",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 108,
+    "symbol": "Hs",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 109,
+    "symbol": "Mt",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 110,
+    "symbol": "Ds",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 111,
+    "symbol": "Rg",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 112,
+    "symbol": "Cn",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 113,
+    "symbol": "Nh",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 114,
+    "symbol": "Fl",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 115,
+    "symbol": "Mc",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 116,
+    "symbol": "Lv",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 117,
+    "symbol": "Ts",
+    "crustMassPercent": null,
+    "tier": "T4"
+  },
+  {
+    "z": 118,
+    "symbol": "Og",
+    "crustMassPercent": null,
+    "tier": "T4"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:chemistry_journal"
+    },
+    "title": {
+      "text": "주기율표"
+    },
+    "description": {
+      "text": "주기율표 열기"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:first_element"
+}

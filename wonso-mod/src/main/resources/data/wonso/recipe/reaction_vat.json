@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", " C ", "SSS"],
+  "key": {
+    "B": "minecraft:bucket",
+    "C": "minecraft:furnace",
+    "S": "minecraft:cobblestone"
+  },
+  "result": { "id": "wonso:reaction_vat", "count": 1 }
+}

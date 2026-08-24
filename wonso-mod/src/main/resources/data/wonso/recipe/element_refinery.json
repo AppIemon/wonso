@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["IQI", "IRI", "IFI"],
+  "key": {
+    "I": "minecraft:iron_block",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone",
+    "F": "minecraft:furnace"
+  },
+  "result": { "id": "wonso:element_refinery", "count": 1 }
+}

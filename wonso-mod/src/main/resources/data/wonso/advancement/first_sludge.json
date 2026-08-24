@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:waste_sludge"
+    },
+    "title": {
+      "text": "첫 슬러지"
+    },
+    "description": {
+      "text": "슬러지 획득"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:first_crush"
+}

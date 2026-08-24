@@ -1,0 +1,42 @@
+[
+  {
+    "element": "Si",
+    "vanilla": "sand",
+    "consume": "48-64 + water + coal 16"
+  },
+  {
+    "element": "O",
+    "vanilla": "water",
+    "consume": "buckets 8+ + redstone"
+  },
+  {
+    "element": "C",
+    "vanilla": "charcoal/coal",
+    "consume": "32"
+  },
+  {
+    "element": "Fe",
+    "vanilla": "raw_iron",
+    "consume": "16-24 powder route"
+  },
+  {
+    "element": "Cu",
+    "vanilla": "raw_copper",
+    "consume": "16"
+  },
+  {
+    "element": "Au",
+    "vanilla": "raw_gold",
+    "consume": "24"
+  },
+  {
+    "element": "Na",
+    "vanilla": "kelp+sand+water",
+    "consume": "brine route"
+  },
+  {
+    "element": "Cl",
+    "vanilla": "kelp+water",
+    "consume": "separate from Na"
+  }
+]

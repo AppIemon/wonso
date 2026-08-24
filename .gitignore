@@ -1,0 +1,12 @@
+.gradle/
+**/build/
+**/node_modules/
+**/.svelte-kit/
+web/.vite/
+*.hprof
+.idea/
+.vscode/
+run/
+__pycache__/
+*.pyc
+content/hive-cache/

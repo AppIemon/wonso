@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "h2",
+    "formula": "H2",
+    "formulaDisplay": "H₂",
+    "nameKo": "수소",
+    "nameEn": "Hydrogen",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      1
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "수소 분자(H₂)는 수소 원자 2개가 결합한 분자입니다. H₂의 2는 아래첨자로, 한 분자 안에 수소 원자가 2개라는 뜻입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "H"
+    ]
+  },
+  {
+    "id": "o2",
+    "formula": "O2",
+    "formulaDisplay": "O₂",
+    "nameKo": "산소",
+    "nameEn": "Oxygen",
+    "elements": [
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      8
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "산소 분자(O₂)는 산소 원자 2개의 결합체입니다. 원소 기호 O와 분자식 O₂를 혼동하지 마세요.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "O"
+    ]
+  },
+  {
+    "id": "n2",
+    "formula": "N2",
+    "formulaDisplay": "N₂",
+    "nameKo": "질소",
+    "nameEn": "Nitrogen",
+    "elements": [
+      {
+        "symbol": "N",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      7
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "질소 분자(N₂)는 공기 부피의 약 78%를 차지하는 분자입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "N"
+    ]
+  },
+  {
+    "id": "cl2",
+    "formula": "Cl2",
+    "formulaDisplay": "Cl₂",
+    "nameKo": "염소",
+    "nameEn": "Chlorine",
+    "elements": [
+      {
+        "symbol": "Cl",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      17
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "염소 분자(Cl₂)는 할로겐 이원자 분자입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 3,
+    "synthesis": [
+      "Cl"
+    ]
+  },
+  {
+    "id": "f2",
+    "formula": "F2",
+    "formulaDisplay": "F₂",
+    "nameKo": "플루오린",
+    "nameEn": "Fluorine",
+    "elements": [
+      {
+        "symbol": "F",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      9
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "플루오린 분자(F₂)는 반응성이 매우 큰 할로겐 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "F"
+    ]
+  },
+  {
+    "id": "br2",
+    "formula": "Br2",
+    "formulaDisplay": "Br₂",
+    "nameKo": "브로민",
+    "nameEn": "Bromine",
+    "elements": [
+      {
+        "symbol": "Br",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      35
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "브로민(Br₂)은 상온에서 액체인 이원자 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "Br"
+    ]
+  },
+  {
+    "id": "i2",
+    "formula": "I2",
+    "formulaDisplay": "I₂",
+    "nameKo": "아이오딘",
+    "nameEn": "Iodine",
+    "elements": [
+      {
+        "symbol": "I",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      53
+    ],
+    "category": "elemental",
+    "structureType": "linear",
+    "descriptionKo": "아이오딘(I₂)은 할로겐 이원자 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "I"
+    ]
+  },
+  {
+    "id": "o3",
+    "formula": "O3",
+    "formulaDisplay": "O₃",
+    "nameKo": "오존",
+    "nameEn": "Ozone",
+    "elements": [
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      8
+    ],
+    "category": "elemental",
+    "structureType": "bent",
+    "descriptionKo": "오존(O₃)은 산소 원자 3개가 결합한 분자로, O₂와 다른 물질입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "O"
+    ]
+  },
+  {
+    "id": "water",
+    "formula": "H2O",
+    "formulaDisplay": "H₂O",
+    "nameKo": "물",
+    "nameEn": "Water",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "bent",
+    "descriptionKo": "물(H₂O)은 수소 원자 2개와 산소 원자 1개가 결합한 분자입니다. H₂O에서 숫자 2는 아래첨자로, 산소 한 분자 안에 수소가 2개 있다는 뜻입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 3,
+    "synthesis": [
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "carbon-dioxide",
+    "formula": "CO2",
+    "formulaDisplay": "CO₂",
+    "nameKo": "이산화탄소",
+    "nameEn": "Carbon dioxide",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      6,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "linear",
+    "descriptionKo": "이산화탄소(CO₂)는 탄소 1개와 산소 2개의 분자입니다. 아래첨자 2는 산소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "C",
+      "O"
+    ]
+  },
+  {
+    "id": "ammonia",
+    "formula": "NH3",
+    "formulaDisplay": "NH₃",
+    "nameKo": "암모니아",
+    "nameEn": "Ammonia",
+    "elements": [
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      1,
+      7
+    ],
+    "category": "inorganic",
+    "structureType": "trigonal_pyramidal",
+    "descriptionKo": "암모니아(NH₃)는 질소 1개와 수소 3개가 결합한 분자입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 3,
+    "synthesis": [
+      "N",
+      "H"
+    ]
+  },
+  {
+    "id": "hydrogen-chloride",
+    "formula": "HCl",
+    "formulaDisplay": "HCl",
+    "nameKo": "염화 수소",
+    "nameEn": "Hydrogen chloride",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      17
+    ],
+    "category": "inorganic",
+    "structureType": "linear",
+    "descriptionKo": "염화 수소(HCl)는 수소와 염소가 1:1로 결합한 분자입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 3,
+    "synthesis": [
+      "H",
+      "Cl"
+    ]
+  },
+  {
+    "id": "sodium-chloride",
+    "formula": "NaCl",
+    "formulaDisplay": "NaCl",
+    "nameKo": "염화 나트륨",
+    "nameEn": "Sodium chloride",
+    "elements": [
+      {
+        "symbol": "Na",
+        "count": 1
+      },
+      {
+        "symbol": "Cl",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      11,
+      17
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "염화 나트륨(NaCl)은 이온 결합 화합물입니다. 화학식의 숫자는 원자 개수 비입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 4,
+    "synthesis": [
+      "Na",
+      "Cl"
+    ]
+  },
+  {
+    "id": "sulfur-dioxide",
+    "formula": "SO2",
+    "formulaDisplay": "SO₂",
+    "nameKo": "이산화 황",
+    "nameEn": "Sulfur dioxide",
+    "elements": [
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      8,
+      16
+    ],
+    "category": "inorganic",
+    "structureType": "bent",
+    "descriptionKo": "이산화 황(SO₂)은 황 1개와 산소 2개의 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "S",
+      "O"
+    ]
+  },
+  {
+    "id": "nitrogen-dioxide",
+    "formula": "NO2",
+    "formulaDisplay": "NO₂",
+    "nameKo": "이산화 질소",
+    "nameEn": "Nitrogen dioxide",
+    "elements": [
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      7,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "bent",
+    "descriptionKo": "이산화 질소(NO₂)에서 아래첨자 2는 산소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "N",
+      "O"
+    ]
+  },
+  {
+    "id": "hydrogen-sulfide",
+    "formula": "H2S",
+    "formulaDisplay": "H₂S",
+    "nameKo": "황화 수소",
+    "nameEn": "Hydrogen sulfide",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      16
+    ],
+    "category": "inorganic",
+    "structureType": "bent",
+    "descriptionKo": "황화 수소(H₂S)는 수소 2개와 황 1개의 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "H",
+      "S"
+    ]
+  },
+  {
+    "id": "carbon-monoxide",
+    "formula": "CO",
+    "formulaDisplay": "CO",
+    "nameKo": "일산화 탄소",
+    "nameEn": "Carbon monoxide",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      6,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "linear",
+    "descriptionKo": "일산화 탄소(CO)는 탄소와 산소가 1:1인 분자입니다. CO₂와 구분하세요.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 2,
+    "synthesis": [
+      "C",
+      "O"
+    ]
+  },
+  {
+    "id": "silicon-dioxide",
+    "formula": "SiO2",
+    "formulaDisplay": "SiO₂",
+    "nameKo": "이산화 규소",
+    "nameEn": "Silicon dioxide",
+    "elements": [
+      {
+        "symbol": "Si",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      8,
+      14
+    ],
+    "category": "inorganic",
+    "structureType": "network",
+    "descriptionKo": "이산화 규소(SiO₂)는 모래의 주성분입니다. 규소 원소(Si)와 다릅니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "Si",
+      "O"
+    ]
+  },
+  {
+    "id": "white-phosphorus",
+    "formula": "P4",
+    "formulaDisplay": "P₄",
+    "nameKo": "흰 인",
+    "nameEn": "White phosphorus",
+    "elements": [
+      {
+        "symbol": "P",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      15
+    ],
+    "category": "elemental",
+    "structureType": "tetrahedral",
+    "descriptionKo": "흰 인(P₄)은 인 원자 4개가 모인 분자입니다. 원자 수가 2보다 커도 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "P"
+    ]
+  },
+  {
+    "id": "octasulfur",
+    "formula": "S8",
+    "formulaDisplay": "S₈",
+    "nameKo": "황 분자",
+    "nameEn": "Octasulfur",
+    "elements": [
+      {
+        "symbol": "S",
+        "count": 8
+      }
+    ],
+    "relatedElements": [
+      16
+    ],
+    "category": "elemental",
+    "structureType": "ring",
+    "descriptionKo": "황(S₈)은 원자 8개가 고리를 이룬 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "S"
+    ]
+  },
+  {
+    "id": "sulfuric-acid",
+    "formula": "H2SO4",
+    "formulaDisplay": "H₂SO₄",
+    "nameKo": "황산",
+    "nameEn": "Sulfuric acid",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      1,
+      8,
+      16
+    ],
+    "category": "inorganic",
+    "structureType": "tetrahedral",
+    "descriptionKo": "황산(H₂SO₄)은 수소 2, 황 1, 산소 4가 모인 분자입니다. 아래첨자를 각각 세어 보세요.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 7,
+    "synthesis": [
+      "H",
+      "S",
+      "O"
+    ]
+  },
+  {
+    "id": "nitric-acid",
+    "formula": "HNO3",
+    "formulaDisplay": "HNO₃",
+    "nameKo": "질산",
+    "nameEn": "Nitric acid",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 1
+      },
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      1,
+      7,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "trigonal_planar",
+    "descriptionKo": "질산(HNO₃)은 수소·질소·산소로 이루어진 산 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "H",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "id": "phosphoric-acid",
+    "formula": "H3PO4",
+    "formulaDisplay": "H₃PO₄",
+    "nameKo": "인산",
+    "nameEn": "Phosphoric acid",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 3
+      },
+      {
+        "symbol": "P",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      1,
+      8,
+      15
+    ],
+    "category": "inorganic",
+    "structureType": "tetrahedral",
+    "descriptionKo": "인산(H₃PO₄)에서 아래첨자 3과 4는 각각 수소·산소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 8,
+    "synthesis": [
+      "H",
+      "P",
+      "O"
+    ]
+  },
+  {
+    "id": "calcium-carbonate",
+    "formula": "CaCO3",
+    "formulaDisplay": "CaCO₃",
+    "nameKo": "탄산 칼슘",
+    "nameEn": "Calcium carbonate",
+    "elements": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      6,
+      8,
+      20
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "탄산 칼슘(CaCO₃)은 해얼돌·석회석의 주성분입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "Ca",
+      "C",
+      "O"
+    ]
+  },
+  {
+    "id": "methane",
+    "formula": "CH4",
+    "formulaDisplay": "CH₄",
+    "nameKo": "메테인",
+    "nameEn": "Methane",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      1,
+      6
+    ],
+    "category": "organic_simple",
+    "structureType": "tetrahedral",
+    "descriptionKo": "메테인(CH₄)은 탄소 1개와 수소 4개의 가장 간단한 유기 분자입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 6,
+    "synthesis": [
+      "C",
+      "H"
+    ]
+  },
+  {
+    "id": "ethane",
+    "formula": "C2H6",
+    "formulaDisplay": "C₂H₆",
+    "nameKo": "에테인",
+    "nameEn": "Ethane",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      }
+    ],
+    "relatedElements": [
+      1,
+      6
+    ],
+    "category": "organic_simple",
+    "structureType": "tetrahedral",
+    "descriptionKo": "에테인(C₂H₆)에서 아래첨자 2와 6은 탄소·수소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "C",
+      "H"
+    ]
+  },
+  {
+    "id": "ethene",
+    "formula": "C2H4",
+    "formulaDisplay": "C₂H₄",
+    "nameKo": "에텐",
+    "nameEn": "Ethene",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      1,
+      6
+    ],
+    "category": "organic_simple",
+    "structureType": "planar",
+    "descriptionKo": "에텐(C₂H₄)은 이중 결합을 가진 간단한 유기 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "C",
+      "H"
+    ]
+  },
+  {
+    "id": "ethyne",
+    "formula": "C2H2",
+    "formulaDisplay": "C₂H₂",
+    "nameKo": "에타인",
+    "nameEn": "Ethyne",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      1,
+      6
+    ],
+    "category": "organic_simple",
+    "structureType": "linear",
+    "descriptionKo": "에타인(C₂H₂)은 탄소 2개와 수소 2개의 선형 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "C",
+      "H"
+    ]
+  },
+  {
+    "id": "propane",
+    "formula": "C3H8",
+    "formulaDisplay": "C₃H₈",
+    "nameKo": "프로페인",
+    "nameEn": "Propane",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 8
+      }
+    ],
+    "relatedElements": [
+      1,
+      6
+    ],
+    "category": "organic_simple",
+    "structureType": "tetrahedral",
+    "descriptionKo": "프로페인(C₃H₈)은 탄소 3개 사슬의 탄화수소 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "C",
+      "H"
+    ]
+  },
+  {
+    "id": "methanol",
+    "formula": "CH4O",
+    "formulaDisplay": "CH₄O",
+    "nameKo": "메탄올",
+    "nameEn": "Methanol",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      6,
+      8
+    ],
+    "category": "organic_simple",
+    "structureType": "tetrahedral",
+    "descriptionKo": "메탄올(CH₄O, CH₃OH)은 탄소·수소·산소가 모인 알코올 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "ethanol",
+    "formula": "C2H6O",
+    "formulaDisplay": "C₂H₆O",
+    "nameKo": "에탄올",
+    "nameEn": "Ethanol",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      6,
+      8
+    ],
+    "category": "organic_simple",
+    "structureType": "tetrahedral",
+    "descriptionKo": "에탄올(C₂H₆O)은 탄소 2, 수소 6, 산소 1의 분자입니다. 계수와 아래첨자를 구분하세요.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 6,
+    "synthesis": [
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "acetic-acid",
+    "formula": "C2H4O2",
+    "formulaDisplay": "C₂H₄O₂",
+    "nameKo": "아세트산",
+    "nameEn": "Acetic acid",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      1,
+      6,
+      8
+    ],
+    "category": "organic_simple",
+    "structureType": "planar",
+    "descriptionKo": "아세트산(C₂H₄O₂, CH₃COOH)은 탄소 2, 수소 4, 산소 2의 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 6,
+    "synthesis": [
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "glucose",
+    "formula": "C6H12O6",
+    "formulaDisplay": "C₆H₁₂O₆",
+    "nameKo": "포도당",
+    "nameEn": "Glucose",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 6
+      },
+      {
+        "symbol": "H",
+        "count": 12
+      },
+      {
+        "symbol": "O",
+        "count": 6
+      }
+    ],
+    "relatedElements": [
+      1,
+      6,
+      8
+    ],
+    "category": "organic_simple",
+    "structureType": "ring",
+    "descriptionKo": "포도당(C₆H₁₂O₆)은 탄소 6, 수소 12, 산소 6이 결합한 분자입니다. 큰 아래첨자도 원자 개수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 12,
+    "synthesis": [
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "acetone",
+    "formula": "C3H6O",
+    "formulaDisplay": "C₃H₆O",
+    "nameKo": "아세톤",
+    "nameEn": "Acetone",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 3
+      },
+      {
+        "symbol": "H",
+        "count": 6
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      6,
+      8
+    ],
+    "category": "organic_simple",
+    "structureType": "planar",
+    "descriptionKo": "아세톤(C₃H₆O)은 탄소 3, 수소 6, 산소 1의 케톤 분자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "hydrogen-peroxide",
+    "formula": "H2O2",
+    "formulaDisplay": "H₂O₂",
+    "nameKo": "과산화 수소",
+    "nameEn": "Hydrogen peroxide",
+    "elements": [
+      {
+        "symbol": "H",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      1,
+      8
+    ],
+    "category": "inorganic",
+    "structureType": "bent",
+    "descriptionKo": "과산화 수소(H₂O₂)는 물(H₂O)과 원자 수가 다릅니다. 산소가 2개입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "H",
+      "O"
+    ]
+  },
+  {
+    "id": "sodium-hydroxide",
+    "formula": "NaOH",
+    "formulaDisplay": "NaOH",
+    "nameKo": "수산화 나트륨",
+    "nameEn": "Sodium hydroxide",
+    "elements": [
+      {
+        "symbol": "Na",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      8,
+      11
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "수산화 나트륨(NaOH)은 이온성 염기입니다. 화학식의 각 기호가 원자·이온을 나타냅니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "Na",
+      "O",
+      "H"
+    ]
+  },
+  {
+    "id": "calcium-hydroxide",
+    "formula": "Ca(OH)2",
+    "formulaDisplay": "Ca(OH)₂",
+    "nameKo": "수산화 칼슘",
+    "nameEn": "Calcium hydroxide",
+    "elements": [
+      {
+        "symbol": "Ca",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 2
+      },
+      {
+        "symbol": "H",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      1,
+      8,
+      20
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "수산화 칼슘(Ca(OH)₂)에서 괄호 뒤 2는 OH 전체가 2개라는 계수성 아래첨자입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "Ca",
+      "O",
+      "H"
+    ]
+  },
+  {
+    "id": "magnesium-oxide",
+    "formula": "MgO",
+    "formulaDisplay": "MgO",
+    "nameKo": "산화 마그네슘",
+    "nameEn": "Magnesium oxide",
+    "elements": [
+      {
+        "symbol": "Mg",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      8,
+      12
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "산화 마그네슘(MgO)은 마그네슘과 산소가 1:1인 이온 화합물입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "Mg",
+      "O"
+    ]
+  },
+  {
+    "id": "aluminium-oxide",
+    "formula": "Al2O3",
+    "formulaDisplay": "Al₂O₃",
+    "nameKo": "산화 알루미늄",
+    "nameEn": "Aluminium oxide",
+    "elements": [
+      {
+        "symbol": "Al",
+        "count": 2
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      8,
+      13
+    ],
+    "category": "ionic",
+    "structureType": "network",
+    "descriptionKo": "산화 알루미늄(Al₂O₃)은 보크사이트·점토 루트의 핵심 화합물입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 3,
+    "synthesis": [
+      "Al",
+      "O"
+    ]
+  },
+  {
+    "id": "sodium-ion",
+    "formula": "Na+",
+    "formulaDisplay": "Na₊",
+    "nameKo": "나트륨 이온",
+    "nameEn": "Sodium ion",
+    "elements": [
+      {
+        "symbol": "Na",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      11
+    ],
+    "category": "ionic",
+    "structureType": "ion",
+    "descriptionKo": "Na⁺는 나트륨 원자가 전자 1개를 잃은 이온입니다. 원소·원자·이온을 구분하세요.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 1,
+    "synthesis": [
+      "Na"
+    ]
+  },
+  {
+    "id": "chloride-ion",
+    "formula": "Cl-",
+    "formulaDisplay": "Cl₋",
+    "nameKo": "염화 이온",
+    "nameEn": "Chloride ion",
+    "elements": [
+      {
+        "symbol": "Cl",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      17
+    ],
+    "category": "ionic",
+    "structureType": "ion",
+    "descriptionKo": "Cl⁻는 염소 원자가 전자 1개를 얻은 이온입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 1,
+    "synthesis": [
+      "Cl"
+    ]
+  },
+  {
+    "id": "calcium-ion",
+    "formula": "Ca2+",
+    "formulaDisplay": "Ca₂₊",
+    "nameKo": "칼슘 이온",
+    "nameEn": "Calcium ion",
+    "elements": [
+      {
+        "symbol": "Ca",
+        "count": 2
+      }
+    ],
+    "relatedElements": [
+      20
+    ],
+    "category": "ionic",
+    "structureType": "ion",
+    "descriptionKo": "Ca²⁺는 칼슘 원자가 전자 2개를 잃은 이온입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 1,
+    "synthesis": [
+      "Ca"
+    ]
+  },
+  {
+    "id": "iron-iii-ion",
+    "formula": "Fe3+",
+    "formulaDisplay": "Fe₃₊",
+    "nameKo": "철(III) 이온",
+    "nameEn": "Iron(III) ion",
+    "elements": [
+      {
+        "symbol": "Fe",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      26
+    ],
+    "category": "ionic",
+    "structureType": "ion",
+    "descriptionKo": "Fe³⁺는 철 원자가 전자 3개를 잃은 이온입니다.",
+    "tier": "A",
+    "difficulty": 3,
+    "energy": 1,
+    "synthesis": [
+      "Fe"
+    ]
+  },
+  {
+    "id": "sulfate",
+    "formula": "SO42-",
+    "formulaDisplay": "SO₄₂₋",
+    "nameKo": "황산 이온",
+    "nameEn": "Sulfate",
+    "elements": [
+      {
+        "symbol": "S",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 42
+      }
+    ],
+    "relatedElements": [
+      8,
+      16
+    ],
+    "category": "ionic",
+    "structureType": "tetrahedral",
+    "descriptionKo": "황산 이온(SO₄²⁻)은 황 1개와 산소 4개가 모인 다원자 이온입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "S",
+      "O"
+    ]
+  },
+  {
+    "id": "nitrate",
+    "formula": "NO3-",
+    "formulaDisplay": "NO₃₋",
+    "nameKo": "질산 이온",
+    "nameEn": "Nitrate",
+    "elements": [
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      7,
+      8
+    ],
+    "category": "ionic",
+    "structureType": "trigonal_planar",
+    "descriptionKo": "질산 이온(NO₃⁻)에서 아래첨자 3은 산소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "N",
+      "O"
+    ]
+  },
+  {
+    "id": "hydroxide",
+    "formula": "OH-",
+    "formulaDisplay": "OH₋",
+    "nameKo": "수산화 이온",
+    "nameEn": "Hydroxide",
+    "elements": [
+      {
+        "symbol": "O",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 1
+      }
+    ],
+    "relatedElements": [
+      1,
+      8
+    ],
+    "category": "ionic",
+    "structureType": "linear",
+    "descriptionKo": "수산화 이온(OH⁻)은 산소와 수소가 결합한 이온입니다.",
+    "tier": "A",
+    "difficulty": 1,
+    "energy": 2,
+    "synthesis": [
+      "O",
+      "H"
+    ]
+  },
+  {
+    "id": "ammonium",
+    "formula": "NH4+",
+    "formulaDisplay": "NH₄₊",
+    "nameKo": "암모늄 이온",
+    "nameEn": "Ammonium",
+    "elements": [
+      {
+        "symbol": "N",
+        "count": 1
+      },
+      {
+        "symbol": "H",
+        "count": 4
+      }
+    ],
+    "relatedElements": [
+      1,
+      7
+    ],
+    "category": "ionic",
+    "structureType": "tetrahedral",
+    "descriptionKo": "암모늄(NH₄⁺)은 질소 1개와 수소 4개의 다원자 이온입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "N",
+      "H"
+    ]
+  },
+  {
+    "id": "carbonate",
+    "formula": "CO32-",
+    "formulaDisplay": "CO₃₂₋",
+    "nameKo": "탄산 이온",
+    "nameEn": "Carbonate",
+    "elements": [
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 32
+      }
+    ],
+    "relatedElements": [
+      6,
+      8
+    ],
+    "category": "ionic",
+    "structureType": "trigonal_planar",
+    "descriptionKo": "탄산 이온(CO₃²⁻)은 탄소 1개와 산소 3개의 다원자 이온입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 4,
+    "synthesis": [
+      "C",
+      "O"
+    ]
+  },
+  {
+    "id": "phosphate",
+    "formula": "PO43-",
+    "formulaDisplay": "PO₄₃₋",
+    "nameKo": "인산 이온",
+    "nameEn": "Phosphate",
+    "elements": [
+      {
+        "symbol": "P",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 43
+      }
+    ],
+    "relatedElements": [
+      8,
+      15
+    ],
+    "category": "ionic",
+    "structureType": "tetrahedral",
+    "descriptionKo": "인산 이온(PO₄³⁻)에서 아래첨자 4는 산소 원자 수입니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 5,
+    "synthesis": [
+      "P",
+      "O"
+    ]
+  },
+  {
+    "id": "sodium-carbonate",
+    "formula": "Na2CO3",
+    "formulaDisplay": "Na₂CO₃",
+    "nameKo": "탄산 나트륨",
+    "nameEn": "Sodium carbonate",
+    "elements": [
+      {
+        "symbol": "Na",
+        "count": 2
+      },
+      {
+        "symbol": "C",
+        "count": 1
+      },
+      {
+        "symbol": "O",
+        "count": 3
+      }
+    ],
+    "relatedElements": [
+      6,
+      8,
+      11
+    ],
+    "category": "ionic",
+    "structureType": "ionic",
+    "descriptionKo": "탄산 나트륨(Na₂CO₃)에서 아래첨자 2는 나트륨 원자 2개를 뜻합니다. 앞의 계수가 아닙니다.",
+    "tier": "A",
+    "difficulty": 2,
+    "energy": 6,
+    "synthesis": [
+      "Na",
+      "C",
+      "O"
+    ]
+  }
+]

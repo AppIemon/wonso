@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:crusher"
+    },
+    "title": {
+      "text": "첫 분쇄"
+    },
+    "description": {
+      "text": "맷돌로 모래 분쇄"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:root"
+}

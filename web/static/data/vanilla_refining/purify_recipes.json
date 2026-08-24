@@ -1,0 +1,148 @@
+[
+  {
+    "id": "purify-si-2nd",
+    "inputs": [
+      {
+        "id": "impure_Si",
+        "count": 3
+      },
+      {
+        "id": "refining_catalyst",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "pure_Si",
+      "count": 1
+    },
+    "success": 0.5,
+    "ticks": 300
+  },
+  {
+    "id": "purify-si-card",
+    "inputs": [
+      {
+        "id": "impure_Si",
+        "count": 2
+      }
+    ],
+    "energy": 5,
+    "output": {
+      "card": "Si",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 200
+  },
+  {
+    "id": "purify-fe-card",
+    "inputs": [
+      {
+        "id": "impure_Fe",
+        "count": 2
+      }
+    ],
+    "energy": 5,
+    "output": {
+      "card": "Fe",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 200
+  },
+  {
+    "id": "purify-c-card",
+    "inputs": [
+      {
+        "id": "impure_C",
+        "count": 2
+      }
+    ],
+    "energy": 5,
+    "output": {
+      "card": "C",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 200
+  },
+  {
+    "id": "purify-o-card",
+    "inputs": [
+      {
+        "id": "impure_O",
+        "count": 2
+      }
+    ],
+    "energy": 5,
+    "output": {
+      "card": "O",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 200
+  },
+  {
+    "id": "purify-h-card",
+    "inputs": [
+      {
+        "id": "impure_H",
+        "count": 2
+      }
+    ],
+    "energy": 5,
+    "output": {
+      "card": "H",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 200
+  },
+  {
+    "id": "purify-na-card",
+    "inputs": [
+      {
+        "id": "impure_Na",
+        "count": 2
+      }
+    ],
+    "energy": 8,
+    "output": {
+      "card": "Na",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 240
+  },
+  {
+    "id": "purify-cl-card",
+    "inputs": [
+      {
+        "id": "impure_Cl",
+        "count": 2
+      }
+    ],
+    "energy": 8,
+    "output": {
+      "card": "Cl",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 240
+  },
+  {
+    "id": "chips-to-random",
+    "inputs": [
+      {
+        "id": "wrong_element_chip",
+        "count": 10
+      }
+    ],
+    "output": {
+      "card": "RANDOM_Z1_20",
+      "count": 1
+    },
+    "success": 1.0,
+    "ticks": 100
+  }
+]

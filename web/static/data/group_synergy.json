@@ -1,0 +1,34 @@
+[
+  {
+    "category": "halogen",
+    "minCards": 3,
+    "bonus": {
+      "attack": 2
+    },
+    "nameKo": "할로겐 시너지"
+  },
+  {
+    "category": "alkali_metal",
+    "minCards": 3,
+    "bonus": {
+      "attack": 2
+    },
+    "nameKo": "알칼리 시너지"
+  },
+  {
+    "category": "noble_gas",
+    "minCards": 3,
+    "bonus": {
+      "defense": 3
+    },
+    "nameKo": "비활성 시너지"
+  },
+  {
+    "category": "transition_metal",
+    "minCards": 3,
+    "bonus": {
+      "health": 2
+    },
+    "nameKo": "전이금속 시너지"
+  }
+]

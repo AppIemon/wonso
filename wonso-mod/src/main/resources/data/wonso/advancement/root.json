@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:chemistry_journal"
+    },
+    "title": {
+      "text": "화학 도감"
+    },
+    "description": {
+      "text": "Journal 획득"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wonso:chemistry_journal"
+          }
+        ]
+      }
+    }
+  }
+}

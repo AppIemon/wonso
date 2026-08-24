@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "wonso:element_card_cl"
+    },
+    "title": {
+      "text": "족 시너지"
+    },
+    "description": {
+      "text": "같은 족 3장"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_chat": true
+  },
+  "criteria": {
+    "wonso": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "wonso:energy_skill"
+}

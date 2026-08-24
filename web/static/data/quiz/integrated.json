@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q179",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 1,
+    "promptKo": "다음 중 '원자'만 가리키는 것은?",
+    "choices": [
+      "NaCl",
+      "O₂",
+      "¹²C",
+      "공기"
+    ],
+    "correctAnswer": "¹²C",
+    "explanationKo": "¹²C는 탄소 원자(특정 동위원소)입니다. O₂는 분자, NaCl은 화합물입니다.",
+    "relatedZ": 6
+  },
+  {
+    "id": "q180",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 1,
+    "promptKo": "모래의 주성분을 원소·화합물로 바르게 말한 것은?",
+    "choices": [
+      "규소(Si) 원소",
+      "이산화 규소(SiO₂) 화합물",
+      "산소 원자만",
+      "규소 분자 Si₂"
+    ],
+    "correctAnswer": "이산화 규소(SiO₂) 화합물",
+    "explanationKo": "모래는 Si가 아니라 SiO₂입니다. 원소와 화합물을 구분하는 핵심 사례입니다.",
+    "relatedZ": 14
+  },
+  {
+    "id": "q181",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 1,
+    "promptKo": "Na와 Na⁺의 차이는?",
+    "choices": [
+      "다른 원소",
+      "전자 수",
+      "양성자 수",
+      "중성자 수만"
+    ],
+    "correctAnswer": "전자 수",
+    "explanationKo": "Na⁺는 나트륨 원자가 전자 1개를 잃은 이온입니다. 양성자 수(Z=11)는 같습니다.",
+    "relatedZ": 11
+  },
+  {
+    "id": "q182",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 2,
+    "promptKo": "H₂O와 H₂O₂를 구분하는 핵심은?",
+    "choices": [
+      "같은 분자",
+      "산소 원자 수",
+      "수소가 다른 원소",
+      "계수만 다름"
+    ],
+    "correctAnswer": "산소 원자 수",
+    "explanationKo": "물은 산소 1개, 과산화 수소는 산소 2개입니다. 아래첨자가 물질을 바꿉니다.",
+    "relatedMoleculeId": "water"
+  },
+  {
+    "id": "q183",
+    "mode": "integrated",
+    "type": "three_way",
+    "difficulty": 1,
+    "promptKo": "원소 대전에서 플레이어가 하는 일은?",
+    "choices": [
+      "직접 검으로 싸움",
+      "원소령에게 명령만",
+      "HP를 나눠 가짐",
+      "실시간 액션"
+    ],
+    "correctAnswer": "원소령에게 명령만",
+    "explanationKo": "포켓몬처럼 플레이어는 싸우지 않고 원소령(원소)에게 명령만 내립니다.",
+    "relatedZ": 17
+  }
+]
