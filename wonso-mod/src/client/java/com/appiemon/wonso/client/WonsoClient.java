@@ -3,12 +3,16 @@ package com.appiemon.wonso.client;
 import com.appiemon.wonso.WonsoMod;
 import com.appiemon.wonso.block.MachineBlock;
 import com.appiemon.wonso.item.ChemistryJournalItem;
+import com.appiemon.wonso.item.ElementCardItem;
 import com.appiemon.wonso.item.GuideBookItem;
+import com.appiemon.wonso.item.MoleculeCardItem;
 import com.appiemon.wonso.network.WonsoPackets;
 import com.appiemon.wonso.registry.WonsoItems;
 import com.appiemon.wonso.screen.BattleScreen;
 import com.appiemon.wonso.screen.EnergyPanelScreen;
 import com.appiemon.wonso.screen.FusionScreen;
+import com.appiemon.wonso.screen.GuideScreen;
+import com.appiemon.wonso.screen.MoleculeDexScreen;
 import com.appiemon.wonso.screen.PartyScreen;
 import com.appiemon.wonso.screen.PeriodicTableScreen;
 import com.appiemon.wonso.screen.RefineScreen;
@@ -84,8 +88,17 @@ public class WonsoClient implements ClientModInitializer {
 				openPeriodic(Minecraft.getInstance(), "journal");
 				return InteractionResult.SUCCESS;
 			}
+			if (stack.getItem() instanceof ElementCardItem card) {
+				selectedZ = card.element().z();
+				openPeriodic(Minecraft.getInstance(), "journal");
+				return InteractionResult.SUCCESS;
+			}
+			if (stack.getItem() instanceof MoleculeCardItem) {
+				Minecraft.getInstance().gui.setScreen(new MoleculeDexScreen());
+				return InteractionResult.SUCCESS;
+			}
 			if (stack.getItem() instanceof GuideBookItem) {
-				Minecraft.getInstance().gui.setScreen(new EnergyPanelScreen());
+				Minecraft.getInstance().gui.setScreen(new GuideScreen());
 				return InteractionResult.SUCCESS;
 			}
 			return InteractionResult.PASS;

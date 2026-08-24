@@ -1,20 +1,21 @@
 package com.appiemon.wonso.screen;
 
 import com.appiemon.wonso.client.WonsoClient;
+import com.appiemon.wonso.client.WonsoGui;
 import com.appiemon.wonso.data.ElementRecord;
 import com.appiemon.wonso.data.WonsoData;
 import com.appiemon.wonso.network.WonsoPackets;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.input.MouseButtonEvent;
 import net.minecraft.network.chat.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PartyScreen extends Screen {
+public class PartyScreen extends WonsoScreen {
 	private final List<Integer> selected = new ArrayList<>(WonsoClient.party);
+	private Btn[] nav = new Btn[0];
 
 	public PartyScreen() {
 		super(Component.translatable("gui.wonso.party"));
@@ -22,30 +23,15 @@ public class PartyScreen extends Screen {
 
 	@Override
 	protected void init() {
-		int cell = 22;
-		int startX = 12;
-		int startY = 36;
-		int i = 0;
-		for (ElementRecord el : WonsoData.elements()) {
-			if (el.z() > 36) {
-				break;
-			}
-			int x = startX + (i % 12) * (cell + 2);
-			int y = startY + (i / 12) * (cell + 2);
-			int z = el.z();
-			this.addRenderableWidget(Button.builder(Component.literal(el.symbol()), b -> toggle(z))
-					.bounds(x, y, cell, cell).build());
-			i++;
-		}
-		this.addRenderableWidget(Button.builder(Component.literal("파티 저장"), b -> save())
-				.bounds(this.width / 2 - 90, this.height - 28, 80, 20).build());
-		this.addRenderableWidget(Button.builder(Component.literal("대전"), b -> {
-			save();
-			this.minecraft.gui.setScreen(new BattleScreen());
-			ClientPlayNetworking.send(new WonsoPackets.BattleCommandC2S("start"));
-		}).bounds(this.width / 2 - 4, this.height - 28, 50, 20).build());
-		this.addRenderableWidget(Button.builder(Component.literal("닫기"), b -> this.onClose())
-				.bounds(this.width / 2 + 52, this.height - 28, 50, 20).build());
+		this.nav = new Btn[]{
+				new Btn("파티 저장", this.width / 2 - 110, this.height - 22, 72, this::save),
+				new Btn("대전", this.width / 2 - 32, this.height - 22, 52, () -> {
+					save();
+					this.minecraft.gui.setScreen(new BattleScreen());
+					ClientPlayNetworking.send(new WonsoPackets.BattleCommandC2S("start"));
+				}),
+				new Btn("닫기", this.width / 2 + 28, this.height - 22, 52, this::onClose),
+		};
 	}
 
 	private void toggle(int z) {
@@ -69,11 +55,26 @@ public class PartyScreen extends Screen {
 		ClientPlayNetworking.send(new WonsoPackets.PartyC2S(sb.toString()));
 	}
 
+	private int cell() {
+		return Math.max(14, Math.min(18, (this.width - 24) / 18));
+	}
+
 	@Override
 	public void extractRenderState(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick) {
 		super.extractRenderState(graphics, mouseX, mouseY, partialTick);
-		graphics.centeredText(this.font, Component.literal("원소 파티 6  (포켓몬식 — 플레이어는 싸우지 않음)"),
-				this.width / 2, 8, 0xFFE9ECEF);
+		WonsoGui.header(graphics, this.font, this.title, selected.size() + "/6  ·  포켓몬식 — 플레이어는 싸우지 않음", this.width);
+
+		int cell = cell();
+		int startX = 12;
+		int startY = 30;
+		int i = 0;
+		for (ElementRecord el : WonsoData.elements()) {
+			int x = startX + (i % 18) * cell;
+			int y = startY + (i / 18) * cell;
+			WonsoGui.cell(graphics, this.font, el, x, y, cell - 1, selected.contains(el.z()));
+			i++;
+		}
+
 		StringBuilder sb = new StringBuilder("선택: ");
 		for (int z : selected) {
 			var el = WonsoData.byZ(z);
@@ -81,11 +82,40 @@ public class PartyScreen extends Screen {
 				sb.append(el.symbol()).append(' ');
 			}
 		}
-		graphics.text(this.font, Component.literal(sb + "  " + selected.size() + "/6"), 12, this.height - 48, 0xFFE8C86A);
+		graphics.text(this.font, Component.literal(sb.toString()), 12, this.height - 42, WonsoGui.GOLD);
+
+		for (Btn b : nav) {
+			boolean hover = WonsoGui.hit(mouseX, mouseY, b.x, b.y, b.w, 18);
+			WonsoGui.button(graphics, this.font, b.label, b.x, b.y, b.w, 18, hover, false);
+		}
 	}
 
 	@Override
-	public boolean isPauseScreen() {
-		return false;
+	public boolean mouseClicked(MouseButtonEvent event, boolean doubled) {
+		int mx = (int) event.x();
+		int my = (int) event.y();
+		int cell = cell();
+		int startX = 12;
+		int startY = 30;
+		int i = 0;
+		for (ElementRecord el : WonsoData.elements()) {
+			int x = startX + (i % 18) * cell;
+			int y = startY + (i / 18) * cell;
+			if (WonsoGui.hit(mx, my, x, y, cell - 1, cell - 1)) {
+				toggle(el.z());
+				return true;
+			}
+			i++;
+		}
+		for (Btn b : nav) {
+			if (WonsoGui.hit(mx, my, b.x, b.y, b.w, 18)) {
+				b.run.run();
+				return true;
+			}
+		}
+		return super.mouseClicked(event, doubled);
+	}
+
+	private record Btn(String label, int x, int y, int w, Runnable run) {
 	}
 }

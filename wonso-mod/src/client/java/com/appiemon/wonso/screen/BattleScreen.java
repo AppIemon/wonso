@@ -1,52 +1,44 @@
 package com.appiemon.wonso.screen;
 
 import com.appiemon.wonso.client.WonsoClient;
+import com.appiemon.wonso.client.WonsoGui;
+import com.appiemon.wonso.data.WonsoData;
 import com.appiemon.wonso.network.WonsoPackets;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.input.MouseButtonEvent;
 import net.minecraft.network.chat.Component;
 
-public class BattleScreen extends Screen {
+public class BattleScreen extends WonsoScreen {
+	private Btn[] actions = new Btn[0];
+
 	public BattleScreen() {
 		super(Component.translatable("gui.wonso.battle"));
 	}
 
 	@Override
 	protected void init() {
-		int y = this.height - 44;
-		this.addRenderableWidget(Button.builder(Component.literal("스킬1"), b -> cmd("skill:1")).bounds(8, y, 56, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("스킬2"), b -> cmd("skill:2")).bounds(68, y, 56, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("스킬3"), b -> cmd("skill:3")).bounds(128, y, 56, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("스킬4"), b -> cmd("skill:4")).bounds(188, y, 56, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("교체"), b -> switchNext()).bounds(248, y, 44, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("H2O"), b -> cmd("tool:water")).bounds(296, y, 40, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("턴종료"), b -> cmd("pass")).bounds(340, y, 50, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("도주"), b -> cmd("flee")).bounds(394, y, 40, 18).build());
-		this.addRenderableWidget(Button.builder(Component.literal("신전 시작"), b -> cmd("start")).bounds(this.width - 80, 8, 72, 16).build());
+		int y = this.height - 22;
+		this.actions = new Btn[]{
+				new Btn("스킬1", 8, y, 52, () -> cmd("skill:1")),
+				new Btn("스킬2", 62, y, 52, () -> cmd("skill:2")),
+				new Btn("스킬3", 116, y, 52, () -> cmd("skill:3")),
+				new Btn("스킬4", 170, y, 52, () -> cmd("skill:4")),
+				new Btn("H₂O", 226, y, 36, () -> cmd("tool:water")),
+				new Btn("NaCl", 264, y, 36, () -> cmd("tool:sodium-chloride")),
+				new Btn("H₂O₂", 302, y, 40, () -> cmd("tool:hydrogen-peroxide")),
+				new Btn("포도당", 344, y, 44, () -> cmd("tool:glucose")),
+				new Btn("턴종료", 392, y, 48, () -> cmd("pass")),
+				new Btn("도주", 442, y, 36, () -> cmd("flee")),
+				new Btn("신전 시작", this.width - 78, 4, 70, () -> cmd("start")),
+		};
 	}
 
 	private void cmd(String command) {
 		ClientPlayNetworking.send(new WonsoPackets.BattleCommandC2S(command));
-	}
-
-	private void switchNext() {
-		JsonObject state = parse();
-		if (state == null || !state.has("party")) {
-			return;
-		}
-		JsonArray party = state.getAsJsonArray("party");
-		for (int i = 0; i < party.size(); i++) {
-			JsonObject f = party.get(i).getAsJsonObject();
-			if (f.has("hp") && f.get("hp").getAsInt() > 0) {
-				cmd("switch:" + f.get("z").getAsInt());
-				return;
-			}
-		}
 	}
 
 	private JsonObject parse() {
@@ -64,46 +56,118 @@ public class BattleScreen extends Screen {
 	@Override
 	public void extractRenderState(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick) {
 		super.extractRenderState(graphics, mouseX, mouseY, partialTick);
-		graphics.text(this.font, Component.literal("⚡ " + (int) WonsoClient.clientEnergy + "   원소 대전 — 플레이어는 명령만"), 8, 8, 0xFFE8C86A);
+		WonsoGui.header(graphics, this.font, this.title, "⚡" + (int) WonsoClient.clientEnergy + "  ·  플레이어는 명령만", this.width);
 		JsonObject state = parse();
 		if (state == null) {
-			graphics.centeredText(this.font, Component.literal("신전을 우클릭하거나 [신전 시작]"), this.width / 2, this.height / 2, 0xFFADB5BD);
+			WonsoGui.panel(graphics, this.width / 2 - 140, this.height / 2 - 36, 280, 64);
+			graphics.centeredText(this.font, Component.literal("원소 신전을 우클릭하거나"), this.width / 2, this.height / 2 - 16, WonsoGui.MUTED);
+			graphics.centeredText(this.font, Component.literal("[신전 시작] 으로 대전"), this.width / 2, this.height / 2, WonsoGui.GOLD);
+			drawActions(graphics, mouseX, mouseY);
 			return;
 		}
-		drawFighter(graphics, state.has("foe") ? state.getAsJsonObject("foe") : null, this.width / 2 + 40, 14, "상대");
-		drawFighter(graphics, state.has("mine") ? state.getAsJsonObject("mine") : null, 16, 14, "내 원소령");
-		graphics.text(this.font, Component.literal("웨이브 " + state.get("wave").getAsInt() + "/" + state.get("waves").getAsInt()
-				+ (state.get("done").getAsBoolean() ? "  " + state.get("result").getAsString() : "")), 8, 88, 0xFF80FFEA);
-		int y = 104;
+
+		drawFighter(graphics, state.has("mine") ? state.getAsJsonObject("mine") : null, 12, 28, "내 원소령", true);
+		drawFighter(graphics, state.has("foe") ? state.getAsJsonObject("foe") : null, this.width / 2 + 8, 28, "상대", false);
+
+		String wave = "웨이브 " + state.get("wave").getAsInt() + "/" + state.get("waves").getAsInt();
+		if (state.get("done").getAsBoolean()) {
+			wave += "  ·  " + state.get("result").getAsString();
+		}
+		graphics.text(this.font, Component.literal(wave), 12, 108, WonsoGui.ACCENT);
+
+		if (state.has("party")) {
+			JsonArray party = state.getAsJsonArray("party");
+			int x = 12;
+			for (int i = 0; i < party.size(); i++) {
+				JsonObject f = party.get(i).getAsJsonObject();
+				int hp = f.has("hp") ? f.get("hp").getAsInt() : 0;
+				boolean hover = WonsoGui.hit(mouseX, mouseY, x, 122, 36, 16);
+				WonsoGui.button(graphics, this.font, f.get("symbol").getAsString(), x, 122, 36, 16, hover, hp <= 0);
+				x += 38;
+			}
+			graphics.text(this.font, Component.literal("클릭 = 교체"), x + 4, 125, WonsoGui.MUTED);
+		}
+
+		WonsoGui.panel(graphics, 12, 144, this.width - 24, Math.max(40, this.height - 178));
+		int y = 152;
 		if (state.has("log")) {
 			for (var line : state.getAsJsonArray("log")) {
-				graphics.text(this.font, Component.literal(line.getAsString()), 8, y, 0xFFDEE2E6);
+				graphics.text(this.font, Component.literal(line.getAsString()), 20, y, WonsoGui.TEXT);
 				y += 10;
 			}
 		}
+
+		if (state.has("mine") && state.getAsJsonObject("mine").has("skills")) {
+			JsonArray skills = state.getAsJsonObject("mine").getAsJsonArray("skills");
+			int sx = 8;
+			for (int i = 0; i < skills.size() && i < 4; i++) {
+				JsonObject s = skills.get(i).getAsJsonObject();
+				graphics.text(this.font, Component.literal(s.get("name").getAsString() + " ⚡" + s.get("cost").getAsInt()),
+						sx, this.height - 36, WonsoGui.MUTED);
+				sx += 90;
+			}
+		}
+
+		drawActions(graphics, mouseX, mouseY);
 	}
 
-	private void drawFighter(GuiGraphicsExtractor graphics, JsonObject o, int x, int y, String label) {
+	private void drawActions(GuiGraphicsExtractor graphics, int mouseX, int mouseY) {
+		for (Btn b : actions) {
+			boolean hover = WonsoGui.hit(mouseX, mouseY, b.x, b.y, b.w, 18);
+			WonsoGui.button(graphics, this.font, b.label, b.x, b.y, b.w, 18, hover, false);
+		}
+	}
+
+	private void drawFighter(GuiGraphicsExtractor graphics, JsonObject o, int x, int y, String label, boolean mine) {
+		WonsoGui.panel(graphics, x, y, Math.min(220, this.width / 2 - 20), 76);
 		if (o == null || !o.has("symbol")) {
-			graphics.text(this.font, Component.literal(label + " —"), x, y, 0xFF868E96);
+			graphics.text(this.font, Component.literal(label + " —"), x + 8, y + 8, WonsoGui.MUTED);
 			return;
 		}
-		String symbol = o.get("symbol").getAsString();
+		String cat = o.has("category") ? o.get("category").getAsString() : "unknown";
+		graphics.fill(x + 1, y + 1, x + 7, y + 75, WonsoGui.categoryColor(cat));
+		graphics.text(this.font, Component.literal(label), x + 12, y + 6, WonsoGui.MUTED);
+		graphics.text(this.font, Component.literal(o.get("symbol").getAsString() + "  "
+						+ (o.has("nameKo") ? o.get("nameKo").getAsString() : "")),
+				x + 12, y + 18, WonsoGui.TEXT);
 		int hp = o.has("hp") ? o.get("hp").getAsInt() : 0;
 		int max = o.has("maxHp") ? Math.max(1, o.get("maxHp").getAsInt()) : 1;
-		graphics.fill(x, y, x + 160, y + 68, 0xCC0B1320);
-		graphics.text(this.font, Component.literal(label), x + 6, y + 4, 0xFFADB5BD);
-		graphics.text(this.font, Component.literal(symbol + "  " + (o.has("nameKo") ? o.get("nameKo").getAsString() : "")),
-				x + 6, y + 16, 0xFFFFFFFF);
-		int bar = 140 * hp / max;
-		graphics.fill(x + 6, y + 32, x + 146, y + 40, 0xFF212529);
-		graphics.fill(x + 6, y + 32, x + 6 + bar, y + 40, 0xFF51CF66);
-		graphics.text(this.font, Component.literal("HP " + hp + "/" + max + "  " + (o.has("category") ? o.get("category").getAsString() : "")),
-				x + 6, y + 46, 0xFFCED4DA);
+		WonsoGui.hpBar(graphics, x + 12, y + 34, 180, hp, max);
+		graphics.text(this.font, Component.literal("HP " + hp + "/" + max + "  ATK "
+						+ (o.has("attack") ? o.get("attack").getAsInt() : 0)
+						+ "  DEF " + (o.has("defense") ? o.get("defense").getAsInt() : 0)),
+				x + 12, y + 46, WonsoGui.MUTED);
+		graphics.text(this.font, Component.literal(cat), x + 12, y + 58, WonsoGui.ACCENT);
 	}
 
 	@Override
-	public boolean isPauseScreen() {
-		return false;
+	public boolean mouseClicked(MouseButtonEvent event, boolean doubled) {
+		int mx = (int) event.x();
+		int my = (int) event.y();
+		for (Btn b : actions) {
+			if (WonsoGui.hit(mx, my, b.x, b.y, b.w, 18)) {
+				b.run.run();
+				return true;
+			}
+		}
+		JsonObject state = parse();
+		if (state != null && state.has("party")) {
+			JsonArray party = state.getAsJsonArray("party");
+			int x = 12;
+			for (int i = 0; i < party.size(); i++) {
+				if (WonsoGui.hit(mx, my, x, 122, 36, 16)) {
+					JsonObject f = party.get(i).getAsJsonObject();
+					if (f.has("z")) {
+						cmd("switch:" + f.get("z").getAsInt());
+					}
+					return true;
+				}
+				x += 38;
+			}
+		}
+		return super.mouseClicked(event, doubled);
+	}
+
+	private record Btn(String label, int x, int y, int w, Runnable run) {
 	}
 }

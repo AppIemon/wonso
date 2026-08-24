@@ -8,6 +8,7 @@
   "gui.wonso.refine": "Refining",
   "gui.wonso.fusion": "Fusion / Stars",
   "gui.wonso.party": "Element Party",
+  "gui.wonso.guide": "wonso Guide",
   "message.wonso.need_energy": "Not enough energy",
   "message.wonso.refine_missing": "Missing ingredients (%s)",
   "message.wonso.refine_fail": "Refine failed",

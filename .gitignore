@@ -9,4 +9,4 @@ web/.vite/
 run/
 __pycache__/
 *.pyc
-.env
+content/hive-cache/

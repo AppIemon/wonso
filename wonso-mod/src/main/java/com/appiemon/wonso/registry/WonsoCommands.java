@@ -27,6 +27,7 @@ public final class WonsoCommands {
 	public static void initialize() {
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> dispatcher.register(
 				Commands.literal("wonso")
+						.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 						.then(Commands.literal("card")
 								.then(Commands.argument("symbol", StringArgumentType.word())
 										.executes(ctx -> {

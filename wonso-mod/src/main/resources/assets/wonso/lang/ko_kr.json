@@ -8,6 +8,7 @@
   "gui.wonso.refine": "원소 정제",
   "gui.wonso.fusion": "핵융합 / 별",
   "gui.wonso.party": "원소 파티",
+  "gui.wonso.guide": "wonso 안내",
   "message.wonso.need_energy": "에너지가 부족합니다",
   "message.wonso.refine_missing": "재료가 부족합니다 (%s)",
   "message.wonso.refine_fail": "정제 실패 — 부산물만",

@@ -6,15 +6,19 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import sys
+
 from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
+FORCE_PIXELS = "--force-pixels" in sys.argv
 ASSETS = ROOT / "wonso-mod/src/main/resources/assets/wonso"
 ITEMS = ASSETS / "textures/item"
 BLOCKS = ASSETS / "textures/block"
 MODELS_ITEM = ASSETS / "models/item"
 MODELS_BLOCK = ASSETS / "models/block"
 BLOCKSTATES = ASSETS / "blockstates"
+ITEMS_DEF = ASSETS / "items"
 LANG = ASSETS / "lang"
 
 CAT_RGB = {
@@ -33,15 +37,32 @@ CAT_RGB = {
 
 
 def px(path: Path, rgb: tuple[int, int, int], mark: str | None = None) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and not FORCE_PIXELS:
+        return
     img = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    d.rectangle((1, 1, 14, 14), fill=rgb + (255,), outline=(20, 20, 20, 255))
+    r, g, b = rgb
+    d.rectangle((0, 0, 15, 15), fill=(max(0, r - 40), max(0, g - 40), max(0, b - 40), 255))
+    d.rectangle((1, 1, 14, 14), fill=rgb + (255,))
+    d.line((1, 1, 14, 1), fill=(min(255, r + 50), min(255, g + 50), min(255, b + 50), 255))
+    d.line((1, 1, 1, 14), fill=(min(255, r + 50), min(255, g + 50), min(255, b + 50), 255))
     if mark == "ore":
-        d.rectangle((4, 4, 11, 11), fill=(230, 230, 200, 255))
+        d.rectangle((5, 5, 10, 10), fill=(240, 230, 160, 255))
+        d.point((6, 7), fill=(255, 255, 220, 255))
+        d.point((9, 8), fill=(255, 255, 220, 255))
     elif mark == "machine":
-        d.rectangle((3, 6, 12, 12), fill=(40, 40, 48, 255))
-    path.parent.mkdir(parents=True, exist_ok=True)
+        d.rectangle((3, 7, 12, 13), fill=(28, 30, 38, 255))
+        d.rectangle((5, 4, 10, 7), fill=(min(255, r + 30), min(255, g + 30), min(255, b + 30), 255))
     img.save(path)
+
+
+def item_definition(name: str, model: str) -> None:
+    """Minecraft 26.2 requires assets/<ns>/items/<id>.json or the item is missing."""
+    ITEMS_DEF.mkdir(parents=True, exist_ok=True)
+    (ITEMS_DEF / f"{name}.json").write_text(json.dumps({
+        "model": {"type": "minecraft:model", "model": model},
+    }, indent=2) + "\n")
 
 
 def item_model(name: str) -> None:
@@ -50,6 +71,7 @@ def item_model(name: str) -> None:
         "parent": "minecraft:item/generated",
         "textures": {"layer0": f"wonso:item/{name}"},
     }, indent=2) + "\n")
+    item_definition(name, f"wonso:item/{name}")
 
 
 def block_model(name: str) -> None:
@@ -65,6 +87,7 @@ def block_model(name: str) -> None:
     (MODELS_ITEM / f"{name}.json").write_text(json.dumps({
         "parent": f"wonso:block/{name}"
     }, indent=2) + "\n")
+    item_definition(name, f"wonso:block/{name}")
 
 
 def main() -> None:
@@ -80,6 +103,7 @@ def main() -> None:
         "gui.wonso.refine": "원소 정제",
         "gui.wonso.fusion": "핵융합 / 별",
         "gui.wonso.party": "원소 파티",
+        "gui.wonso.guide": "wonso 안내",
         "message.wonso.need_energy": "에너지가 부족합니다",
         "message.wonso.refine_missing": "재료가 부족합니다 (%s)",
         "message.wonso.refine_fail": "정제 실패 — 부산물만",
@@ -117,6 +141,7 @@ def main() -> None:
         "gui.wonso.refine": "Refining",
         "gui.wonso.fusion": "Fusion / Stars",
         "gui.wonso.party": "Element Party",
+        "gui.wonso.guide": "wonso Guide",
         "message.wonso.need_energy": "Not enough energy",
         "message.wonso.refine_missing": "Missing ingredients (%s)",
         "message.wonso.refine_fail": "Refine failed",
@@ -237,13 +262,14 @@ def main() -> None:
         ko[f"block.wonso.{name}"] = k
         en[f"block.wonso.{name}"] = e
 
-    # icon
-    icon = Image.new("RGBA", (128, 128), (11, 19, 32, 255))
-    d = ImageDraw.Draw(icon)
-    d.rectangle((16, 16, 111, 111), outline=(232, 200, 106, 255), width=6)
-    d.rectangle((40, 40, 88, 88), fill=(64, 145, 108, 255))
-    (ASSETS / "icon.png").parent.mkdir(parents=True, exist_ok=True)
-    icon.save(ASSETS / "icon.png")
+    icon_path = ASSETS / "icon.png"
+    if FORCE_PIXELS or not icon_path.exists():
+        icon = Image.new("RGBA", (128, 128), (11, 19, 32, 255))
+        d = ImageDraw.Draw(icon)
+        d.rectangle((16, 16, 111, 111), outline=(232, 200, 106, 255), width=6)
+        d.rectangle((40, 40, 88, 88), fill=(64, 145, 108, 255))
+        icon_path.parent.mkdir(parents=True, exist_ok=True)
+        icon.save(icon_path)
 
     LANG.mkdir(parents=True, exist_ok=True)
     (LANG / "ko_kr.json").write_text(json.dumps(ko, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

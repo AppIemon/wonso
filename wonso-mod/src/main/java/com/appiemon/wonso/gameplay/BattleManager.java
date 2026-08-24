@@ -472,6 +472,16 @@ public final class BattleManager {
 			o.addProperty("attack", attack);
 			o.addProperty("defense", defense);
 			o.addProperty("speed", speed);
+			JsonArray skills = new JsonArray();
+			for (int slot = 1; slot <= 4; slot++) {
+				Skill skill = skillOf(this, slot);
+				JsonObject so = new JsonObject();
+				so.addProperty("slot", slot);
+				so.addProperty("name", skill.name);
+				so.addProperty("cost", skill.cost);
+				skills.add(so);
+			}
+			o.add("skills", skills);
 			return o;
 		}
 	}
