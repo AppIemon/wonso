@@ -16,6 +16,8 @@ jobs:
         run: ./gradlew build --no-daemon
       - uses: actions/upload-artifact@v4
         with:
-          name: wonso-0.1.0-alpha
-          path: wonso-mod/build/libs/wonso-0.1.0-alpha.jar
+          name: wonso-jar
+          path: |
+            wonso-mod/build/libs/wonso-*.jar
+            !wonso-mod/build/libs/*-sources.jar
           if-no-files-found: error

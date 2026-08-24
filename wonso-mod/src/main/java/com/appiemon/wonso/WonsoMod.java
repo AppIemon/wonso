@@ -20,6 +20,8 @@ import net.minecraft.world.item.ItemStack;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Locale;
+
 public class WonsoMod implements ModInitializer {
 	public static final String MOD_ID = "wonso";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -52,6 +54,6 @@ public class WonsoMod implements ModInitializer {
 	}
 
 	public static Identifier id(String path) {
-		return Identifier.fromNamespaceAndPath(MOD_ID, path);
+		return Identifier.fromNamespaceAndPath(MOD_ID, path.toLowerCase(Locale.ROOT));
 	}
 }

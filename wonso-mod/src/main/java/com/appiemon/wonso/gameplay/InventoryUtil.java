@@ -39,11 +39,11 @@ public final class InventoryUtil {
 		if (intermediate != null) {
 			return intermediate;
 		}
-		Item lower = WonsoItems.intermediate(id.toLowerCase());
+		Item lower = WonsoItems.intermediate(id.toLowerCase(java.util.Locale.ROOT));
 		if (lower != null) {
 			return lower;
 		}
-		return BuiltInRegistries.ITEM.getValue(WonsoMod.id(id.toLowerCase()));
+		return BuiltInRegistries.ITEM.getValue(WonsoMod.id(id));
 	}
 
 	public static String normalizeSymbol(String raw) {

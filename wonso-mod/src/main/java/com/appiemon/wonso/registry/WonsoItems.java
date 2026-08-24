@@ -43,7 +43,7 @@ public final class WonsoItems {
 			"waste_sludge", "iron_slurry", "sulfur_trace", "carbon_residue", "ash",
 			"electrolyzed_hydrogen", "oxygen_bubble", "salt_brine", "slag", "toxic_waste",
 			"wrong_element_chip", "calcium_phosphate", "silicon_dioxide", "sodium_chloride",
-			"pure_Si", "pure_Fe", "pure_C"
+			"pure_si", "pure_fe", "pure_c"
 	);
 
 	private WonsoItems() {
@@ -98,7 +98,14 @@ public final class WonsoItems {
 	}
 
 	public static Item intermediate(String id) {
-		return INTERMEDIATES.get(id);
+		if (id == null) {
+			return null;
+		}
+		Item exact = INTERMEDIATES.get(id);
+		if (exact != null) {
+			return exact;
+		}
+		return INTERMEDIATES.get(id.toLowerCase(java.util.Locale.ROOT));
 	}
 
 	public static Item impure(String symbol) {

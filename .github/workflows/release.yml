@@ -22,7 +22,9 @@ jobs:
         with:
           name: wonso ${{ github.ref_name }}
           prerelease: ${{ contains(github.ref_name, 'alpha') || contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') }}
-          files: wonso-mod/build/libs/wonso-0.1.0-alpha.jar
+          files: |
+            wonso-mod/build/libs/wonso-*.jar
+            !wonso-mod/build/libs/*-sources.jar
           generate_release_notes: true
           body: |
             Minecraft **26.2 Fabric** 모드 JAR.
@@ -30,7 +32,9 @@ jobs:
             ## 설치
             1. Fabric Loader 0.19.3+ 로 26.2 프로필 설치
             2. Fabric API `0.158.0+26.2` 를 `mods/` 에 넣기
-            3. 아래 `wonso-0.1.0-alpha.jar` 를 같은 `mods/` 에 넣기
+            3. 아래 `wonso-*.jar` 를 같은 `mods/` 에 넣기
             4. 런처 Java **25**
 
             바닐라 / 1.21.x / 26.1 에는 맞지 않습니다.
+
+            v0.1.1: `pure_Si` 등 대문자 아이템 ID로 서버가 기동 실패하던 문제 수정.
