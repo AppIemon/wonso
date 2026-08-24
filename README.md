@@ -35,9 +35,9 @@
 
 1. [Fabric Loader](https://fabricmc.net/use/installer/) 0.19.3+ 로 26.2 프로필 설치
 2. [Fabric API](https://modrinth.com/mod/fabric-api) `0.158.0+26.2` 를 `mods/` 에 넣기
-3. `wonso-0.1.2-alpha.jar` 를 같은 `mods/` 에 넣기
+3. `wonso-0.1.3-alpha.jar` 를 같은 `mods/` 에 넣기
    - **[Releases](https://github.com/AppIemon/wonso/releases)** 에서 받기
-   - 로컬: `wonso-mod/build/libs/wonso-0.1.2-alpha.jar` (`./gradlew build`)
+   - 로컬: `wonso-mod/build/libs/wonso-0.1.3-alpha.jar` (`./gradlew build`)
    - PR: Actions → `mod-build` → Artifacts → `wonso-jar`
 4. 런처 Java를 **25** 로 맞추기
 5. 새 월드 입장 → 화학 도감이 지급됨. `P` 주기율표, 신전·정제기 우클릭

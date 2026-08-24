@@ -149,12 +149,16 @@ def api_key() -> str:
     return key
 
 
-def hive_generate(prompt: str, seed: int, size: int = 512, retries: int = 4) -> Image.Image:
+# Flux Schnell on Hive V3 only accepts a few size pairs; 1024x1024 is allowed.
+API_SIZE = 1024
+
+
+def hive_generate(prompt: str, seed: int, retries: int = 5) -> Image.Image:
     body = json.dumps({
         "input": {
             "prompt": f"{STYLE}. {prompt}",
-            "image_size": {"width": size, "height": size},
-            "num_inference_steps": 8,
+            "image_size": {"width": API_SIZE, "height": API_SIZE},
+            "num_inference_steps": 4,
             "num_images": 1,
             "seed": seed,
             "output_format": "png",
@@ -173,7 +177,7 @@ def hive_generate(prompt: str, seed: int, size: int = 512, retries: int = 4) -> 
             method="POST",
         )
         try:
-            with urllib.request.urlopen(req, timeout=120) as resp:
+            with urllib.request.urlopen(req, timeout=180) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
             outputs = payload.get("output") or payload.get("outputs") or []
             if not outputs:
@@ -181,11 +185,14 @@ def hive_generate(prompt: str, seed: int, size: int = 512, retries: int = 4) -> 
             url = outputs[0].get("url") if isinstance(outputs[0], dict) else outputs[0]
             if not url:
                 raise RuntimeError(f"Hive missing url: {str(payload)[:400]}")
-            with urllib.request.urlopen(url, timeout=60) as img_resp:
+            with urllib.request.urlopen(url, timeout=90) as img_resp:
                 return Image.open(BytesIO(img_resp.read())).convert("RGBA")
         except urllib.error.HTTPError as e:
-            last = e
-            wait = 2 ** attempt
+            detail = e.read()[:240]
+            last = RuntimeError(f"Hive HTTP {e.code}: {detail!r}")
+            if e.code in (400, 401, 403, 404):
+                raise SystemExit(str(last)) from e
+            wait = min(32, 2 ** attempt)
             sys.stderr.write(f"Hive HTTP {e.code}, retry in {wait}s\n")
             time.sleep(wait)
     raise SystemExit(f"Hive failed: {last}") from last
@@ -209,7 +216,7 @@ def cached(kind: str, name: str, prompt: str, seed: int, size: int) -> Image.Ima
     if cache_path.exists():
         return Image.open(cache_path).convert("RGBA")
     print(f"hive {kind}/{name}", flush=True)
-    img = hive_generate(prompt, seed, size=512)
+    img = hive_generate(prompt, seed)
     img.save(cache_path)
     time.sleep(0.35)
     return img
@@ -266,7 +273,7 @@ def main() -> None:
             save_png(ASSETS / "textures" / "block" / f"{name}.png", img, 16)
         elif kind == "icon":
             save_png(ASSETS / "icon.png", img, 128)
-        elif kind == "item":
+        elif kind == "item" and name != "impure_template":
             save_png(ASSETS / "textures" / "item" / f"{name}.png", img, 16)
 
     elements = json.loads((ROOT / "shared-data/elements.json").read_text())

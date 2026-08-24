@@ -37,4 +37,4 @@ jobs:
 
             바닐라 / 1.21.x / 26.1 에는 맞지 않습니다.
 
-            v0.1.2: 26.2 `items/*.json` 미싱 텍스처 수정, GUI 재구성, `/wonso` OP 전용, Hive AI 텍스처 파이프라인.
+            v0.1.3: Hive AI Flux Schnell로 아이템/블록/GUI 텍스처 생성.
